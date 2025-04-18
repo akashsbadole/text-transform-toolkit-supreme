@@ -1,7 +1,15 @@
-
 import React from 'react';
 import { Button } from './ui/button';
-import { toast } from './ui/use-toast';
+import { 
+  TextSelect, 
+  Bold, 
+  Italic, 
+  Strikethrough, 
+  Underline, 
+  Eraser,
+  ListX,
+  RemoveFormatting
+} from 'lucide-react';
 
 interface TransformButtonsProps {
   onTransform: (type: string) => void;
@@ -16,6 +24,74 @@ const TransformButtons: React.FC<TransformButtonsProps> = ({
 }) => {
   return (
     <div className="flex flex-wrap gap-2 my-4">
+      {/* Text Cleanup Tools */}
+      <Button
+        variant="secondary"
+        onClick={() => onTransform('remove-whitespace')}
+        className="bg-slate-700 hover:bg-slate-600 gap-2"
+      >
+        <Eraser className="w-4 h-4" />
+        Remove Whitespace
+      </Button>
+      <Button
+        variant="secondary"
+        onClick={() => onTransform('remove-duplicates')}
+        className="bg-slate-700 hover:bg-slate-600 gap-2"
+      >
+        <ListX className="w-4 h-4" />
+        Remove Duplicates
+      </Button>
+      <Button
+        variant="secondary"
+        onClick={() => onTransform('remove-linebreaks')}
+        className="bg-slate-700 hover:bg-slate-600 gap-2"
+      >
+        <TextSelect className="w-4 h-4" />
+        Remove Line Breaks
+      </Button>
+      <Button
+        variant="secondary"
+        onClick={() => onTransform('remove-formatting')}
+        className="bg-slate-700 hover:bg-slate-600 gap-2"
+      >
+        <RemoveFormatting className="w-4 h-4" />
+        Remove Formatting
+      </Button>
+
+      {/* Text Formatting */}
+      <Button
+        variant="secondary"
+        onClick={() => onTransform('bold')}
+        className="bg-slate-700 hover:bg-slate-600 gap-2"
+      >
+        <Bold className="w-4 h-4" />
+        Bold Text
+      </Button>
+      <Button
+        variant="secondary"
+        onClick={() => onTransform('italic')}
+        className="bg-slate-700 hover:bg-slate-600 gap-2"
+      >
+        <Italic className="w-4 h-4" />
+        Italic Text
+      </Button>
+      <Button
+        variant="secondary"
+        onClick={() => onTransform('strikethrough')}
+        className="bg-slate-700 hover:bg-slate-600 gap-2"
+      >
+        <Strikethrough className="w-4 h-4" />
+        Strikethrough
+      </Button>
+      <Button
+        variant="secondary"
+        onClick={() => onTransform('underline')}
+        className="bg-slate-700 hover:bg-slate-600 gap-2"
+      >
+        <Underline className="w-4 h-4" />
+        Underline
+      </Button>
+
       <Button
         variant="secondary"
         onClick={() => onTransform('sentence')}
@@ -51,6 +127,7 @@ const TransformButtons: React.FC<TransformButtonsProps> = ({
       >
         aLtErNaTiNg cAsE
       </Button>
+      
       <Button
         variant="secondary"
         onClick={onCopy}
