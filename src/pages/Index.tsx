@@ -1,5 +1,7 @@
 
 import { useState } from 'react';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 import TextArea from '../components/TextArea';
 import TransformButtons from '../components/TransformButtons';
 import TextStats from '../components/TextStats';
@@ -39,20 +41,23 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-slate-900 text-white p-4 md:p-8">
-      <div className="max-w-4xl mx-auto">
-        <h1 className="text-3xl font-bold mb-6">Text Transform Toolkit</h1>
-        <TextArea
-          value={text}
-          onChange={setText}
-        />
-        <TransformButtons
-          onTransform={handleTransform}
-          onClear={handleClear}
-          onCopy={handleCopy}
-        />
-        <TextStats text={text} />
-      </div>
+    <div className="min-h-screen bg-slate-900 flex flex-col">
+      <Header />
+      <main className="flex-grow p-4 md:p-8">
+        <div className="max-w-4xl mx-auto">
+          <TextArea
+            value={text}
+            onChange={setText}
+          />
+          <TransformButtons
+            onTransform={handleTransform}
+            onClear={handleClear}
+            onCopy={handleCopy}
+          />
+          <TextStats text={text} />
+        </div>
+      </main>
+      <Footer />
     </div>
   );
 };

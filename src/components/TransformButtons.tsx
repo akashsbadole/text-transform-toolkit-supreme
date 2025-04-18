@@ -1,14 +1,9 @@
 import React from 'react';
 import { Button } from './ui/button';
 import { 
-  TextSelect, 
-  Bold, 
-  Italic, 
-  Strikethrough, 
-  Underline, 
-  Eraser,
-  ListX,
-  RemoveFormatting
+  TextSelect, Bold, Italic, Strikethrough, Underline, Eraser,
+  ListX, RemoveFormatting, Flip, Binary, FileJson, Link2,
+  Hash, RefreshCw, CircleDot
 } from 'lucide-react';
 
 interface TransformButtonsProps {
@@ -127,7 +122,90 @@ const TransformButtons: React.FC<TransformButtonsProps> = ({
       >
         aLtErNaTiNg cAsE
       </Button>
-      
+
+      {/* Advanced Text Transformations */}
+      <Button
+        variant="secondary"
+        onClick={() => onTransform('reverse')}
+        className="bg-slate-700 hover:bg-slate-600 gap-2"
+      >
+        <RefreshCw className="w-4 h-4" />
+        Reverse Text
+      </Button>
+      <Button
+        variant="secondary"
+        onClick={() => onTransform('mirror')}
+        className="bg-slate-700 hover:bg-slate-600 gap-2"
+      >
+        <Flip className="w-4 h-4" />
+        Mirror Text
+      </Button>
+      <Button
+        variant="secondary"
+        onClick={() => onTransform('unicode')}
+        className="bg-slate-700 hover:bg-slate-600 gap-2"
+      >
+        <Hash className="w-4 h-4" />
+        Unicode
+      </Button>
+      <Button
+        variant="secondary"
+        onClick={() => onTransform('bubble')}
+        className="bg-slate-700 hover:bg-slate-600 gap-2"
+      >
+        <CircleDot className="w-4 h-4" />
+        Bubble Text
+      </Button>
+
+      {/* Technical Conversions */}
+      <Button
+        variant="secondary"
+        onClick={() => onTransform('base64-encode')}
+        className="bg-slate-700 hover:bg-slate-600"
+      >
+        Base64 Encode
+      </Button>
+      <Button
+        variant="secondary"
+        onClick={() => onTransform('base64-decode')}
+        className="bg-slate-700 hover:bg-slate-600"
+      >
+        Base64 Decode
+      </Button>
+      <Button
+        variant="secondary"
+        onClick={() => onTransform('url-encode')}
+        className="bg-slate-700 hover:bg-slate-600 gap-2"
+      >
+        <Link2 className="w-4 h-4" />
+        URL Encode
+      </Button>
+      <Button
+        variant="secondary"
+        onClick={() => onTransform('url-decode')}
+        className="bg-slate-700 hover:bg-slate-600 gap-2"
+      >
+        <Link2 className="w-4 h-4" />
+        URL Decode
+      </Button>
+      <Button
+        variant="secondary"
+        onClick={() => onTransform('json-stringify')}
+        className="bg-slate-700 hover:bg-slate-600 gap-2"
+      >
+        <FileJson className="w-4 h-4" />
+        JSON Stringify
+      </Button>
+      <Button
+        variant="secondary"
+        onClick={() => onTransform('binary')}
+        className="bg-slate-700 hover:bg-slate-600 gap-2"
+      >
+        <Binary className="w-4 h-4" />
+        Binary Code
+      </Button>
+
+      {/* Utility Buttons */}
       <Button
         variant="secondary"
         onClick={onCopy}
