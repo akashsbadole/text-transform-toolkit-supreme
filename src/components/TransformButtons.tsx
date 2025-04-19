@@ -1,8 +1,9 @@
+
 import React from 'react';
 import { Button } from './ui/button';
 import { 
   TextSelect, Bold, Italic, Strikethrough, Underline, Eraser,
-  ListX, RemoveFormatting, Flip, Binary, FileJson, Link2,
+  ListX, RemoveFormatting, FlipHorizontal, Binary, FileJson, Link2,
   Hash, RefreshCw, CircleDot
 } from 'lucide-react';
 
@@ -137,7 +138,7 @@ const TransformButtons: React.FC<TransformButtonsProps> = ({
         onClick={() => onTransform('mirror')}
         className="bg-slate-700 hover:bg-slate-600 gap-2"
       >
-        <Flip className="w-4 h-4" />
+        <FlipHorizontal className="w-4 h-4" />
         Mirror Text
       </Button>
       <Button
