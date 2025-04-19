@@ -1,88 +1,88 @@
 
+// Define character maps and helper variables first
+const zalgoCharacters = {
+  above: ['\u030d', '\u030e', '\u0304', '\u0305', '\u033f',
+          '\u0311', '\u0306', '\u0310', '\u0352', '\u0357',
+          '\u0351', '\u0307', '\u0308', '\u030a', '\u0342'],
+  middle: ['\u0315', '\u031b', '\u0340', '\u0341', '\u0358',
+           '\u0321', '\u0322', '\u0327', '\u0328', '\u0334',
+           '\u0335', '\u0336', '\u034f', '\u035c', '\u035d'],
+  below: ['\u0316', '\u0317', '\u0318', '\u0319', '\u031c',
+          '\u031d', '\u031e', '\u031f', '\u0320', '\u0324',
+          '\u0325', '\u0326', '\u0329', '\u032a', '\u032b'],
+};
+
+const superscriptMap: { [key: string]: string } = {
+  '0': '⁰', '1': '¹', '2': '²', '3': '³', '4': '⁴',
+  '5': '⁵', '6': '⁶', '7': '⁷', '8': '⁸', '9': '⁹',
+  '+': '⁺', '-': '⁻', '=': '⁼', '(': '⁽', ')': '⁾',
+  'a': 'ᵃ', 'b': 'ᵇ', 'c': 'ᶜ', 'd': 'ᵈ', 'e': 'ᵉ',
+  'f': 'ᶠ', 'g': 'ᵍ', 'h': 'ʰ', 'i': 'ⁱ', 'j': 'ʲ', 
+  'k': 'ᵏ', 'l': 'ˡ', 'm': 'ᵐ', 'n': 'ⁿ', 'o': 'ᵒ',
+  'p': 'ᵖ', 'q': 'q', 'r': 'ʳ', 's': 'ˢ', 't': 'ᵗ',
+  'u': 'ᵘ', 'v': 'ᵛ', 'w': 'ʷ', 'x': 'ˣ', 'y': 'ʸ',
+  'z': 'ᶻ',
+};
+
+const subscriptMap: { [key: string]: string } = {
+  '0': '₀', '1': '₁', '2': '₂', '3': '₃', '4': '₄',
+  '5': '₅', '6': '₆', '7': '₇', '8': '₈', '9': '₉',
+  '+': '₊', '-': '₋', '=': '₌', '(': '₍', ')': '₎',
+  'a': 'ₐ', 'e': 'ₑ', 'h': 'ₕ', 'i': 'ᵢ', 'j': 'ⱼ',
+  'k': 'ₖ', 'l': 'ₗ', 'm': 'ₘ', 'n': 'ₙ', 'o': 'ₒ',
+  'p': 'ₚ', 'r': 'ᵣ', 's': 'ₛ', 't': 'ₜ', 'u': 'ᵤ',
+  'v': 'ᵥ', 'x': 'ₓ',
+};
+
+const wideMap: { [key: string]: string } = {
+  'a': 'ａ', 'b': 'ｂ', 'c': 'ｃ', 'd': 'ｄ', 'e': 'ｅ',
+  'f': 'ｆ', 'g': 'ｇ', 'h': 'ｈ', 'i': 'ｉ', 'j': 'ｊ',
+  'k': 'ｋ', 'l': 'ｌ', 'm': 'ｍ', 'n': 'ｎ', 'o': 'ｏ',
+  'p': 'ｐ', 'q': 'ｑ', 'r': 'ｒ', 's': 'ｓ', 't': 'ｔ',
+  'u': 'ｕ', 'v': 'ｖ', 'w': 'ｗ', 'x': 'ｘ', 'y': 'ｙ',
+  'z': 'ｚ',
+  'A': 'Ａ', 'B': 'Ｂ', 'C': 'Ｃ', 'D': 'Ｄ', 'E': 'Ｅ',
+  'F': 'Ｆ', 'G': 'Ｇ', 'H': 'Ｈ', 'I': 'Ｉ', 'J': 'Ｊ',
+  'K': 'Ｋ', 'L': 'Ｌ', 'M': 'Ｍ', 'N': 'Ｎ', 'O': 'Ｏ',
+  'P': 'Ｐ', 'Q': 'Ｑ', 'R': 'Ｒ', 'S': 'Ｓ', 'T': 'Ｔ',
+  'U': 'Ｕ', 'V': 'Ｖ', 'W': 'Ｗ', 'X': 'Ｘ', 'Y': 'Ｙ',
+  'Z': 'Ｚ',
+  '0': '０', '1': '１', '2': '２', '3': '３', '4': '４',
+  '5': '５', '6': '６', '7': '７', '8': '８', '9': '９',
+  ' ': '　', '!': '！', '?': '？', '.': '．', ',': '，',
+};
+
+const smallMap: { [key: string]: string } = {
+  'a': 'ᵃ', 'b': 'ᵇ', 'c': 'ᶜ', 'd': 'ᵈ', 'e': 'ᵉ',
+  'f': 'ᶠ', 'g': 'ᵍ', 'h': 'ʰ', 'i': 'ⁱ', 'j': 'ʲ',
+  'k': 'ᵏ', 'l': 'ˡ', 'm': 'ᵐ', 'n': 'ⁿ', 'o': 'ᵒ',
+  'p': 'ᵖ', 'q': 'q', 'r': 'ʳ', 's': 'ˢ', 't': 'ᵗ',
+  'u': 'ᵘ', 'v': 'ᵛ', 'w': 'ʷ', 'x': 'ˣ', 'y': 'ʸ',
+  'z': 'ᶻ',
+};
+
+const upsideDownMap: { [key: string]: string } = {
+  'a': 'ɐ', 'b': 'q', 'c': 'ɔ', 'd': 'p', 'e': 'ǝ',
+  'f': 'ɟ', 'g': 'ƃ', 'h': 'ɥ', 'i': 'ᴉ', 'j': 'ɾ',
+  'k': 'ʞ', 'l': 'l', 'm': 'ɯ', 'n': 'u', 'o': 'o',
+  'p': 'd', 'q': 'b', 'r': 'ɹ', 's': 's', 't': 'ʇ',
+  'u': 'n', 'v': 'ʌ', 'w': 'ʍ', 'x': 'x', 'y': 'ʎ',
+  'z': 'z',
+  'A': '∀', 'B': 'B', 'C': 'Ɔ', 'D': 'D', 'E': 'Ǝ',
+  'F': 'Ⅎ', 'G': 'פ', 'H': 'H', 'I': 'I', 'J': 'ſ',
+  'K': 'K', 'L': '˥', 'M': 'W', 'N': 'N', 'O': 'O',
+  'P': 'Ԁ', 'Q': 'Q', 'R': 'R', 'S': 'S', 'T': '⊥',
+  'U': '∩', 'V': 'Λ', 'W': 'M', 'X': 'X', 'Y': 'Y',
+  'Z': 'Z',
+  '1': 'Ɩ', '2': 'ᄅ', '3': 'Ɛ', '4': 'ㄣ', '5': 'ϛ',
+  '6': '9', '7': 'ㄥ', '8': '8', '9': '6', '0': '0',
+  '.': '˙', ',': '\'', '?': '¿', '!': '¡', '\'': ',',
+  '"': '„', '(': ')', ')': '(', '[': ']', ']': '[',
+  '<': '>', '>': '<', '_': '‾', ';': '؛', ':': ':',
+  '/': '\\', '\\': '/', '&': '⅋',
+};
+
 export const transformText = (text: string, type: string): string => {
-  // Define character maps and helper variables first
-  const zalgoCharacters = {
-    above: ['\u030d', '\u030e', '\u0304', '\u0305', '\u033f',
-            '\u0311', '\u0306', '\u0310', '\u0352', '\u0357',
-            '\u0351', '\u0307', '\u0308', '\u030a', '\u0342'],
-    middle: ['\u0315', '\u031b', '\u0340', '\u0341', '\u0358',
-             '\u0321', '\u0322', '\u0327', '\u0328', '\u0334',
-             '\u0335', '\u0336', '\u034f', '\u035c', '\u035d'],
-    below: ['\u0316', '\u0317', '\u0318', '\u0319', '\u031c',
-            '\u031d', '\u031e', '\u031f', '\u0320', '\u0324',
-            '\u0325', '\u0326', '\u0329', '\u032a', '\u032b'],
-  };
-
-  const superscriptMap: { [key: string]: string } = {
-    '0': '⁰', '1': '¹', '2': '²', '3': '³', '4': '⁴',
-    '5': '⁵', '6': '⁶', '7': '⁷', '8': '⁸', '9': '⁹',
-    '+': '⁺', '-': '⁻', '=': '⁼', '(': '⁽', ')': '⁾',
-    'a': 'ᵃ', 'b': 'ᵇ', 'c': 'ᶜ', 'd': 'ᵈ', 'e': 'ᵉ',
-    'f': 'ᶠ', 'g': 'ᵍ', 'h': 'ʰ', 'i': 'ⁱ', 'j': 'ʲ', 
-    'k': 'ᵏ', 'l': 'ˡ', 'm': 'ᵐ', 'n': 'ⁿ', 'o': 'ᵒ',
-    'p': 'ᵖ', 'q': 'q', 'r': 'ʳ', 's': 'ˢ', 't': 'ᵗ',
-    'u': 'ᵘ', 'v': 'ᵛ', 'w': 'ʷ', 'x': 'ˣ', 'y': 'ʸ',
-    'z': 'ᶻ',
-  };
-
-  const subscriptMap: { [key: string]: string } = {
-    '0': '₀', '1': '₁', '2': '₂', '3': '₃', '4': '₄',
-    '5': '₅', '6': '₆', '7': '₇', '8': '₈', '9': '₉',
-    '+': '₊', '-': '₋', '=': '₌', '(': '₍', ')': '₎',
-    'a': 'ₐ', 'e': 'ₑ', 'h': 'ₕ', 'i': 'ᵢ', 'j': 'ⱼ',
-    'k': 'ₖ', 'l': 'ₗ', 'm': 'ₘ', 'n': 'ₙ', 'o': 'ₒ',
-    'p': 'ₚ', 'r': 'ᵣ', 's': 'ₛ', 't': 'ₜ', 'u': 'ᵤ',
-    'v': 'ᵥ', 'x': 'ₓ',
-  };
-
-  const wideMap: { [key: string]: string } = {
-    'a': 'ａ', 'b': 'ｂ', 'c': 'ｃ', 'd': 'ｄ', 'e': 'ｅ',
-    'f': 'ｆ', 'g': 'ｇ', 'h': 'ｈ', 'i': 'ｉ', 'j': 'ｊ',
-    'k': 'ｋ', 'l': 'ｌ', 'm': 'ｍ', 'n': 'ｎ', 'o': 'ｏ',
-    'p': 'ｐ', 'q': 'ｑ', 'r': 'ｒ', 's': 'ｓ', 't': 'ｔ',
-    'u': 'ｕ', 'v': 'ｖ', 'w': 'ｗ', 'x': 'ｘ', 'y': 'ｙ',
-    'z': 'ｚ',
-    'A': 'Ａ', 'B': 'Ｂ', 'C': 'Ｃ', 'D': 'Ｄ', 'E': 'Ｅ',
-    'F': 'Ｆ', 'G': 'Ｇ', 'H': 'Ｈ', 'I': 'Ｉ', 'J': 'Ｊ',
-    'K': 'Ｋ', 'L': 'Ｌ', 'M': 'Ｍ', 'N': 'Ｎ', 'O': 'Ｏ',
-    'P': 'Ｐ', 'Q': 'Ｑ', 'R': 'Ｒ', 'S': 'Ｓ', 'T': 'Ｔ',
-    'U': 'Ｕ', 'V': 'Ｖ', 'W': 'Ｗ', 'X': 'Ｘ', 'Y': 'Ｙ',
-    'Z': 'Ｚ',
-    '0': '０', '1': '１', '2': '２', '3': '３', '4': '４',
-    '5': '５', '6': '６', '7': '７', '8': '８', '9': '９',
-    ' ': '　', '!': '！', '?': '？', '.': '．', ',': '，',
-  };
-
-  const smallMap: { [key: string]: string } = {
-    'a': 'ᵃ', 'b': 'ᵇ', 'c': 'ᶜ', 'd': 'ᵈ', 'e': 'ᵉ',
-    'f': 'ᶠ', 'g': 'ᵍ', 'h': 'ʰ', 'i': 'ⁱ', 'j': 'ʲ',
-    'k': 'ᵏ', 'l': 'ˡ', 'm': 'ᵐ', 'n': 'ⁿ', 'o': 'ᵒ',
-    'p': 'ᵖ', 'q': 'q', 'r': 'ʳ', 's': 'ˢ', 't': 'ᵗ',
-    'u': 'ᵘ', 'v': 'ᵛ', 'w': 'ʷ', 'x': 'ˣ', 'y': 'ʸ',
-    'z': 'ᶻ',
-  };
-
-  const upsideDownMap: { [key: string]: string } = {
-    'a': 'ɐ', 'b': 'q', 'c': 'ɔ', 'd': 'p', 'e': 'ǝ',
-    'f': 'ɟ', 'g': 'ƃ', 'h': 'ɥ', 'i': 'ᴉ', 'j': 'ɾ',
-    'k': 'ʞ', 'l': 'l', 'm': 'ɯ', 'n': 'u', 'o': 'o',
-    'p': 'd', 'q': 'b', 'r': 'ɹ', 's': 's', 't': 'ʇ',
-    'u': 'n', 'v': 'ʌ', 'w': 'ʍ', 'x': 'x', 'y': 'ʎ',
-    'z': 'z',
-    'A': '∀', 'B': 'B', 'C': 'Ɔ', 'D': 'D', 'E': 'Ǝ',
-    'F': 'Ⅎ', 'G': 'פ', 'H': 'H', 'I': 'I', 'J': 'ſ',
-    'K': 'K', 'L': '˥', 'M': 'W', 'N': 'N', 'O': 'O',
-    'P': 'Ԁ', 'Q': 'Q', 'R': 'R', 'S': 'S', 'T': '⊥',
-    'U': '∩', 'V': 'Λ', 'W': 'M', 'X': 'X', 'Y': 'Y',
-    'Z': 'Z',
-    '1': 'Ɩ', '2': 'ᄅ', '3': 'Ɛ', '4': 'ㄣ', '5': 'ϛ',
-    '6': '9', '7': 'ㄥ', '8': '8', '9': '6', '0': '0',
-    '.': '˙', ',': '\'', '?': '¿', '!': '¡', '\'': ',',
-    '"': '„', '(': ')', ')': '(', '[': ']', ']': '[',
-    '<': '>', '>': '<', '_': '‾', ';': '؛', ':': ':',
-    '/': '\\', '\\': '/', '&': '⅋',
-  };
-
   // Now handle the switch cases
   switch (type) {
     case 'lower':
@@ -115,9 +115,16 @@ export const transformText = (text: string, type: string): string => {
         .split('')
         .map(char => {
           if (char === ' ') return ' ';
-          const code = char.toUpperCase().charCodeAt(0);
-          if (code < 65 || code > 90) return char;
-          return String.fromCharCode(119808 + (code - 65));
+          const charCode = char.charCodeAt(0);
+          // Check if it's a lowercase letter (a-z)
+          if (charCode >= 97 && charCode <= 122) {
+            return String.fromCharCode(120276 + (charCode - 97));
+          }
+          // Check if it's an uppercase letter (A-Z)
+          else if (charCode >= 65 && charCode <= 90) {
+            return String.fromCharCode(120250 + (charCode - 65));
+          }
+          return char;
         })
         .join('');
     case 'italic':
@@ -125,9 +132,16 @@ export const transformText = (text: string, type: string): string => {
         .split('')
         .map(char => {
           if (char === ' ') return ' ';
-          const code = char.toUpperCase().charCodeAt(0);
-          if (code < 65 || code > 90) return char;
-          return String.fromCharCode(119860 + (code - 65));
+          const charCode = char.charCodeAt(0);
+          // Check if it's a lowercase letter (a-z)
+          if (charCode >= 97 && charCode <= 122) {
+            return String.fromCharCode(119886 + (charCode - 97));
+          }
+          // Check if it's an uppercase letter (A-Z)
+          else if (charCode >= 65 && charCode <= 90) {
+            return String.fromCharCode(119860 + (charCode - 65));
+          }
+          return char;
         })
         .join('');
     case 'strikethrough':
@@ -149,39 +163,49 @@ export const transformText = (text: string, type: string): string => {
     case 'bubble':
       return text.split('').map(char => {
         const code = char.toUpperCase().charCodeAt(0);
-        if (code < 65 || code > 90) return char;
-        return String.fromCharCode(9398 + (code - 65));
+        if (code >= 65 && code <= 90) {
+          return String.fromCharCode(9398 + (code - 65));
+        }
+        return char;
       }).join('');
     case 'unicode':
       return text.split('').map(char => `U+${char.charCodeAt(0).toString(16).toUpperCase().padStart(4, '0')}`).join(' ');
     case 'base64-encode':
-      return btoa(text);
+      try {
+        return btoa(unescape(encodeURIComponent(text)));
+      } catch (e) {
+        return 'Error: Could not encode to Base64';
+      }
     case 'base64-decode':
       try {
-        return atob(text);
-      } catch {
-        return 'Invalid Base64 input';
+        return decodeURIComponent(escape(atob(text)));
+      } catch (e) {
+        return 'Error: Invalid Base64 input';
       }
     case 'url-encode':
-      return encodeURIComponent(text);
+      try {
+        return encodeURIComponent(text);
+      } catch (e) {
+        return 'Error: Could not URL encode text';
+      }
     case 'url-decode':
       try {
         return decodeURIComponent(text);
-      } catch {
-        return 'Invalid URL-encoded input';
+      } catch (e) {
+        return 'Error: Invalid URL-encoded input';
       }
     case 'json-stringify':
       try {
         return JSON.stringify(JSON.parse(text), null, 2);
-      } catch {
-        return 'Invalid JSON input';
+      } catch (e) {
+        return 'Error: Invalid JSON input';
       }
     case 'binary':
       return text.split('').map(char => char.charCodeAt(0).toString(2).padStart(8, '0')).join(' ');
     case 'superscript':
-      return text.toLowerCase().split('').map(char => superscriptMap[char] || char).join('');
+      return text.split('').map(char => superscriptMap[char.toLowerCase()] || char).join('');
     case 'subscript':
-      return text.toLowerCase().split('').map(char => subscriptMap[char] || char).join('');
+      return text.split('').map(char => subscriptMap[char.toLowerCase()] || char).join('');
     case 'wide':
       return text.split('').map(char => wideMap[char] || char).join('');
     case 'small':
