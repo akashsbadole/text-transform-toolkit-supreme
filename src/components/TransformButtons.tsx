@@ -1,10 +1,10 @@
-
 import React from 'react';
 import { Button } from './ui/button';
 import { 
   TextSelect, Bold, Italic, Strikethrough, Underline, Eraser,
   ListX, RemoveFormatting, FlipHorizontal, Binary, FileJson, Link2,
-  Hash, RefreshCw, CircleDot
+  Hash, RefreshCw, CircleDot, Superscript, Subscript, Type,
+  TextCursor, Text, Slash, ArrowUpDown
 } from 'lucide-react';
 
 interface TransformButtonsProps {
@@ -122,6 +122,72 @@ const TransformButtons: React.FC<TransformButtonsProps> = ({
         className="bg-slate-700 hover:bg-slate-600"
       >
         aLtErNaTiNg cAsE
+      </Button>
+
+      {/* Advanced Text Formatting */}
+      <Button
+        variant="secondary"
+        onClick={() => onTransform('superscript')}
+        className="bg-slate-700 hover:bg-slate-600 gap-2"
+      >
+        <Superscript className="w-4 h-4" />
+        Superscript
+      </Button>
+      <Button
+        variant="secondary"
+        onClick={() => onTransform('subscript')}
+        className="bg-slate-700 hover:bg-slate-600 gap-2"
+      >
+        <Subscript className="w-4 h-4" />
+        Subscript
+      </Button>
+      <Button
+        variant="secondary"
+        onClick={() => onTransform('wide')}
+        className="bg-slate-700 hover:bg-slate-600 gap-2"
+      >
+        <TextCursor className="w-4 h-4" />
+        Wide Text
+      </Button>
+      <Button
+        variant="secondary"
+        onClick={() => onTransform('small')}
+        className="bg-slate-700 hover:bg-slate-600 gap-2"
+      >
+        <Text className="w-4 h-4" />
+        Small Text
+      </Button>
+      <Button
+        variant="secondary"
+        onClick={() => onTransform('stacked')}
+        className="bg-slate-700 hover:bg-slate-600 gap-2"
+      >
+        <ArrowUpDown className="w-4 h-4" />
+        Stacked Text
+      </Button>
+      <Button
+        variant="secondary"
+        onClick={() => onTransform('slash')}
+        className="bg-slate-700 hover:bg-slate-600 gap-2"
+      >
+        <Slash className="w-4 h-4" />
+        Slash Text
+      </Button>
+      <Button
+        variant="secondary"
+        onClick={() => onTransform('zalgo')}
+        className="bg-slate-700 hover:bg-slate-600 gap-2"
+      >
+        <Type className="w-4 h-4" />
+        Zalgo Text
+      </Button>
+      <Button
+        variant="secondary"
+        onClick={() => onTransform('upsidedown')}
+        className="bg-slate-700 hover:bg-slate-600 gap-2"
+      >
+        <FlipHorizontal className="w-4 h-4" />
+        Upside Down
       </Button>
 
       {/* Advanced Text Transformations */}
