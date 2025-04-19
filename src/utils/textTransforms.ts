@@ -1,4 +1,3 @@
-
 // Define character maps and helper variables first
 const zalgoCharacters = {
   above: ['\u030d', '\u030e', '\u0304', '\u0305', '\u033f',
@@ -82,8 +81,49 @@ const upsideDownMap: { [key: string]: string } = {
   '/': '\\', '\\': '/', '&': '⅋',
 };
 
+const bigTextMap: { [key: string]: string } = {
+  'A': '𝗔', 'B': '𝗕', 'C': '𝗖', 'D': '𝗗', 'E': '𝗘',
+  'F': '𝗙', 'G': '𝗚', 'H': '𝗛', 'I': '𝗜', 'J': '𝗝',
+  'K': '𝗞', 'L': '𝗟', 'M': '𝗠', 'N': '𝗡', 'O': '𝗢',
+  'P': '𝗣', 'Q': '𝗤', 'R': '𝗥', 'S': '𝗦', 'T': '𝗧',
+  'U': '𝗨', 'V': '𝗩', 'W': '𝗪', 'X': '𝗫', 'Y': '𝗬',
+  'Z': '𝗭',
+  'a': '𝗮', 'b': '𝗯', 'c': '𝗰', 'd': '𝗱', 'e': '𝗲',
+  'f': '𝗳', 'g': '𝗴', 'h': '𝗵', 'i': '𝗶', 'j': '𝗷',
+  'k': '𝗸', 'l': '𝗹', 'm': '𝗺', 'n': '𝗻', 'o': '𝗼',
+  'p': '𝗽', 'q': '𝗾', 'r': '𝗿', 's': '𝘀', 't': '𝘁',
+  'u': '𝘂', 'v': '𝘃', 'w': '𝘄', 'x': '𝘅', 'y': '𝘆',
+  'z': '𝘇'
+};
+
+const discordFontMap: { [key: string]: string } = {
+  'a': '𝖺', 'b': '𝖻', 'c': '𝖼', 'd': '𝖽', 'e': '𝖾',
+  'f': '𝖿', 'g': '𝗀', 'h': '𝗁', 'i': '𝗂', 'j': '𝗃',
+  'k': '𝗄', 'l': '𝗅', 'm': '𝗆', 'n': '𝗇', 'o': '𝗈',
+  'p': '𝗉', 'q': '𝗊', 'r': '𝗋', 's': '𝗌', 't': '𝗍',
+  'u': '𝗎', 'v': '𝗏', 'w': '𝗐', 'x': '𝗑', 'y': '𝗒',
+  'z': '𝗓'
+};
+
+const facebookFontMap: { [key: string]: string } = {
+  'a': '𝒂', 'b': '𝒃', 'c': '𝒄', 'd': '𝒅', 'e': '𝒆',
+  'f': '𝒇', 'g': '𝒈', 'h': '𝒉', 'i': '𝒊', 'j': '𝒋',
+  'k': '𝒌', 'l': '𝒍', 'm': '𝒎', 'n': '𝒏', 'o': '𝒐',
+  'p': '𝒑', 'q': '𝒒', 'r': '𝒓', 's': '𝒔', 't': '𝒕',
+  'u': '𝒖', 'v': '𝒗', 'w': '𝒘', 'x': '𝒙', 'y': '𝒚',
+  'z': '𝒛'
+};
+
+const instagramFontMap: { [key: string]: string } = {
+  'a': '𝓪', 'b': '𝓫', 'c': '𝓬', 'd': '𝓭', 'e': '𝓮',
+  'f': '𝓯', 'g': '𝓰', 'h': '𝓱', 'i': '𝓲', 'j': '𝓳',
+  'k': '𝓴', 'l': '𝓵', 'm': '𝓶', 'n': '𝓷', 'o': '𝓸',
+  'p': '𝓹', 'q': '𝓺', 'r': '𝓻', 's': '𝓼', 't': '𝓽',
+  'u': '𝓾', 'v': '𝓿', 'w': '𝔀', 'x': '𝔁', 'y': '𝔂',
+  'z': '𝔃'
+};
+
 export const transformText = (text: string, type: string): string => {
-  // Now handle the switch cases
   switch (type) {
     case 'lower':
       return text.toLowerCase();
@@ -111,39 +151,23 @@ export const transformText = (text: string, type: string): string => {
     case 'remove-formatting':
       return text.replace(/[\u0000-\u001F\u007F-\u009F\u200B-\u200D\uFEFF]/g, '');
     case 'bold':
-      return text
-        .split('')
-        .map(char => {
-          if (char === ' ') return ' ';
-          const charCode = char.charCodeAt(0);
-          // Check if it's a lowercase letter (a-z)
-          if (charCode >= 97 && charCode <= 122) {
-            return String.fromCharCode(120276 + (charCode - 97));
-          }
-          // Check if it's an uppercase letter (A-Z)
-          else if (charCode >= 65 && charCode <= 90) {
-            return String.fromCharCode(120250 + (charCode - 65));
-          }
-          return char;
-        })
-        .join('');
+      return text.split('').map(char => {
+        if (char >= 'a' && char <= 'z') {
+          return String.fromCodePoint(char.charCodeAt(0) + 120205);
+        } else if (char >= 'A' && char <= 'Z') {
+          return String.fromCodePoint(char.charCodeAt(0) + 120211);
+        }
+        return char;
+      }).join('');
     case 'italic':
-      return text
-        .split('')
-        .map(char => {
-          if (char === ' ') return ' ';
-          const charCode = char.charCodeAt(0);
-          // Check if it's a lowercase letter (a-z)
-          if (charCode >= 97 && charCode <= 122) {
-            return String.fromCharCode(119886 + (charCode - 97));
-          }
-          // Check if it's an uppercase letter (A-Z)
-          else if (charCode >= 65 && charCode <= 90) {
-            return String.fromCharCode(119860 + (charCode - 65));
-          }
-          return char;
-        })
-        .join('');
+      return text.split('').map(char => {
+        if (char >= 'a' && char <= 'z') {
+          return String.fromCodePoint(char.charCodeAt(0) + 120263);
+        } else if (char >= 'A' && char <= 'Z') {
+          return String.fromCodePoint(char.charCodeAt(0) + 120269);
+        }
+        return char;
+      }).join('');
     case 'strikethrough':
       return text.split('').map(char => char + '\u0336').join('');
     case 'underline':
@@ -164,7 +188,7 @@ export const transformText = (text: string, type: string): string => {
       return text.split('').map(char => {
         const code = char.toUpperCase().charCodeAt(0);
         if (code >= 65 && code <= 90) {
-          return String.fromCharCode(9398 + (code - 65));
+          return String.fromCodePoint(9398 + (code - 65));
         }
         return char;
       }).join('');
@@ -230,6 +254,58 @@ export const transformText = (text: string, type: string): string => {
     case 'upsidedown':
       return text.split('').map(char => upsideDownMap[char.toLowerCase()] || char)
         .reverse().join('');
+    case 'big-text':
+      return text.split('').map(char => bigTextMap[char] || char).join('');
+    case 'cursed':
+      return text.split('').map(char => {
+        const cursedChars = [...zalgoCharacters.above, ...zalgoCharacters.middle, ...zalgoCharacters.below];
+        return char + cursedChars[Math.floor(Math.random() * cursedChars.length)];
+      }).join('');
+    case 'discord':
+      return text.toLowerCase().split('').map(char => discordFontMap[char] || char).join('');
+    case 'facebook':
+      return text.toLowerCase().split('').map(char => facebookFontMap[char] || char).join('');
+    case 'instagram':
+      return text.toLowerCase().split('').map(char => instagramFontMap[char] || char).join('');
+    case 'invisible':
+      return text.split('').map(() => '&#8203;').join('');
+    case 'plain':
+      return text.replace(/[^\x00-\x7F]/g, '');
+    case 'remove-chars':
+      return text.replace(/[^a-zA-Z0-9\s]/g, '');
+    case 'apa':
+      return text.split('\n').map(line => {
+        if (!line.trim()) return '';
+        return line.trim()
+          .replace(/^/g, '    ')  // Add indentation
+          .replace(/(?:^|\s)([A-Za-z])/g, (match, letter) => match.toUpperCase()); // Capitalize first letter of words
+      }).join('\n');
+    case 'phonetic':
+      return text.toLowerCase().split('').map(char => {
+        const phonetic: { [key: string]: string } = {
+          'a': 'ay', 'b': 'bee', 'c': 'see', 'd': 'dee', 'e': 'ee',
+          'f': 'ef', 'g': 'jee', 'h': 'aitch', 'i': 'eye', 'j': 'jay',
+          'k': 'kay', 'l': 'el', 'm': 'em', 'n': 'en', 'o': 'oh',
+          'p': 'pee', 'q': 'queue', 'r': 'ar', 's': 'ess', 't': 'tee',
+          'u': 'you', 'v': 'vee', 'w': 'double-you', 'x': 'ex',
+          'y': 'why', 'z': 'zee'
+        };
+        return phonetic[char] || char;
+      }).join(' ');
+    case 'pig-latin':
+      return text.toLowerCase()
+        .split(' ')
+        .map(word => {
+          if (!word) return word;
+          const vowels = ['a', 'e', 'i', 'o', 'u'];
+          if (vowels.includes(word[0])) {
+            return word + 'way';
+          }
+          const firstVowelIndex = word.split('').findIndex(char => vowels.includes(char));
+          if (firstVowelIndex === -1) return word + 'ay';
+          return word.slice(firstVowelIndex) + word.slice(0, firstVowelIndex) + 'ay';
+        })
+        .join(' ');
     default:
       return text;
   }
