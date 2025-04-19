@@ -5,8 +5,9 @@ import Footer from '../components/Footer';
 import TextArea from '../components/TextArea';
 import TransformButtons from '../components/TransformButtons';
 import TextStats from '../components/TextStats';
+import DummyTextGenerator from '../components/DummyTextGenerator';
 import { transformText } from '../utils/textTransforms';
-import { useToast } from '../components/ui/use-toast';
+import { useToast } from '../hooks/use-toast';
 
 const Index = () => {
   const [text, setText] = useState('');
@@ -44,17 +45,25 @@ const Index = () => {
     <div className="min-h-screen bg-slate-900 flex flex-col">
       <Header />
       <main className="flex-grow p-4 md:p-8">
-        <div className="max-w-4xl mx-auto">
-          <TextArea
-            value={text}
-            onChange={setText}
-          />
-          <TransformButtons
-            onTransform={handleTransform}
-            onClear={handleClear}
-            onCopy={handleCopy}
-          />
-          <TextStats text={text} />
+        <div className="max-w-4xl mx-auto space-y-8">
+          <div>
+            <h2 className="text-xl font-semibold text-white mb-4">Text Transformer</h2>
+            <TextArea
+              value={text}
+              onChange={setText}
+            />
+            <TransformButtons
+              onTransform={handleTransform}
+              onClear={handleClear}
+              onCopy={handleCopy}
+            />
+            <TextStats text={text} />
+          </div>
+          
+          <div>
+            <h2 className="text-xl font-semibold text-white mb-4">Dummy Text Generator</h2>
+            <DummyTextGenerator />
+          </div>
         </div>
       </main>
       <Footer />
