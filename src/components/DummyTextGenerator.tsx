@@ -20,12 +20,63 @@ const DUMMY_TEXT_TYPES = [
   'a-z A-Z 123'
 ] as const;
 
-type DummyTextType = typeof DUMMY_TEXT_TYPES[number];
+const DUMMY_TEXT_SAMPLES = {
+  'Lorem ipsum': [
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
+  ],
+  'Cicero': [
+    'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.',
+    'Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.',
+    'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.'
+  ],
+  'Cicero (en)': [
+    'On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized.',
+    'These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled.',
+    'When nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.'
+  ],
+  'Far far away': [
+    'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.',
+    'Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.',
+    'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
+  ],
+  'Werther': [
+    'I am proud of my heart alone, it is the source of both my suffering and my strength.',
+    'How my heart beats when I see her walking across the fields in the distance.',
+    'Ah, could I but press her to my heart, and feel the beating of her heart against mine!'
+  ],
+  'Kafka': [
+    'Someone must have slandered Josef K., for one morning, without having done anything truly wrong, he was arrested.',
+    'As Gregor Samsa awoke one morning from uneasy dreams, he found himself transformed in his bed into a gigantic insect.',
+    'In the struggle between yourself and the world, back the world.'
+  ],
+  'Pangram': [
+    'The quick brown fox jumps over the lazy dog.',
+    'Pack my box with five dozen liquor jugs.',
+    'Sphinx of black quartz, judge my vow.'
+  ],
+  'a-z A-Z 123': [
+    'abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789',
+    'A B C D E F G H I J K L M N O P Q R S T U V W X Y Z',
+    '1 2 3 4 5 6 7 8 9 0'
+  ],
+  'Li Europan lingues': [
+    'Li Europan lingues es membres del sam familie. Lor separat existentie es un myth.',
+    'Por scientie, musica, sport etc, litot Europa usa li sam vocabular.',
+    'Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules.'
+  ],
+  'Li Europan lingues (en)': [
+    'The European languages are members of the same family. Their separate existence is a myth.',
+    'For science, music, sport, etc, Europe uses the same vocabulary.',
+    'The languages differ only in their grammar, their pronunciation and the most common words.'
+  ]
+};
 
 interface TextOptions {
-  type: DummyTextType;
+  type: typeof DUMMY_TEXT_TYPES[number];
   count: number;
-  countType: 'Words' | 'Characters';
+  countType: 'Characters' | 'Sentences';
   paragraphs: number;
   displayTags: boolean;
 }
@@ -35,7 +86,7 @@ const DummyTextGenerator = () => {
   const [options, setOptions] = useState<TextOptions>({
     type: 'Lorem ipsum',
     count: 200,
-    countType: 'Words',
+    countType: 'Characters',
     paragraphs: 1,
     displayTags: false
   });
@@ -49,20 +100,26 @@ const DummyTextGenerator = () => {
   };
 
   const generateText = () => {
-    const words = ['lorem', 'ipsum', 'dolor', 'sit', 'amet', 'consectetur', 'adipiscing', 'elit'];
+    const sampleTexts = DUMMY_TEXT_SAMPLES[options.type];
     let text = '';
     
     for (let p = 0; p < options.paragraphs; p++) {
-      const paragraphWords = [];
-      const targetCount = options.countType === 'Words' 
-        ? Math.floor(options.count / options.paragraphs)
-        : Math.floor(options.count / options.paragraphs / 5);
+      const paragraphTexts = [];
+      const targetCount = options.countType === 'Sentences' 
+        ? Math.min(options.count, sampleTexts.length)
+        : Math.floor(options.count / options.paragraphs);
 
-      while (paragraphWords.length < targetCount) {
-        paragraphWords.push(words[Math.floor(Math.random() * words.length)]);
+      let currentLength = 0;
+      for (const sample of sampleTexts) {
+        if (options.countType === 'Sentences' && paragraphTexts.length >= targetCount) break;
+        
+        if (options.countType === 'Characters' && currentLength + sample.length > targetCount) break;
+        
+        paragraphTexts.push(sample);
+        currentLength += sample.length;
       }
 
-      let paragraphText = paragraphWords.join(' ') + '. ';
+      let paragraphText = paragraphTexts.join(' ') + '. ';
       
       if (options.displayTags) {
         paragraphText = `<p>${paragraphText}</p>`;
@@ -131,14 +188,14 @@ const DummyTextGenerator = () => {
               />
               <Select 
                 value={options.countType} 
-                onValueChange={(value: 'Words' | 'Characters') => handleOptionChange('countType', value)}
+                onValueChange={(value: 'Characters' | 'Sentences') => handleOptionChange('countType', value)}
               >
                 <SelectTrigger className="w-32 bg-slate-700 text-white border-slate-600">
                   <SelectValue placeholder="Count type" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="Words">Words</SelectItem>
                   <SelectItem value="Characters">Characters</SelectItem>
+                  <SelectItem value="Sentences">Sentences</SelectItem>
                 </SelectContent>
               </Select>
             </div>
