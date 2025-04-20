@@ -8,8 +8,6 @@ import { Copy } from 'lucide-react';
 
 interface TextOptions {
   characterCount: number;
-  wordCount: number;
-  lineCount: number;
   sentenceCount: number;
 }
 
@@ -17,8 +15,6 @@ const DummyTextGenerator = () => {
   const { toast } = useToast();
   const [options, setOptions] = useState<TextOptions>({
     characterCount: 27,
-    wordCount: 1,
-    lineCount: 1,
     sentenceCount: 1
   });
   const [generatedText, setGeneratedText] = useState('');
@@ -37,19 +33,12 @@ const DummyTextGenerator = () => {
     // Generate sentences
     for (let i = 0; i < options.sentenceCount; i++) {
       const sentence = [];
-      for (let j = 0; j < Math.max(1, Math.floor(options.wordCount / options.sentenceCount)); j++) {
+      const wordsPerSentence = 5; // Fixed number of words per sentence
+      for (let j = 0; j < wordsPerSentence; j++) {
         sentence.push(words[Math.floor(Math.random() * words.length)]);
       }
       text += sentence.join(' ') + '. ';
     }
-
-    // Add line breaks
-    text = text.trim().split(' ').reduce((acc, word, i) => {
-      if (i > 0 && i % Math.max(1, Math.floor(options.wordCount / options.lineCount)) === 0) {
-        return acc + '\n' + word;
-      }
-      return acc + ' ' + word;
-    }).trim();
 
     // Adjust character count
     if (text.length > options.characterCount) {
@@ -78,7 +67,7 @@ const DummyTextGenerator = () => {
   return (
     <Card className="p-6 bg-slate-800">
       <div className="space-y-4">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 gap-4">
           <div>
             <label className="block text-sm font-medium text-slate-200 mb-1">
               Characters
@@ -88,30 +77,6 @@ const DummyTextGenerator = () => {
               min="1"
               value={options.characterCount}
               onChange={(e) => handleOptionChange('characterCount', e.target.value)}
-              className="bg-slate-700 text-white border-slate-600"
-            />
-          </div>
-          <div>
-            <label className="block text-sm font-medium text-slate-200 mb-1">
-              Words
-            </label>
-            <Input
-              type="number"
-              min="1"
-              value={options.wordCount}
-              onChange={(e) => handleOptionChange('wordCount', e.target.value)}
-              className="bg-slate-700 text-white border-slate-600"
-            />
-          </div>
-          <div>
-            <label className="block text-sm font-medium text-slate-200 mb-1">
-              Lines
-            </label>
-            <Input
-              type="number"
-              min="1"
-              value={options.lineCount}
-              onChange={(e) => handleOptionChange('lineCount', e.target.value)}
               className="bg-slate-700 text-white border-slate-600"
             />
           </div>
