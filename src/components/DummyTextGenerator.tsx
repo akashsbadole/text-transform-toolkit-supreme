@@ -1,5 +1,4 @@
-
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Button } from './ui/button';
 import { Card } from './ui/card';
 import { Input } from './ui/input';
@@ -92,6 +91,16 @@ const DummyTextGenerator = () => {
   });
   const [generatedText, setGeneratedText] = useState('');
 
+  // Sample text to show before any interaction
+  const sampleText = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`;
+
+  // Generate default text on component mount
+  useEffect(() => {
+    setGeneratedText(sampleText);
+  }, []);
+
   const handleOptionChange = (field: keyof TextOptions, value: string | number | boolean) => {
     setOptions(prev => ({
       ...prev,
@@ -155,6 +164,34 @@ const DummyTextGenerator = () => {
   return (
     <Card className="p-6 bg-slate-800">
       <div className="space-y-4">
+        {/* Sample text area */}
+        <div className="mb-4">
+          <div className="flex justify-between items-center mb-1">
+            <label className="block text-sm font-medium text-slate-200">
+              Sample Text
+            </label>
+            <Button
+              onClick={() => {
+                navigator.clipboard.writeText(sampleText);
+                toast({
+                  title: "Sample text copied to clipboard",
+                  duration: 2000,
+                });
+              }}
+              variant="ghost"
+              size="sm"
+              className="h-8 px-2 text-white"
+            >
+              Copy<Copy className="w-4 h-4 bg-blue" />
+            </Button>
+          </div>
+          <textarea
+            readOnly
+            value={sampleText}
+            className="w-full min-h-[100px] p-3 rounded-md bg-slate-700 text-white border border-slate-600 focus:border-blue-500"
+          />
+        </div>
+
         <div className="grid grid-cols-2 gap-4">
           <div>
             <label className="block text-sm font-medium text-slate-200 mb-1">

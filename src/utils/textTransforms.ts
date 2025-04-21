@@ -145,7 +145,18 @@ export const transformText = (text: string, type: string): string => {
     case 'remove-whitespace':
       return text.replace(/\s+/g, ' ').trim();
     case 'remove-duplicates':
-      return [...new Set(text.split('\n'))].join('\n');
+      // First remove duplicate lines
+      const lines = text.split('\n');
+      const uniqueLines = [...new Set(lines)];
+      
+      // Then remove duplicate words within each line
+      const processedLines = uniqueLines.map(line => {
+        const words = line.split(/\s+/);
+        const uniqueWords = [...new Set(words)];
+        return uniqueWords.join(' ');
+      });
+      
+      return processedLines.join('\n');
     case 'remove-linebreaks':
       return text.replace(/[\r\n]+/g, ' ');
     case 'remove-formatting':
