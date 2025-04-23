@@ -1,0 +1,7409 @@
+{
+  "gradients": [
+    {
+      "id": "1",
+      "name": "Sunset",
+      "colors": ["#ff7e5f", "#feb47b"],
+      "css": "linear-gradient(to right, #ff7e5f, #feb47b)"
+    },
+    {
+      "id": "2",
+      "name": "Ocean",
+      "colors": ["#2193b0", "#6dd5ed"],
+      "css": "linear-gradient(to right, #2193b0, #6dd5ed)"
+    },
+    {
+      "id": "3",
+      "name": "Forest",
+      "colors": ["#11998e", "#38ef7d"],
+      "css": "linear-gradient(to right, #11998e, #38ef7d)"
+    },
+    {
+      "id": "4",
+      "name": "Purple",
+      "colors": ["#8e2de2", "#4a00e0"],
+      "css": "linear-gradient(to right, #8e2de2, #4a00e0)"
+    },
+    {
+      "id": "5",
+      "name": "Cherry",
+      "colors": ["#eb3349", "#f45c43"],
+      "css": "linear-gradient(to right, #eb3349, #f45c43)"
+    },
+    {
+      "id": "6",
+      "name": "Mango",
+      "colors": ["#ff8008", "#ffc837"],
+      "css": "linear-gradient(to right, #ff8008, #ffc837)"
+    },
+    {
+      "id": "7",
+      "name": "Blueberry",
+      "colors": ["#4b6cb7", "#182848"],
+      "css": "linear-gradient(to right, #4b6cb7, #182848)"
+    },
+    {
+      "id": "8",
+      "name": "Lavender",
+      "colors": ["#834d9b", "#d04ed6"],
+      "css": "linear-gradient(to right, #834d9b, #d04ed6)"
+    },
+    {
+      "id": "9",
+      "name": "Emerald",
+      "colors": ["#134e5e", "#71b280"],
+      "css": "linear-gradient(to right, #134e5e, #71b280)"
+    },
+    {
+      "id": "10",
+      "name": "Crimson",
+      "colors": ["#cb2d3e", "#ef473a"],
+      "css": "linear-gradient(to right, #cb2d3e, #ef473a)"
+    }
+  ]
+}
+    },
+    {
+      "id": "90",
+      "name": "Cosmic Ice",
+      "colors": [
+        "#00FFFF",
+        "#4B0082"
+      ],
+      "css": "linear-gradient(to right, #00FFFF, #4B0082)"
+    },
+    {
+      "id": "91",
+      "name": "Light Garden",
+      "colors": [
+        "#4B0082",
+        "#98FB98"
+      ],
+      "css": "linear-gradient(to right, #4B0082, #98FB98)"
+    },
+    {
+      "id": "92",
+      "name": "Electric Wave",
+      "colors": [
+        "#00CED1",
+        "#87CEEB"
+      ],
+      "css": "linear-gradient(to right, #00CED1, #87CEEB)"
+    },
+    {
+      "id": "93",
+      "name": "Neon Peak",
+      "colors": [
+        "#F0F8FF",
+        "#FF1493"
+      ],
+      "css": "linear-gradient(to right, #F0F8FF, #FF1493)"
+    },
+    {
+      "id": "94",
+      "name": "Deep Rain",
+      "colors": [
+        "#FF1493",
+        "#DEB887"
+      ],
+      "css": "linear-gradient(to right, #FF1493, #DEB887)"
+    },
+    {
+      "id": "95",
+      "name": "Bold Canyon",
+      "colors": [
+        "#A0522D",
+        "#4169E1"
+      ],
+      "css": "linear-gradient(to right, #A0522D, #4169E1)"
+    },
+    {
+      "id": "96",
+      "name": "Cool Meadow",
+      "colors": [
+        "#6B8E23",
+        "#B0E0E6"
+      ],
+      "css": "linear-gradient(to right, #6B8E23, #B0E0E6)"
+    },
+    {
+      "id": "97",
+      "name": "Dreamy Valley",
+      "colors": [
+        "#00CED1",
+        "#008080"
+      ],
+      "css": "linear-gradient(to right, #00CED1, #008080)"
+    },
+    {
+      "id": "98",
+      "name": "Warm Sunset",
+      "colors": [
+        "#F0E68C",
+        "#FFFFF0"
+      ],
+      "css": "linear-gradient(to right, #F0E68C, #FFFFF0)"
+    },
+    {
+      "id": "99",
+      "name": "Dusky Moon",
+      "colors": [
+        "#FF6B6B",
+        "#B0E0E6"
+      ],
+      "css": "linear-gradient(to right, #FF6B6B, #B0E0E6)"
+    },
+    {
+      "id": "100",
+      "name": "Dusky Rain",
+      "colors": [
+        "#FF1493",
+        "#87CEEB"
+      ],
+      "css": "linear-gradient(to right, #FF1493, #87CEEB)"
+    },
+    {
+      "id": "101",
+      "name": "Serene Ice",
+      "colors": [
+        "#2F4F4F",
+        "#F5FFFA"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #F5FFFA)"
+    },
+    {
+      "id": "102",
+      "name": "Light Storm",
+      "colors": [
+        "#0000FF",
+        "#008080"
+      ],
+      "css": "linear-gradient(to right, #0000FF, #008080)"
+    },
+    {
+      "id": "103",
+      "name": "Dark Sunset",
+      "colors": [
+        "#B0E0E6",
+        "#7FFF00"
+      ],
+      "css": "linear-gradient(to right, #B0E0E6, #7FFF00)"
+    },
+    {
+      "id": "104",
+      "name": "Mellow Star",
+      "colors": [
+        "#6B8E23",
+        "#00FFFF"
+      ],
+      "css": "linear-gradient(to right, #6B8E23, #00FFFF)"
+    },
+    {
+      "id": "105",
+      "name": "Dark Breeze",
+      "colors": [
+        "#8B4513",
+        "#B0E0E6"
+      ],
+      "css": "linear-gradient(to right, #8B4513, #B0E0E6)"
+    },
+    {
+      "id": "106",
+      "name": "Dreamy Desert",
+      "colors": [
+        "#FFF0F5",
+        "#A0522D"
+      ],
+      "css": "linear-gradient(to right, #FFF0F5, #A0522D)"
+    },
+    {
+      "id": "107",
+      "name": "Intense Wave",
+      "colors": [
+        "#FFFFF0",
+        "#FFA500"
+      ],
+      "css": "linear-gradient(to right, #FFFFF0, #FFA500)"
+    },
+    {
+      "id": "108",
+      "name": "Mellow Star",
+      "colors": [
+        "#00FF00",
+        "#8B4513"
+      ],
+      "css": "linear-gradient(to right, #00FF00, #8B4513)"
+    },
+    {
+      "id": "109",
+      "name": "Luminous Cloud",
+      "colors": [
+        "#87CEEB",
+        "#FFFF00"
+      ],
+      "css": "linear-gradient(to right, #87CEEB, #FFFF00)"
+    },
+    {
+      "id": "110",
+      "name": "Mystic Wave",
+      "colors": [
+        "#0000FF",
+        "#0000FF"
+      ],
+      "css": "linear-gradient(to right, #0000FF, #0000FF)"
+    },
+    {
+      "id": "111",
+      "name": "Dusky Cloud",
+      "colors": [
+        "#00FF00",
+        "#B0E0E6"
+      ],
+      "css": "linear-gradient(to right, #00FF00, #B0E0E6)"
+    },
+    {
+      "id": "112",
+      "name": "Sunny Fog",
+      "colors": [
+        "#008080",
+        "#FFF0F5"
+      ],
+      "css": "linear-gradient(to right, #008080, #FFF0F5)"
+    },
+    {
+      "id": "113",
+      "name": "Luminous Lake",
+      "colors": [
+        "#8FBC8F",
+        "#FFFF00"
+      ],
+      "css": "linear-gradient(to right, #8FBC8F, #FFFF00)"
+    },
+    {
+      "id": "114",
+      "name": "Frosty Night",
+      "colors": [
+        "#FF1493",
+        "#F5FFFA"
+      ],
+      "css": "linear-gradient(to right, #FF1493, #F5FFFA)"
+    },
+    {
+      "id": "115",
+      "name": "Rich Storm",
+      "colors": [
+        "#4169E1",
+        "#FFD700"
+      ],
+      "css": "linear-gradient(to right, #4169E1, #FFD700)"
+    },
+    {
+      "id": "116",
+      "name": "Pastel Desert",
+      "colors": [
+        "#FF00FF",
+        "#00FF00"
+      ],
+      "css": "linear-gradient(to right, #FF00FF, #00FF00)"
+    },
+    {
+      "id": "117",
+      "name": "Frosty Rain",
+      "colors": [
+        "#F0E68C",
+        "#FF8C00"
+      ],
+      "css": "linear-gradient(to right, #F0E68C, #FF8C00)"
+    },
+    {
+      "id": "118",
+      "name": "Frosty Mist",
+      "colors": [
+        "#2F4F4F",
+        "#F5FFFA"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #F5FFFA)"
+    },
+    {
+      "id": "119",
+      "name": "Warm Cloud",
+      "colors": [
+        "#FF8C00",
+        "#FF6B6B"
+      ],
+      "css": "linear-gradient(to right, #FF8C00, #FF6B6B)"
+    },
+    {
+      "id": "120",
+      "name": "Soft Mist",
+      "colors": [
+        "#2F4F4F",
+        "#A0522D"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #A0522D)"
+    },
+    {
+      "id": "121",
+      "name": "Luminous Forest",
+      "colors": [
+        "#2F4F4F",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #2F4F4F)"
+    },
+    {
+      "id": "122",
+      "name": "Warm Day",
+      "colors": [
+        "#F0E68C",
+        "#FFA500"
+      ],
+      "css": "linear-gradient(to right, #F0E68C, #FFA500)"
+    },
+    {
+      "id": "123",
+      "name": "Glowing Aurora",
+      "colors": [
+        "#FF4500",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #FF4500, #2F4F4F)"
+    },
+    {
+      "id": "124",
+      "name": "Vibrant Forest",
+      "colors": [
+        "#FF8C00",
+        "#00FFFF"
+      ],
+      "css": "linear-gradient(to right, #FF8C00, #00FFFF)"
+    },
+    {
+      "id": "125",
+      "name": "Light Ice",
+      "colors": [
+        "#8FBC8F",
+        "#00FF00"
+      ],
+      "css": "linear-gradient(to right, #8FBC8F, #00FF00)"
+    },
+    {
+      "id": "126",
+      "name": "Cosmic Wave",
+      "colors": [
+        "#F5F5DC",
+        "#00CED1"
+      ],
+      "css": "linear-gradient(to right, #F5F5DC, #00CED1)"
+    },
+    {
+      "id": "127",
+      "name": "Glowing Dusk",
+      "colors": [
+        "#2F4F4F",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #2F4F4F)"
+    },
+    {
+      "id": "128",
+      "name": "Frosty Flame",
+      "colors": [
+        "#DEB887",
+        "#7FFF00"
+      ],
+      "css": "linear-gradient(to right, #DEB887, #7FFF00)"
+    },
+    {
+      "id": "129",
+      "name": "Serene Moon",
+      "colors": [
+        "#800000",
+        "#008080"
+      ],
+      "css": "linear-gradient(to right, #800000, #008080)"
+    },
+    {
+      "id": "130",
+      "name": "Neon Moon",
+      "colors": [
+        "#4169E1",
+        "#FF1493"
+      ],
+      "css": "linear-gradient(to right, #4169E1, #FF1493)"
+    },
+    {
+      "id": "131",
+      "name": "Crystal Ocean",
+      "colors": [
+        "#FF00FF",
+        "#FFF0F5"
+      ],
+      "css": "linear-gradient(to right, #FF00FF, #FFF0F5)"
+    },
+    {
+      "id": "132",
+      "name": "Cosmic Wave",
+      "colors": [
+        "#00FFFF",
+        "#F5F5DC"
+      ],
+      "css": "linear-gradient(to right, #00FFFF, #F5F5DC)"
+    },
+    {
+      "id": "133",
+      "name": "Pale Dawn",
+      "colors": [
+        "#FF0000",
+        "#6B8E23"
+      ],
+      "css": "linear-gradient(to right, #FF0000, #6B8E23)"
+    },
+    {
+      "id": "134",
+      "name": "Luminous Forest",
+      "colors": [
+        "#2F4F4F",
+        "#40E0D0"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #40E0D0)"
+    },
+    {
+      "id": "135",
+      "name": "Luminous Forest",
+      "colors": [
+        "#FFFFF0",
+        "#F0E68C"
+      ],
+      "css": "linear-gradient(to right, #FFFFF0, #F0E68C)"
+    },
+    {
+      "id": "136",
+      "name": "Cool Storm",
+      "colors": [
+        "#4B0082",
+        "#00FF00"
+      ],
+      "css": "linear-gradient(to right, #4B0082, #00FF00)"
+    },
+    {
+      "id": "137",
+      "name": "Serene Flame",
+      "colors": [
+        "#FF0000",
+        "#98FB98"
+      ],
+      "css": "linear-gradient(to right, #FF0000, #98FB98)"
+    },
+    {
+      "id": "138",
+      "name": "Crystal Cloud",
+      "colors": [
+        "#FFD700",
+        "#00FF00"
+      ],
+      "css": "linear-gradient(to right, #FFD700, #00FF00)"
+    },
+    {
+      "id": "139",
+      "name": "Tropical Dawn",
+      "colors": [
+        "#FF4500",
+        "#4169E1"
+      ],
+      "css": "linear-gradient(to right, #FF4500, #4169E1)"
+    },
+    {
+      "id": "140",
+      "name": "Mellow Moon",
+      "colors": [
+        "#FFF0F5",
+        "#0000FF"
+      ],
+      "css": "linear-gradient(to right, #FFF0F5, #0000FF)"
+    },
+    {
+      "id": "141",
+      "name": "Serene Breeze",
+      "colors": [
+        "#FFFFF0",
+        "#B0E0E6"
+      ],
+      "css": "linear-gradient(to right, #FFFFF0, #B0E0E6)"
+    },
+    {
+      "id": "142",
+      "name": "Serene Sunset",
+      "colors": [
+        "#FF6B6B",
+        "#FFA500"
+      ],
+      "css": "linear-gradient(to right, #FF6B6B, #FFA500)"
+    },
+    {
+      "id": "143",
+      "name": "Dreamy Canyon",
+      "colors": [
+        "#2F4F4F",
+        "#A0522D"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #A0522D)"
+    },
+    {
+      "id": "144",
+      "name": "Bold Flame",
+      "colors": [
+        "#B0E0E6",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #B0E0E6, #2F4F4F)"
+    },
+    {
+      "id": "145",
+      "name": "Bright Wave",
+      "colors": [
+        "#F5F5DC",
+        "#FFD700"
+      ],
+      "css": "linear-gradient(to right, #F5F5DC, #FFD700)"
+    },
+    {
+      "id": "146",
+      "name": "Dark Moon",
+      "colors": [
+        "#4B0082",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #4B0082, #2F4F4F)"
+    },
+    {
+      "id": "147",
+      "name": "Pale Rain",
+      "colors": [
+        "#FFA500",
+        "#87CEEB"
+      ],
+      "css": "linear-gradient(to right, #FFA500, #87CEEB)"
+    },
+    {
+      "id": "148",
+      "name": "Luminous Rainbow",
+      "colors": [
+        "#00FF00",
+        "#F5F5DC"
+      ],
+      "css": "linear-gradient(to right, #00FF00, #F5F5DC)"
+    },
+    {
+      "id": "149",
+      "name": "Intense Canyon",
+      "colors": [
+        "#FFB6C1",
+        "#FFD700"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #FFD700)"
+    },
+    {
+      "id": "150",
+      "name": "Crystal Mountain",
+      "colors": [
+        "#4B0082",
+        "#87CEEB"
+      ],
+      "css": "linear-gradient(to right, #4B0082, #87CEEB)"
+    },
+    {
+      "id": "151",
+      "name": "Tropical Night",
+      "colors": [
+        "#800000",
+        "#DEB887"
+      ],
+      "css": "linear-gradient(to right, #800000, #DEB887)"
+    },
+    {
+      "id": "152",
+      "name": "Vibrant Aurora",
+      "colors": [
+        "#556B2F",
+        "#FF8C00"
+      ],
+      "css": "linear-gradient(to right, #556B2F, #FF8C00)"
+    },
+    {
+      "id": "153",
+      "name": "Cosmic Wave",
+      "colors": [
+        "#B0E0E6",
+        "#0000FF"
+      ],
+      "css": "linear-gradient(to right, #B0E0E6, #0000FF)"
+    },
+    {
+      "id": "154",
+      "name": "Dark Aurora",
+      "colors": [
+        "#00FFFF",
+        "#00FF00"
+      ],
+      "css": "linear-gradient(to right, #00FFFF, #00FF00)"
+    },
+    {
+      "id": "155",
+      "name": "Serene Mist",
+      "colors": [
+        "#8FBC8F",
+        "#2E8B57"
+      ],
+      "css": "linear-gradient(to right, #8FBC8F, #2E8B57)"
+    },
+    {
+      "id": "156",
+      "name": "Mystic Star",
+      "colors": [
+        "#8B4513",
+        "#F5F5DC"
+      ],
+      "css": "linear-gradient(to right, #8B4513, #F5F5DC)"
+    },
+    {
+      "id": "157",
+      "name": "Luminous Valley",
+      "colors": [
+        "#FF4500",
+        "#FFF0F5"
+      ],
+      "css": "linear-gradient(to right, #FF4500, #FFF0F5)"
+    },
+    {
+      "id": "158",
+      "name": "Vibrant Peak",
+      "colors": [
+        "#FFB6C1",
+        "#F5FFFA"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #F5FFFA)"
+    },
+    {
+      "id": "159",
+      "name": "Shadowy Breeze",
+      "colors": [
+        "#008080",
+        "#98FB98"
+      ],
+      "css": "linear-gradient(to right, #008080, #98FB98)"
+    },
+    {
+      "id": "160",
+      "name": "Tropical Peak",
+      "colors": [
+        "#2E8B57",
+        "#FFFF00"
+      ],
+      "css": "linear-gradient(to right, #2E8B57, #FFFF00)"
+    },
+    {
+      "id": "161",
+      "name": "Cosmic Desert",
+      "colors": [
+        "#00FF00",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #00FF00, #2F4F4F)"
+    },
+    {
+      "id": "162",
+      "name": "Soft Dusk",
+      "colors": [
+        "#FFF0F5",
+        "#008080"
+      ],
+      "css": "linear-gradient(to right, #FFF0F5, #008080)"
+    },
+    {
+      "id": "163",
+      "name": "Glowing Star",
+      "colors": [
+        "#F5FFFA",
+        "#F5F5DC"
+      ],
+      "css": "linear-gradient(to right, #F5FFFA, #F5F5DC)"
+    },
+    {
+      "id": "164",
+      "name": "Tropical Mountain",
+      "colors": [
+        "#2F4F4F",
+        "#FF4500"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #FF4500)"
+    },
+    {
+      "id": "165",
+      "name": "Electric Desert",
+      "colors": [
+        "#F0FFF0",
+        "#DEB887"
+      ],
+      "css": "linear-gradient(to right, #F0FFF0, #DEB887)"
+    },
+    {
+      "id": "166",
+      "name": "Sunny Dawn",
+      "colors": [
+        "#8B4513",
+        "#B0E0E6"
+      ],
+      "css": "linear-gradient(to right, #8B4513, #B0E0E6)"
+    },
+    {
+      "id": "167",
+      "name": "Neon Ice",
+      "colors": [
+        "#800000",
+        "#FFF0F5"
+      ],
+      "css": "linear-gradient(to right, #800000, #FFF0F5)"
+    },
+    {
+      "id": "168",
+      "name": "Gentle Sunset",
+      "colors": [
+        "#4169E1",
+        "#800000"
+      ],
+      "css": "linear-gradient(to right, #4169E1, #800000)"
+    },
+    {
+      "id": "169",
+      "name": "Pale Star",
+      "colors": [
+        "#8B4513",
+        "#0000FF"
+      ],
+      "css": "linear-gradient(to right, #8B4513, #0000FF)"
+    },
+    {
+      "id": "170",
+      "name": "Deep Rain",
+      "colors": [
+        "#2E8B57",
+        "#FF6B6B"
+      ],
+      "css": "linear-gradient(to right, #2E8B57, #FF6B6B)"
+    },
+    {
+      "id": "171",
+      "name": "Pastel Ice",
+      "colors": [
+        "#0000FF",
+        "#00FFFF"
+      ],
+      "css": "linear-gradient(to right, #0000FF, #00FFFF)"
+    },
+    {
+      "id": "172",
+      "name": "Cool Garden",
+      "colors": [
+        "#8B4513",
+        "#6B8E23"
+      ],
+      "css": "linear-gradient(to right, #8B4513, #6B8E23)"
+    },
+    {
+      "id": "173",
+      "name": "Dark Garden",
+      "colors": [
+        "#000000",
+        "#A0522D"
+      ],
+      "css": "linear-gradient(to right, #000000, #A0522D)"
+    },
+    {
+      "id": "174",
+      "name": "Intense Canyon",
+      "colors": [
+        "#B0E0E6",
+        "#4B0082"
+      ],
+      "css": "linear-gradient(to right, #B0E0E6, #4B0082)"
+    },
+    {
+      "id": "175",
+      "name": "Cool Mist",
+      "colors": [
+        "#F0E68C",
+        "#0000FF"
+      ],
+      "css": "linear-gradient(to right, #F0E68C, #0000FF)"
+    },
+    {
+      "id": "176",
+      "name": "Luminous Fog",
+      "colors": [
+        "#FFF0F5",
+        "#F5F5DC"
+      ],
+      "css": "linear-gradient(to right, #FFF0F5, #F5F5DC)"
+    },
+    {
+      "id": "178",
+      "name": "Warm River",
+      "colors": [
+        "#FF8C00",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #FF8C00, #2F4F4F)"
+    },
+    {
+      "id": "179",
+      "name": "Cool River",
+      "colors": [
+        "#FFB6C1",
+        "#6B8E23"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #6B8E23)"
+    },
+    {
+      "id": "180",
+      "name": "Cosmic Wave",
+      "colors": [
+        "#FFB6C1",
+        "#F0E68C"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #F0E68C)"
+    },
+    {
+      "id": "181",
+      "name": "Electric Mountain",
+      "colors": [
+        "#FFFF00",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #FFFF00, #2F4F4F)"
+    },
+    {
+      "id": "182",
+      "name": "Frosty Valley",
+      "colors": [
+        "#FF6B6B",
+        "#F5F5DC"
+      ],
+      "css": "linear-gradient(to right, #FF6B6B, #F5F5DC)"
+    },
+    {
+      "id": "183",
+      "name": "Deep Flame",
+      "colors": [
+        "#DDA0DD",
+        "#00FF00"
+      ],
+      "css": "linear-gradient(to right, #DDA0DD, #00FF00)"
+    },
+    {
+      "id": "184",
+      "name": "Bright Rain",
+      "colors": [
+        "#87CEEB",
+        "#FFF0F5"
+      ],
+      "css": "linear-gradient(to right, #87CEEB, #FFF0F5)"
+    },
+    {
+      "id": "185",
+      "name": "Pastel Sky",
+      "colors": [
+        "#00CED1",
+        "#00CED1"
+      ],
+      "css": "linear-gradient(to right, #00CED1, #00CED1)"
+    },
+    {
+      "id": "186",
+      "name": "Vibrant Mist",
+      "colors": [
+        "#8FBC8F",
+        "#00BFFF"
+      ],
+      "css": "linear-gradient(to right, #8FBC8F, #00BFFF)"
+    },
+    {
+      "id": "187",
+      "name": "Mellow Moon",
+      "colors": [
+        "#FFA500",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #FFA500, #2F4F4F)"
+    },
+    {
+      "id": "188",
+      "name": "Pale River",
+      "colors": [
+        "#00BFFF",
+        "#87CEEB"
+      ],
+      "css": "linear-gradient(to right, #00BFFF, #87CEEB)"
+    },
+    {
+      "id": "189",
+      "name": "Cosmic Meadow",
+      "colors": [
+        "#00BFFF",
+        "#FF1493"
+      ],
+      "css": "linear-gradient(to right, #00BFFF, #FF1493)"
+    },
+    {
+      "id": "190",
+      "name": "Cosmic Canyon",
+      "colors": [
+        "#00FFFF",
+        "#FFFF00"
+      ],
+      "css": "linear-gradient(to right, #00FFFF, #FFFF00)"
+    },
+    {
+      "id": "191",
+      "name": "Intense Day",
+      "colors": [
+        "#00FFFF",
+        "#008080"
+      ],
+      "css": "linear-gradient(to right, #00FFFF, #008080)"
+    },
+    {
+      "id": "192",
+      "name": "Dreamy Aurora",
+      "colors": [
+        "#8FBC8F",
+        "#FFA500"
+      ],
+      "css": "linear-gradient(to right, #8FBC8F, #FFA500)"
+    },
+    {
+      "id": "193",
+      "name": "Electric Mountain",
+      "colors": [
+        "#FFF0F5",
+        "#FFFFF0"
+      ],
+      "css": "linear-gradient(to right, #FFF0F5, #FFFFF0)"
+    },
+    {
+      "id": "194",
+      "name": "Intense Breeze",
+      "colors": [
+        "#6B8E23",
+        "#FFB6C1"
+      ],
+      "css": "linear-gradient(to right, #6B8E23, #FFB6C1)"
+    },
+    {
+      "id": "195",
+      "name": "Dusky Flame",
+      "colors": [
+        "#FFFF00",
+        "#DEB887"
+      ],
+      "css": "linear-gradient(to right, #FFFF00, #DEB887)"
+    },
+    {
+      "id": "196",
+      "name": "Warm Meadow",
+      "colors": [
+        "#FF6B6B",
+        "#0000FF"
+      ],
+      "css": "linear-gradient(to right, #FF6B6B, #0000FF)"
+    },
+    {
+      "id": "197",
+      "name": "Deep Lake",
+      "colors": [
+        "#F0FFF0",
+        "#40E0D0"
+      ],
+      "css": "linear-gradient(to right, #F0FFF0, #40E0D0)"
+    },
+    {
+      "id": "198",
+      "name": "Shadowy Peak",
+      "colors": [
+        "#000000",
+        "#F0FFF0"
+      ],
+      "css": "linear-gradient(to right, #000000, #F0FFF0)"
+    },
+    {
+      "id": "199",
+      "name": "Radiant Forest",
+      "colors": [
+        "#2F4F4F",
+        "#556B2F"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #556B2F)"
+    },
+    {
+      "id": "200",
+      "name": "Pale Meadow",
+      "colors": [
+        "#4169E1",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #4169E1, #2F4F4F)"
+    },
+    {
+      "id": "201",
+      "name": "Dreamy Storm",
+      "colors": [
+        "#00FF00",
+        "#00CED1"
+      ],
+      "css": "linear-gradient(to right, #00FF00, #00CED1)"
+    },
+    {
+      "id": "202",
+      "name": "Luminous Dusk",
+      "colors": [
+        "#FF6B6B",
+        "#FF00FF"
+      ],
+      "css": "linear-gradient(to right, #FF6B6B, #FF00FF)"
+    },
+    {
+      "id": "203",
+      "name": "Dark Star",
+      "colors": [
+        "#FF0000",
+        "#DEB887"
+      ],
+      "css": "linear-gradient(to right, #FF0000, #DEB887)"
+    },
+    {
+      "id": "204",
+      "name": "Vibrant Mountain",
+      "colors": [
+        "#7FFF00",
+        "#00FF00"
+      ],
+      "css": "linear-gradient(to right, #7FFF00, #00FF00)"
+    },
+    {
+      "id": "205",
+      "name": "Dusky Star",
+      "colors": [
+        "#FFF0F5",
+        "#8B4513"
+      ],
+      "css": "linear-gradient(to right, #FFF0F5, #8B4513)"
+    },
+    {
+      "id": "206",
+      "name": "Deep Star",
+      "colors": [
+        "#F5FFFA",
+        "#FFF0F5"
+      ],
+      "css": "linear-gradient(to right, #F5FFFA, #FFF0F5)"
+    },
+    {
+      "id": "207",
+      "name": "Vibrant Ocean",
+      "colors": [
+        "#FF8C00",
+        "#DEB887"
+      ],
+      "css": "linear-gradient(to right, #FF8C00, #DEB887)"
+    },
+    {
+      "id": "208",
+      "name": "Cosmic Mist",
+      "colors": [
+        "#FFFFF0",
+        "#FFFF00"
+      ],
+      "css": "linear-gradient(to right, #FFFFF0, #FFFF00)"
+    },
+    {
+      "id": "209",
+      "name": "Radiant Dusk",
+      "colors": [
+        "#F0F8FF",
+        "#F0FFF0"
+      ],
+      "css": "linear-gradient(to right, #F0F8FF, #F0FFF0)"
+    },
+    {
+      "id": "210",
+      "name": "Dusky Cloud",
+      "colors": [
+        "#A0522D",
+        "#DDA0DD"
+      ],
+      "css": "linear-gradient(to right, #A0522D, #DDA0DD)"
+    },
+    {
+      "id": "211",
+      "name": "Tropical Aurora",
+      "colors": [
+        "#87CEEB",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #87CEEB, #2F4F4F)"
+    },
+    {
+      "id": "212",
+      "name": "Bold Aurora",
+      "colors": [
+        "#556B2F",
+        "#6B8E23"
+      ],
+      "css": "linear-gradient(to right, #556B2F, #6B8E23)"
+    },
+    {
+      "id": "213",
+      "name": "Crystal Garden",
+      "colors": [
+        "#800000",
+        "#FF00FF"
+      ],
+      "css": "linear-gradient(to right, #800000, #FF00FF)"
+    },
+    {
+      "id": "214",
+      "name": "Deep Breeze",
+      "colors": [
+        "#40E0D0",
+        "#F5F5DC"
+      ],
+      "css": "linear-gradient(to right, #40E0D0, #F5F5DC)"
+    },
+    {
+      "id": "215",
+      "name": "Frosty Fog",
+      "colors": [
+        "#DDA0DD",
+        "#DEB887"
+      ],
+      "css": "linear-gradient(to right, #DDA0DD, #DEB887)"
+    },
+    {
+      "id": "216",
+      "name": "Bright Valley",
+      "colors": [
+        "#008080",
+        "#B0E0E6"
+      ],
+      "css": "linear-gradient(to right, #008080, #B0E0E6)"
+    },
+    {
+      "id": "217",
+      "name": "Deep Storm",
+      "colors": [
+        "#FFB6C1",
+        "#00FF00"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #00FF00)"
+    },
+    {
+      "id": "218",
+      "name": "Dusky Dawn",
+      "colors": [
+        "#F0E68C",
+        "#00FFFF"
+      ],
+      "css": "linear-gradient(to right, #F0E68C, #00FFFF)"
+    },
+    {
+      "id": "219",
+      "name": "Intense Sky",
+      "colors": [
+        "#FFFFF0",
+        "#00CED1"
+      ],
+      "css": "linear-gradient(to right, #FFFFF0, #00CED1)"
+    },
+    {
+      "id": "220",
+      "name": "Intense Forest",
+      "colors": [
+        "#8FBC8F",
+        "#556B2F"
+      ],
+      "css": "linear-gradient(to right, #8FBC8F, #556B2F)"
+    },
+    {
+      "id": "221",
+      "name": "Crystal Valley",
+      "colors": [
+        "#98FB98",
+        "#98FB98"
+      ],
+      "css": "linear-gradient(to right, #98FB98, #98FB98)"
+    },
+    {
+      "id": "222",
+      "name": "Cool Breeze",
+      "colors": [
+        "#FFF0F5",
+        "#FF0000"
+      ],
+      "css": "linear-gradient(to right, #FFF0F5, #FF0000)"
+    },
+    {
+      "id": "223",
+      "name": "Radiant Peak",
+      "colors": [
+        "#F5FFFA",
+        "#A0522D"
+      ],
+      "css": "linear-gradient(to right, #F5FFFA, #A0522D)"
+    },
+    {
+      "id": "224",
+      "name": "Mystic Star",
+      "colors": [
+        "#A0522D",
+        "#7FFF00"
+      ],
+      "css": "linear-gradient(to right, #A0522D, #7FFF00)"
+    },
+    {
+      "id": "225",
+      "name": "Radiant Dawn",
+      "colors": [
+        "#8B4513",
+        "#8B4513"
+      ],
+      "css": "linear-gradient(to right, #8B4513, #8B4513)"
+    },
+    {
+      "id": "226",
+      "name": "Cool Peak",
+      "colors": [
+        "#2F4F4F",
+        "#FF0000"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #FF0000)"
+    },
+    {
+      "id": "227",
+      "name": "Sunny Valley",
+      "colors": [
+        "#FFB6C1",
+        "#556B2F"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #556B2F)"
+    },
+    {
+      "id": "228",
+      "name": "Frosty Aurora",
+      "colors": [
+        "#F5FFFA",
+        "#40E0D0"
+      ],
+      "css": "linear-gradient(to right, #F5FFFA, #40E0D0)"
+    },
+    {
+      "id": "229",
+      "name": "Deep Sky",
+      "colors": [
+        "#4169E1",
+        "#FFFFF0"
+      ],
+      "css": "linear-gradient(to right, #4169E1, #FFFFF0)"
+    },
+    {
+      "id": "230",
+      "name": "Mellow Mountain",
+      "colors": [
+        "#98FB98",
+        "#FF6B6B"
+      ],
+      "css": "linear-gradient(to right, #98FB98, #FF6B6B)"
+    },
+    {
+      "id": "231",
+      "name": "Warm Breeze",
+      "colors": [
+        "#B0E0E6",
+        "#7FFF00"
+      ],
+      "css": "linear-gradient(to right, #B0E0E6, #7FFF00)"
+    },
+    {
+      "id": "232",
+      "name": "Deep Sky",
+      "colors": [
+        "#F0F8FF",
+        "#40E0D0"
+      ],
+      "css": "linear-gradient(to right, #F0F8FF, #40E0D0)"
+    },
+    {
+      "id": "233",
+      "name": "Deep Day",
+      "colors": [
+        "#000000",
+        "#FFFFF0"
+      ],
+      "css": "linear-gradient(to right, #000000, #FFFFF0)"
+    },
+    {
+      "id": "234",
+      "name": "Mystic Aurora",
+      "colors": [
+        "#DDA0DD",
+        "#DEB887"
+      ],
+      "css": "linear-gradient(to right, #DDA0DD, #DEB887)"
+    },
+    {
+      "id": "235",
+      "name": "Glowing Garden",
+      "colors": [
+        "#FFF0F5",
+        "#FFFFF0"
+      ],
+      "css": "linear-gradient(to right, #FFF0F5, #FFFFF0)"
+    },
+    {
+      "id": "236",
+      "name": "Tropical Forest",
+      "colors": [
+        "#FF8C00",
+        "#7FFF00"
+      ],
+      "css": "linear-gradient(to right, #FF8C00, #7FFF00)"
+    },
+    {
+      "id": "237",
+      "name": "Luminous Mountain",
+      "colors": [
+        "#DEB887",
+        "#4169E1"
+      ],
+      "css": "linear-gradient(to right, #DEB887, #4169E1)"
+    },
+    {
+      "id": "238",
+      "name": "Dreamy Sunset",
+      "colors": [
+        "#2E8B57",
+        "#FF8C00"
+      ],
+      "css": "linear-gradient(to right, #2E8B57, #FF8C00)"
+    },
+    {
+      "id": "239",
+      "name": "Vibrant Forest",
+      "colors": [
+        "#2E8B57",
+        "#556B2F"
+      ],
+      "css": "linear-gradient(to right, #2E8B57, #556B2F)"
+    },
+    {
+      "id": "240",
+      "name": "Serene Forest",
+      "colors": [
+        "#00CED1",
+        "#FFFFF0"
+      ],
+      "css": "linear-gradient(to right, #00CED1, #FFFFF0)"
+    },
+    {
+      "id": "241",
+      "name": "Gentle Star",
+      "colors": [
+        "#FFB6C1",
+        "#FFFFF0"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #FFFFF0)"
+    },
+    {
+      "id": "242",
+      "name": "Pale Rainbow",
+      "colors": [
+        "#FFB6C1",
+        "#DEB887"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #DEB887)"
+    },
+    {
+      "id": "243",
+      "name": "Cosmic Garden",
+      "colors": [
+        "#87CEEB",
+        "#98FB98"
+      ],
+      "css": "linear-gradient(to right, #87CEEB, #98FB98)"
+    },
+    {
+      "id": "244",
+      "name": "Cool Rainbow",
+      "colors": [
+        "#B0E0E6",
+        "#F0FFF0"
+      ],
+      "css": "linear-gradient(to right, #B0E0E6, #F0FFF0)"
+    },
+    {
+      "id": "245",
+      "name": "Dark Fog",
+      "colors": [
+        "#00BFFF",
+        "#FF1493"
+      ],
+      "css": "linear-gradient(to right, #00BFFF, #FF1493)"
+    },
+    {
+      "id": "246",
+      "name": "Dark Garden",
+      "colors": [
+        "#6B8E23",
+        "#FFFFF0"
+      ],
+      "css": "linear-gradient(to right, #6B8E23, #FFFFF0)"
+    },
+    {
+      "id": "247",
+      "name": "Pale Sky",
+      "colors": [
+        "#F5FFFA",
+        "#40E0D0"
+      ],
+      "css": "linear-gradient(to right, #F5FFFA, #40E0D0)"
+    },
+    {
+      "id": "248",
+      "name": "Mellow River",
+      "colors": [
+        "#800000",
+        "#B0E0E6"
+      ],
+      "css": "linear-gradient(to right, #800000, #B0E0E6)"
+    },
+    {
+      "id": "249",
+      "name": "Vibrant Canyon",
+      "colors": [
+        "#8FBC8F",
+        "#0000FF"
+      ],
+      "css": "linear-gradient(to right, #8FBC8F, #0000FF)"
+    },
+    {
+      "id": "250",
+      "name": "Electric Mountain",
+      "colors": [
+        "#8B4513",
+        "#6B8E23"
+      ],
+      "css": "linear-gradient(to right, #8B4513, #6B8E23)"
+    },
+    {
+      "id": "251",
+      "name": "Cosmic Storm",
+      "colors": [
+        "#FF1493",
+        "#00FF00"
+      ],
+      "css": "linear-gradient(to right, #FF1493, #00FF00)"
+    },
+    {
+      "id": "252",
+      "name": "Dreamy Night",
+      "colors": [
+        "#98FB98",
+        "#FFFF00"
+      ],
+      "css": "linear-gradient(to right, #98FB98, #FFFF00)"
+    },
+    {
+      "id": "253",
+      "name": "Frosty Canyon",
+      "colors": [
+        "#FF00FF",
+        "#FFFF00"
+      ],
+      "css": "linear-gradient(to right, #FF00FF, #FFFF00)"
+    },
+    {
+      "id": "254",
+      "name": "Sunny Valley",
+      "colors": [
+        "#8B4513",
+        "#B0E0E6"
+      ],
+      "css": "linear-gradient(to right, #8B4513, #B0E0E6)"
+    },
+    {
+      "id": "255",
+      "name": "Pale Desert",
+      "colors": [
+        "#FF6B6B",
+        "#F0E68C"
+      ],
+      "css": "linear-gradient(to right, #FF6B6B, #F0E68C)"
+    },
+    {
+      "id": "256",
+      "name": "Tropical Moon",
+      "colors": [
+        "#F5F5DC",
+        "#FF4500"
+      ],
+      "css": "linear-gradient(to right, #F5F5DC, #FF4500)"
+    },
+    {
+      "id": "257",
+      "name": "Bright Dawn",
+      "colors": [
+        "#FFB6C1",
+        "#00CED1"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #00CED1)"
+    },
+    {
+      "id": "258",
+      "name": "Cosmic Garden",
+      "colors": [
+        "#FF1493",
+        "#FF1493"
+      ],
+      "css": "linear-gradient(to right, #FF1493, #FF1493)"
+    },
+    {
+      "id": "259",
+      "name": "Crystal Storm",
+      "colors": [
+        "#FFA500",
+        "#A0522D"
+      ],
+      "css": "linear-gradient(to right, #FFA500, #A0522D)"
+    },
+    {
+      "id": "260",
+      "name": "Glowing Valley",
+      "colors": [
+        "#2E8B57",
+        "#000000"
+      ],
+      "css": "linear-gradient(to right, #2E8B57, #000000)"
+    },
+    {
+      "id": "261",
+      "name": "Cosmic Flame",
+      "colors": [
+        "#2F4F4F",
+        "#FF1493"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #FF1493)"
+    },
+    {
+      "id": "262",
+      "name": "Mystic Fog",
+      "colors": [
+        "#F0F8FF",
+        "#87CEEB"
+      ],
+      "css": "linear-gradient(to right, #F0F8FF, #87CEEB)"
+    },
+    {
+      "id": "263",
+      "name": "Deep Rain",
+      "colors": [
+        "#6B8E23",
+        "#000000"
+      ],
+      "css": "linear-gradient(to right, #6B8E23, #000000)"
+    },
+    {
+      "id": "264",
+      "name": "Pale Flame",
+      "colors": [
+        "#6B8E23",
+        "#00CED1"
+      ],
+      "css": "linear-gradient(to right, #6B8E23, #00CED1)"
+    },
+    {
+      "id": "266",
+      "name": "Intense Canyon",
+      "colors": [
+        "#8B4513",
+        "#FFFF00"
+      ],
+      "css": "linear-gradient(to right, #8B4513, #FFFF00)"
+    },
+    {
+      "id": "267",
+      "name": "Tropical Wave",
+      "colors": [
+        "#FF4500",
+        "#008080"
+      ],
+      "css": "linear-gradient(to right, #FF4500, #008080)"
+    },
+    {
+      "id": "268",
+      "name": "Gentle Dawn",
+      "colors": [
+        "#00CED1",
+        "#A0522D"
+      ],
+      "css": "linear-gradient(to right, #00CED1, #A0522D)"
+    },
+    {
+      "id": "269",
+      "name": "Radiant Fog",
+      "colors": [
+        "#FFFFF0",
+        "#FF00FF"
+      ],
+      "css": "linear-gradient(to right, #FFFFF0, #FF00FF)"
+    },
+    {
+      "id": "270",
+      "name": "Light Ocean",
+      "colors": [
+        "#FFA500",
+        "#0000FF"
+      ],
+      "css": "linear-gradient(to right, #FFA500, #0000FF)"
+    },
+    {
+      "id": "271",
+      "name": "Serene Sky",
+      "colors": [
+        "#2F4F4F",
+        "#F0E68C"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #F0E68C)"
+    },
+    {
+      "id": "272",
+      "name": "Sunny Forest",
+      "colors": [
+        "#87CEEB",
+        "#2E8B57"
+      ],
+      "css": "linear-gradient(to right, #87CEEB, #2E8B57)"
+    },
+    {
+      "id": "273",
+      "name": "Electric Ocean",
+      "colors": [
+        "#00FF00",
+        "#FF00FF"
+      ],
+      "css": "linear-gradient(to right, #00FF00, #FF00FF)"
+    },
+    {
+      "id": "274",
+      "name": "Bright Cloud",
+      "colors": [
+        "#00BFFF",
+        "#40E0D0"
+      ],
+      "css": "linear-gradient(to right, #00BFFF, #40E0D0)"
+    },
+    {
+      "id": "275",
+      "name": "Pale Mist",
+      "colors": [
+        "#F0FFF0",
+        "#DEB887"
+      ],
+      "css": "linear-gradient(to right, #F0FFF0, #DEB887)"
+    },
+    {
+      "id": "276",
+      "name": "Bright Peak",
+      "colors": [
+        "#F0FFF0",
+        "#000000"
+      ],
+      "css": "linear-gradient(to right, #F0FFF0, #000000)"
+    },
+    {
+      "id": "277",
+      "name": "Soft Valley",
+      "colors": [
+        "#FFF0F5",
+        "#6B8E23"
+      ],
+      "css": "linear-gradient(to right, #FFF0F5, #6B8E23)"
+    },
+    {
+      "id": "278",
+      "name": "Serene Day",
+      "colors": [
+        "#87CEEB",
+        "#2E8B57"
+      ],
+      "css": "linear-gradient(to right, #87CEEB, #2E8B57)"
+    },
+    {
+      "id": "279",
+      "name": "Vibrant Storm",
+      "colors": [
+        "#FFB6C1",
+        "#FF6B6B"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #FF6B6B)"
+    },
+    {
+      "id": "280",
+      "name": "Warm Breeze",
+      "colors": [
+        "#40E0D0",
+        "#87CEEB"
+      ],
+      "css": "linear-gradient(to right, #40E0D0, #87CEEB)"
+    },
+    {
+      "id": "281",
+      "name": "Intense Night",
+      "colors": [
+        "#4B0082",
+        "#4B0082"
+      ],
+      "css": "linear-gradient(to right, #4B0082, #4B0082)"
+    },
+    {
+      "id": "282",
+      "name": "Neon Desert",
+      "colors": [
+        "#FF8C00",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #FF8C00, #2F4F4F)"
+    },
+    {
+      "id": "283",
+      "name": "Cosmic Dusk",
+      "colors": [
+        "#6B8E23",
+        "#00BFFF"
+      ],
+      "css": "linear-gradient(to right, #6B8E23, #00BFFF)"
+    },
+    {
+      "id": "284",
+      "name": "Deep Wave",
+      "colors": [
+        "#B0E0E6",
+        "#FFF0F5"
+      ],
+      "css": "linear-gradient(to right, #B0E0E6, #FFF0F5)"
+    },
+    {
+      "id": "285",
+      "name": "Deep Sunset",
+      "colors": [
+        "#FFB6C1",
+        "#00FF00"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #00FF00)"
+    },
+    {
+      "id": "286",
+      "name": "Bright Ocean",
+      "colors": [
+        "#FF1493",
+        "#FFA500"
+      ],
+      "css": "linear-gradient(to right, #FF1493, #FFA500)"
+    },
+    {
+      "id": "287",
+      "name": "Rich Rain",
+      "colors": [
+        "#556B2F",
+        "#008080"
+      ],
+      "css": "linear-gradient(to right, #556B2F, #008080)"
+    },
+    {
+      "id": "288",
+      "name": "Cosmic Star",
+      "colors": [
+        "#00FFFF",
+        "#FF8C00"
+      ],
+      "css": "linear-gradient(to right, #00FFFF, #FF8C00)"
+    },
+    {
+      "id": "289",
+      "name": "Mystic Ice",
+      "colors": [
+        "#800000",
+        "#008080"
+      ],
+      "css": "linear-gradient(to right, #800000, #008080)"
+    },
+    {
+      "id": "290",
+      "name": "Pastel Star",
+      "colors": [
+        "#4169E1",
+        "#FF1493"
+      ],
+      "css": "linear-gradient(to right, #4169E1, #FF1493)"
+    },
+    {
+      "id": "291",
+      "name": "Radiant Canyon",
+      "colors": [
+        "#008080",
+        "#FF1493"
+      ],
+      "css": "linear-gradient(to right, #008080, #FF1493)"
+    },
+    {
+      "id": "292",
+      "name": "Dreamy Day",
+      "colors": [
+        "#F0F8FF",
+        "#FFD700"
+      ],
+      "css": "linear-gradient(to right, #F0F8FF, #FFD700)"
+    },
+    {
+      "id": "293",
+      "name": "Cosmic Rainbow",
+      "colors": [
+        "#2E8B57",
+        "#F5FFFA"
+      ],
+      "css": "linear-gradient(to right, #2E8B57, #F5FFFA)"
+    },
+    {
+      "id": "294",
+      "name": "Radiant Dusk",
+      "colors": [
+        "#6B8E23",
+        "#000000"
+      ],
+      "css": "linear-gradient(to right, #6B8E23, #000000)"
+    },
+    {
+      "id": "295",
+      "name": "Bright Fog",
+      "colors": [
+        "#800000",
+        "#DEB887"
+      ],
+      "css": "linear-gradient(to right, #800000, #DEB887)"
+    },
+    {
+      "id": "296",
+      "name": "Warm Sunset",
+      "colors": [
+        "#2F4F4F",
+        "#A0522D"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #A0522D)"
+    },
+    {
+      "id": "297",
+      "name": "Light Sunset",
+      "colors": [
+        "#7FFF00",
+        "#FFF0F5"
+      ],
+      "css": "linear-gradient(to right, #7FFF00, #FFF0F5)"
+    },
+    {
+      "id": "298",
+      "name": "Dark Peak",
+      "colors": [
+        "#FFFFF0",
+        "#00CED1"
+      ],
+      "css": "linear-gradient(to right, #FFFFF0, #00CED1)"
+    },
+    {
+      "id": "299",
+      "name": "Pale Breeze",
+      "colors": [
+        "#FFB6C1",
+        "#A0522D"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #A0522D)"
+    },
+    {
+      "id": "300",
+      "name": "Shadowy Cloud",
+      "colors": [
+        "#FF0000",
+        "#8FBC8F"
+      ],
+      "css": "linear-gradient(to right, #FF0000, #8FBC8F)"
+    },
+    {
+      "id": "301",
+      "name": "Rich Valley",
+      "colors": [
+        "#F5F5DC",
+        "#556B2F"
+      ],
+      "css": "linear-gradient(to right, #F5F5DC, #556B2F)"
+    },
+    {
+      "id": "302",
+      "name": "Pale Breeze",
+      "colors": [
+        "#7FFF00",
+        "#F5FFFA"
+      ],
+      "css": "linear-gradient(to right, #7FFF00, #F5FFFA)"
+    },
+    {
+      "id": "303",
+      "name": "Rich Sky",
+      "colors": [
+        "#4B0082",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #4B0082, #2F4F4F)"
+    },
+    {
+      "id": "304",
+      "name": "Bold Storm",
+      "colors": [
+        "#F5F5DC",
+        "#8FBC8F"
+      ],
+      "css": "linear-gradient(to right, #F5F5DC, #8FBC8F)"
+    },
+    {
+      "id": "305",
+      "name": "Dreamy Sunset",
+      "colors": [
+        "#A0522D",
+        "#7FFF00"
+      ],
+      "css": "linear-gradient(to right, #A0522D, #7FFF00)"
+    },
+    {
+      "id": "306",
+      "name": "Cosmic Dusk",
+      "colors": [
+        "#2F4F4F",
+        "#00CED1"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #00CED1)"
+    },
+    {
+      "id": "307",
+      "name": "Bold Day",
+      "colors": [
+        "#FF6B6B",
+        "#87CEEB"
+      ],
+      "css": "linear-gradient(to right, #FF6B6B, #87CEEB)"
+    },
+    {
+      "id": "308",
+      "name": "Bright Star",
+      "colors": [
+        "#F0E68C",
+        "#F0FFF0"
+      ],
+      "css": "linear-gradient(to right, #F0E68C, #F0FFF0)"
+    },
+    {
+      "id": "309",
+      "name": "Light Storm",
+      "colors": [
+        "#F0E68C",
+        "#FF8C00"
+      ],
+      "css": "linear-gradient(to right, #F0E68C, #FF8C00)"
+    },
+    {
+      "id": "310",
+      "name": "Mellow Flame",
+      "colors": [
+        "#2F4F4F",
+        "#008080"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #008080)"
+    },
+    {
+      "id": "311",
+      "name": "Frosty Day",
+      "colors": [
+        "#2F4F4F",
+        "#FF00FF"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #FF00FF)"
+    },
+    {
+      "id": "312",
+      "name": "Serene Rainbow",
+      "colors": [
+        "#F5F5DC",
+        "#2E8B57"
+      ],
+      "css": "linear-gradient(to right, #F5F5DC, #2E8B57)"
+    },
+    {
+      "id": "313",
+      "name": "Cosmic Forest",
+      "colors": [
+        "#FF00FF",
+        "#F5F5DC"
+      ],
+      "css": "linear-gradient(to right, #FF00FF, #F5F5DC)"
+    },
+    {
+      "id": "314",
+      "name": "Mystic Rain",
+      "colors": [
+        "#DEB887",
+        "#00CED1"
+      ],
+      "css": "linear-gradient(to right, #DEB887, #00CED1)"
+    },
+    {
+      "id": "315",
+      "name": "Serene Peak",
+      "colors": [
+        "#F0F8FF",
+        "#2E8B57"
+      ],
+      "css": "linear-gradient(to right, #F0F8FF, #2E8B57)"
+    },
+    {
+      "id": "316",
+      "name": "Mellow Ice",
+      "colors": [
+        "#00CED1",
+        "#FFFF00"
+      ],
+      "css": "linear-gradient(to right, #00CED1, #FFFF00)"
+    },
+    {
+      "id": "317",
+      "name": "Gentle Peak",
+      "colors": [
+        "#FF0000",
+        "#F0FFF0"
+      ],
+      "css": "linear-gradient(to right, #FF0000, #F0FFF0)"
+    },
+    {
+      "id": "318",
+      "name": "Gentle Ocean",
+      "colors": [
+        "#DEB887",
+        "#FFF0F5"
+      ],
+      "css": "linear-gradient(to right, #DEB887, #FFF0F5)"
+    },
+    {
+      "id": "319",
+      "name": "Pastel Moon",
+      "colors": [
+        "#8FBC8F",
+        "#F5FFFA"
+      ],
+      "css": "linear-gradient(to right, #8FBC8F, #F5FFFA)"
+    },
+    {
+      "id": "320",
+      "name": "Vibrant Day",
+      "colors": [
+        "#008080",
+        "#556B2F"
+      ],
+      "css": "linear-gradient(to right, #008080, #556B2F)"
+    },
+    {
+      "id": "321",
+      "name": "Shadowy Breeze",
+      "colors": [
+        "#FF0000",
+        "#87CEEB"
+      ],
+      "css": "linear-gradient(to right, #FF0000, #87CEEB)"
+    },
+    {
+      "id": "322",
+      "name": "Bright River",
+      "colors": [
+        "#2F4F4F",
+        "#DEB887"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #DEB887)"
+    },
+    {
+      "id": "323",
+      "name": "Vibrant Day",
+      "colors": [
+        "#0000FF",
+        "#4169E1"
+      ],
+      "css": "linear-gradient(to right, #0000FF, #4169E1)"
+    },
+    {
+      "id": "324",
+      "name": "Electric Forest",
+      "colors": [
+        "#000000",
+        "#FFB6C1"
+      ],
+      "css": "linear-gradient(to right, #000000, #FFB6C1)"
+    },
+    {
+      "id": "325",
+      "name": "Radiant Canyon",
+      "colors": [
+        "#00CED1",
+        "#6B8E23"
+      ],
+      "css": "linear-gradient(to right, #00CED1, #6B8E23)"
+    },
+    {
+      "id": "326",
+      "name": "Deep Day",
+      "colors": [
+        "#4169E1",
+        "#FFD700"
+      ],
+      "css": "linear-gradient(to right, #4169E1, #FFD700)"
+    },
+    {
+      "id": "327",
+      "name": "Shadowy Peak",
+      "colors": [
+        "#F5F5DC",
+        "#2E8B57"
+      ],
+      "css": "linear-gradient(to right, #F5F5DC, #2E8B57)"
+    },
+    {
+      "id": "328",
+      "name": "Cool Peak",
+      "colors": [
+        "#00BFFF",
+        "#F0FFF0"
+      ],
+      "css": "linear-gradient(to right, #00BFFF, #F0FFF0)"
+    },
+    {
+      "id": "329",
+      "name": "Dreamy Night",
+      "colors": [
+        "#800000",
+        "#8FBC8F"
+      ],
+      "css": "linear-gradient(to right, #800000, #8FBC8F)"
+    },
+    {
+      "id": "330",
+      "name": "Vibrant Rain",
+      "colors": [
+        "#FFD700",
+        "#FF4500"
+      ],
+      "css": "linear-gradient(to right, #FFD700, #FF4500)"
+    },
+    {
+      "id": "331",
+      "name": "Neon Sunset",
+      "colors": [
+        "#F5FFFA",
+        "#FFA500"
+      ],
+      "css": "linear-gradient(to right, #F5FFFA, #FFA500)"
+    },
+    {
+      "id": "332",
+      "name": "Pale Lake",
+      "colors": [
+        "#FFB6C1",
+        "#8B4513"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #8B4513)"
+    },
+    {
+      "id": "333",
+      "name": "Dark Rain",
+      "colors": [
+        "#4B0082",
+        "#FF0000"
+      ],
+      "css": "linear-gradient(to right, #4B0082, #FF0000)"
+    },
+    {
+      "id": "334",
+      "name": "Sunny Storm",
+      "colors": [
+        "#DEB887",
+        "#7FFF00"
+      ],
+      "css": "linear-gradient(to right, #DEB887, #7FFF00)"
+    },
+    {
+      "id": "335",
+      "name": "Intense Day",
+      "colors": [
+        "#4B0082",
+        "#87CEEB"
+      ],
+      "css": "linear-gradient(to right, #4B0082, #87CEEB)"
+    },
+    {
+      "id": "336",
+      "name": "Shadowy Star",
+      "colors": [
+        "#800000",
+        "#F0E68C"
+      ],
+      "css": "linear-gradient(to right, #800000, #F0E68C)"
+    },
+    {
+      "id": "337",
+      "name": "Bold Canyon",
+      "colors": [
+        "#2F4F4F",
+        "#FF8C00"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #FF8C00)"
+    },
+    {
+      "id": "338",
+      "name": "Pastel Star",
+      "colors": [
+        "#F0FFF0",
+        "#F0FFF0"
+      ],
+      "css": "linear-gradient(to right, #F0FFF0, #F0FFF0)"
+    },
+    {
+      "id": "339",
+      "name": "Bright Star",
+      "colors": [
+        "#8FBC8F",
+        "#000000"
+      ],
+      "css": "linear-gradient(to right, #8FBC8F, #000000)"
+    },
+    {
+      "id": "340",
+      "name": "Glowing Fog",
+      "colors": [
+        "#DDA0DD",
+        "#00BFFF"
+      ],
+      "css": "linear-gradient(to right, #DDA0DD, #00BFFF)"
+    },
+    {
+      "id": "341",
+      "name": "Light Dawn",
+      "colors": [
+        "#DEB887",
+        "#000000"
+      ],
+      "css": "linear-gradient(to right, #DEB887, #000000)"
+    },
+    {
+      "id": "342",
+      "name": "Vibrant Day",
+      "colors": [
+        "#87CEEB",
+        "#000000"
+      ],
+      "css": "linear-gradient(to right, #87CEEB, #000000)"
+    },
+    {
+      "id": "343",
+      "name": "Dark Fog",
+      "colors": [
+        "#0000FF",
+        "#F0FFF0"
+      ],
+      "css": "linear-gradient(to right, #0000FF, #F0FFF0)"
+    },
+    {
+      "id": "344",
+      "name": "Sunny Garden",
+      "colors": [
+        "#00BFFF",
+        "#40E0D0"
+      ],
+      "css": "linear-gradient(to right, #00BFFF, #40E0D0)"
+    },
+    {
+      "id": "345",
+      "name": "Rich Rain",
+      "colors": [
+        "#FFFFF0",
+        "#00FF00"
+      ],
+      "css": "linear-gradient(to right, #FFFFF0, #00FF00)"
+    },
+    {
+      "id": "346",
+      "name": "Gentle Dawn",
+      "colors": [
+        "#F0FFF0",
+        "#00FF00"
+      ],
+      "css": "linear-gradient(to right, #F0FFF0, #00FF00)"
+    },
+    {
+      "id": "347",
+      "name": "Tropical Peak",
+      "colors": [
+        "#FFD700",
+        "#00FF00"
+      ],
+      "css": "linear-gradient(to right, #FFD700, #00FF00)"
+    },
+    {
+      "id": "348",
+      "name": "Pastel Night",
+      "colors": [
+        "#FFD700",
+        "#F0E68C"
+      ],
+      "css": "linear-gradient(to right, #FFD700, #F0E68C)"
+    },
+    {
+      "id": "349",
+      "name": "Pastel Star",
+      "colors": [
+        "#008080",
+        "#FFA500"
+      ],
+      "css": "linear-gradient(to right, #008080, #FFA500)"
+    },
+    {
+      "id": "350",
+      "name": "Deep Breeze",
+      "colors": [
+        "#FF0000",
+        "#40E0D0"
+      ],
+      "css": "linear-gradient(to right, #FF0000, #40E0D0)"
+    },
+    {
+      "id": "351",
+      "name": "Dark Valley",
+      "colors": [
+        "#008080",
+        "#FF00FF"
+      ],
+      "css": "linear-gradient(to right, #008080, #FF00FF)"
+    },
+    {
+      "id": "352",
+      "name": "Frosty Sunset",
+      "colors": [
+        "#F0E68C",
+        "#FFD700"
+      ],
+      "css": "linear-gradient(to right, #F0E68C, #FFD700)"
+    },
+    {
+      "id": "354",
+      "name": "Neon Rain",
+      "colors": [
+        "#000000",
+        "#FFB6C1"
+      ],
+      "css": "linear-gradient(to right, #000000, #FFB6C1)"
+    },
+    {
+      "id": "355",
+      "name": "Luminous Cloud",
+      "colors": [
+        "#008080",
+        "#800000"
+      ],
+      "css": "linear-gradient(to right, #008080, #800000)"
+    },
+    {
+      "id": "356",
+      "name": "Dark Ice",
+      "colors": [
+        "#000000",
+        "#F0FFF0"
+      ],
+      "css": "linear-gradient(to right, #000000, #F0FFF0)"
+    },
+    {
+      "id": "357",
+      "name": "Shadowy Canyon",
+      "colors": [
+        "#FFB6C1",
+        "#8FBC8F"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #8FBC8F)"
+    },
+    {
+      "id": "358",
+      "name": "Soft Canyon",
+      "colors": [
+        "#DDA0DD",
+        "#00FFFF"
+      ],
+      "css": "linear-gradient(to right, #DDA0DD, #00FFFF)"
+    },
+    {
+      "id": "359",
+      "name": "Intense Dusk",
+      "colors": [
+        "#FF1493",
+        "#2E8B57"
+      ],
+      "css": "linear-gradient(to right, #FF1493, #2E8B57)"
+    },
+    {
+      "id": "360",
+      "name": "Gentle Canyon",
+      "colors": [
+        "#FFB6C1",
+        "#FFA500"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #FFA500)"
+    },
+    {
+      "id": "361",
+      "name": "Pale Garden",
+      "colors": [
+        "#FF4500",
+        "#FF1493"
+      ],
+      "css": "linear-gradient(to right, #FF4500, #FF1493)"
+    },
+    {
+      "id": "362",
+      "name": "Mystic Moon",
+      "colors": [
+        "#008080",
+        "#DEB887"
+      ],
+      "css": "linear-gradient(to right, #008080, #DEB887)"
+    },
+    {
+      "id": "363",
+      "name": "Light Forest",
+      "colors": [
+        "#8B4513",
+        "#A0522D"
+      ],
+      "css": "linear-gradient(to right, #8B4513, #A0522D)"
+    },
+    {
+      "id": "364",
+      "name": "Vibrant Rain",
+      "colors": [
+        "#98FB98",
+        "#B0E0E6"
+      ],
+      "css": "linear-gradient(to right, #98FB98, #B0E0E6)"
+    },
+    {
+      "id": "365",
+      "name": "Pale Aurora",
+      "colors": [
+        "#FF00FF",
+        "#98FB98"
+      ],
+      "css": "linear-gradient(to right, #FF00FF, #98FB98)"
+    },
+    {
+      "id": "366",
+      "name": "Rich Flame",
+      "colors": [
+        "#0000FF",
+        "#FFFF00"
+      ],
+      "css": "linear-gradient(to right, #0000FF, #FFFF00)"
+    },
+    {
+      "id": "367",
+      "name": "Warm Sunset",
+      "colors": [
+        "#FF00FF",
+        "#FFD700"
+      ],
+      "css": "linear-gradient(to right, #FF00FF, #FFD700)"
+    },
+    {
+      "id": "368",
+      "name": "Serene Garden",
+      "colors": [
+        "#6B8E23",
+        "#F5F5DC"
+      ],
+      "css": "linear-gradient(to right, #6B8E23, #F5F5DC)"
+    },
+    {
+      "id": "369",
+      "name": "Mystic Sky",
+      "colors": [
+        "#6B8E23",
+        "#87CEEB"
+      ],
+      "css": "linear-gradient(to right, #6B8E23, #87CEEB)"
+    },
+    {
+      "id": "370",
+      "name": "Pale Storm",
+      "colors": [
+        "#F0FFF0",
+        "#FF00FF"
+      ],
+      "css": "linear-gradient(to right, #F0FFF0, #FF00FF)"
+    },
+    {
+      "id": "371",
+      "name": "Sunny Ocean",
+      "colors": [
+        "#0000FF",
+        "#8B4513"
+      ],
+      "css": "linear-gradient(to right, #0000FF, #8B4513)"
+    },
+    {
+      "id": "372",
+      "name": "Bright River",
+      "colors": [
+        "#0000FF",
+        "#008080"
+      ],
+      "css": "linear-gradient(to right, #0000FF, #008080)"
+    },
+    {
+      "id": "373",
+      "name": "Intense Sky",
+      "colors": [
+        "#800000",
+        "#6B8E23"
+      ],
+      "css": "linear-gradient(to right, #800000, #6B8E23)"
+    },
+    {
+      "id": "374",
+      "name": "Deep Star",
+      "colors": [
+        "#000000",
+        "#000000"
+      ],
+      "css": "linear-gradient(to right, #000000, #000000)"
+    },
+    {
+      "id": "375",
+      "name": "Warm Flame",
+      "colors": [
+        "#F0F8FF",
+        "#FF1493"
+      ],
+      "css": "linear-gradient(to right, #F0F8FF, #FF1493)"
+    },
+    {
+      "id": "376",
+      "name": "Dusky Sky",
+      "colors": [
+        "#FFD700",
+        "#FFD700"
+      ],
+      "css": "linear-gradient(to right, #FFD700, #FFD700)"
+    },
+    {
+      "id": "377",
+      "name": "Vibrant Dawn",
+      "colors": [
+        "#87CEEB",
+        "#FF00FF"
+      ],
+      "css": "linear-gradient(to right, #87CEEB, #FF00FF)"
+    },
+    {
+      "id": "378",
+      "name": "Gentle Storm",
+      "colors": [
+        "#87CEEB",
+        "#FF6B6B"
+      ],
+      "css": "linear-gradient(to right, #87CEEB, #FF6B6B)"
+    },
+    {
+      "id": "379",
+      "name": "Crystal Star",
+      "colors": [
+        "#A0522D",
+        "#00BFFF"
+      ],
+      "css": "linear-gradient(to right, #A0522D, #00BFFF)"
+    },
+    {
+      "id": "380",
+      "name": "Luminous Aurora",
+      "colors": [
+        "#7FFF00",
+        "#FF0000"
+      ],
+      "css": "linear-gradient(to right, #7FFF00, #FF0000)"
+    },
+    {
+      "id": "381",
+      "name": "Pale Fog",
+      "colors": [
+        "#8B4513",
+        "#7FFF00"
+      ],
+      "css": "linear-gradient(to right, #8B4513, #7FFF00)"
+    },
+    {
+      "id": "382",
+      "name": "Serene Forest",
+      "colors": [
+        "#7FFF00",
+        "#F0F8FF"
+      ],
+      "css": "linear-gradient(to right, #7FFF00, #F0F8FF)"
+    },
+    {
+      "id": "383",
+      "name": "Dusky River",
+      "colors": [
+        "#0000FF",
+        "#87CEEB"
+      ],
+      "css": "linear-gradient(to right, #0000FF, #87CEEB)"
+    },
+    {
+      "id": "384",
+      "name": "Soft Forest",
+      "colors": [
+        "#FF1493",
+        "#FF1493"
+      ],
+      "css": "linear-gradient(to right, #FF1493, #FF1493)"
+    },
+    {
+      "id": "385",
+      "name": "Cosmic Storm",
+      "colors": [
+        "#8FBC8F",
+        "#FFB6C1"
+      ],
+      "css": "linear-gradient(to right, #8FBC8F, #FFB6C1)"
+    },
+    {
+      "id": "386",
+      "name": "Sunny Night",
+      "colors": [
+        "#0000FF",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #0000FF, #2F4F4F)"
+    },
+    {
+      "id": "387",
+      "name": "Radiant Canyon",
+      "colors": [
+        "#800000",
+        "#8B4513"
+      ],
+      "css": "linear-gradient(to right, #800000, #8B4513)"
+    },
+    {
+      "id": "388",
+      "name": "Bright Flame",
+      "colors": [
+        "#FFF0F5",
+        "#00FF00"
+      ],
+      "css": "linear-gradient(to right, #FFF0F5, #00FF00)"
+    },
+    {
+      "id": "389",
+      "name": "Shadowy Meadow",
+      "colors": [
+        "#F5FFFA",
+        "#008080"
+      ],
+      "css": "linear-gradient(to right, #F5FFFA, #008080)"
+    },
+    {
+      "id": "390",
+      "name": "Serene Sunset",
+      "colors": [
+        "#556B2F",
+        "#800000"
+      ],
+      "css": "linear-gradient(to right, #556B2F, #800000)"
+    },
+    {
+      "id": "391",
+      "name": "Pastel Ice",
+      "colors": [
+        "#F5F5DC",
+        "#8FBC8F"
+      ],
+      "css": "linear-gradient(to right, #F5F5DC, #8FBC8F)"
+    },
+    {
+      "id": "392",
+      "name": "Soft Flame",
+      "colors": [
+        "#F0F8FF",
+        "#FFD700"
+      ],
+      "css": "linear-gradient(to right, #F0F8FF, #FFD700)"
+    },
+    {
+      "id": "393",
+      "name": "Mellow Storm",
+      "colors": [
+        "#4169E1",
+        "#FFFFF0"
+      ],
+      "css": "linear-gradient(to right, #4169E1, #FFFFF0)"
+    },
+    {
+      "id": "394",
+      "name": "Light Mountain",
+      "colors": [
+        "#DDA0DD",
+        "#2E8B57"
+      ],
+      "css": "linear-gradient(to right, #DDA0DD, #2E8B57)"
+    },
+    {
+      "id": "395",
+      "name": "Frosty Meadow",
+      "colors": [
+        "#8B4513",
+        "#A0522D"
+      ],
+      "css": "linear-gradient(to right, #8B4513, #A0522D)"
+    },
+    {
+      "id": "396",
+      "name": "Crystal Rainbow",
+      "colors": [
+        "#87CEEB",
+        "#FF8C00"
+      ],
+      "css": "linear-gradient(to right, #87CEEB, #FF8C00)"
+    },
+    {
+      "id": "397",
+      "name": "Dreamy Star",
+      "colors": [
+        "#800000",
+        "#008080"
+      ],
+      "css": "linear-gradient(to right, #800000, #008080)"
+    },
+    {
+      "id": "398",
+      "name": "Rich Storm",
+      "colors": [
+        "#FF1493",
+        "#FFF0F5"
+      ],
+      "css": "linear-gradient(to right, #FF1493, #FFF0F5)"
+    },
+    {
+      "id": "399",
+      "name": "Warm Fog",
+      "colors": [
+        "#B0E0E6",
+        "#FF0000"
+      ],
+      "css": "linear-gradient(to right, #B0E0E6, #FF0000)"
+    },
+    {
+      "id": "400",
+      "name": "Sunny Dawn",
+      "colors": [
+        "#FFFF00",
+        "#4169E1"
+      ],
+      "css": "linear-gradient(to right, #FFFF00, #4169E1)"
+    },
+    {
+      "id": "401",
+      "name": "Electric Moon",
+      "colors": [
+        "#98FB98",
+        "#FF1493"
+      ],
+      "css": "linear-gradient(to right, #98FB98, #FF1493)"
+    },
+    {
+      "id": "402",
+      "name": "Radiant Dusk",
+      "colors": [
+        "#B0E0E6",
+        "#4169E1"
+      ],
+      "css": "linear-gradient(to right, #B0E0E6, #4169E1)"
+    },
+    {
+      "id": "403",
+      "name": "Warm Flame",
+      "colors": [
+        "#556B2F",
+        "#FF0000"
+      ],
+      "css": "linear-gradient(to right, #556B2F, #FF0000)"
+    },
+    {
+      "id": "404",
+      "name": "Pastel Garden",
+      "colors": [
+        "#FFB6C1",
+        "#800000"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #800000)"
+    },
+    {
+      "id": "405",
+      "name": "Pastel Sky",
+      "colors": [
+        "#FF4500",
+        "#556B2F"
+      ],
+      "css": "linear-gradient(to right, #FF4500, #556B2F)"
+    },
+    {
+      "id": "406",
+      "name": "Light Fog",
+      "colors": [
+        "#F0E68C",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #F0E68C, #2F4F4F)"
+    },
+    {
+      "id": "407",
+      "name": "Electric Ocean",
+      "colors": [
+        "#2F4F4F",
+        "#8B4513"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #8B4513)"
+    },
+    {
+      "id": "408",
+      "name": "Shadowy Mountain",
+      "colors": [
+        "#4169E1",
+        "#8FBC8F"
+      ],
+      "css": "linear-gradient(to right, #4169E1, #8FBC8F)"
+    },
+    {
+      "id": "409",
+      "name": "Pale Forest",
+      "colors": [
+        "#F0FFF0",
+        "#FFB6C1"
+      ],
+      "css": "linear-gradient(to right, #F0FFF0, #FFB6C1)"
+    },
+    {
+      "id": "410",
+      "name": "Pastel Dawn",
+      "colors": [
+        "#FFA500",
+        "#98FB98"
+      ],
+      "css": "linear-gradient(to right, #FFA500, #98FB98)"
+    },
+    {
+      "id": "411",
+      "name": "Neon Day",
+      "colors": [
+        "#F0FFF0",
+        "#F0E68C"
+      ],
+      "css": "linear-gradient(to right, #F0FFF0, #F0E68C)"
+    },
+    {
+      "id": "412",
+      "name": "Sunny Star",
+      "colors": [
+        "#556B2F",
+        "#8FBC8F"
+      ],
+      "css": "linear-gradient(to right, #556B2F, #8FBC8F)"
+    },
+    {
+      "id": "413",
+      "name": "Bright Breeze",
+      "colors": [
+        "#FF4500",
+        "#4B0082"
+      ],
+      "css": "linear-gradient(to right, #FF4500, #4B0082)"
+    },
+    {
+      "id": "414",
+      "name": "Mellow Sky",
+      "colors": [
+        "#FFF0F5",
+        "#FFFFF0"
+      ],
+      "css": "linear-gradient(to right, #FFF0F5, #FFFFF0)"
+    },
+    {
+      "id": "415",
+      "name": "Deep Dusk",
+      "colors": [
+        "#DEB887",
+        "#008080"
+      ],
+      "css": "linear-gradient(to right, #DEB887, #008080)"
+    },
+    {
+      "id": "416",
+      "name": "Pastel Rainbow",
+      "colors": [
+        "#7FFF00",
+        "#556B2F"
+      ],
+      "css": "linear-gradient(to right, #7FFF00, #556B2F)"
+    },
+    {
+      "id": "417",
+      "name": "Light Ice",
+      "colors": [
+        "#F0F8FF",
+        "#6B8E23"
+      ],
+      "css": "linear-gradient(to right, #F0F8FF, #6B8E23)"
+    },
+    {
+      "id": "418",
+      "name": "Soft Valley",
+      "colors": [
+        "#FFFF00",
+        "#000000"
+      ],
+      "css": "linear-gradient(to right, #FFFF00, #000000)"
+    },
+    {
+      "id": "419",
+      "name": "Bold Flame",
+      "colors": [
+        "#00CED1",
+        "#B0E0E6"
+      ],
+      "css": "linear-gradient(to right, #00CED1, #B0E0E6)"
+    },
+    {
+      "id": "420",
+      "name": "Deep Peak",
+      "colors": [
+        "#7FFF00",
+        "#F5F5DC"
+      ],
+      "css": "linear-gradient(to right, #7FFF00, #F5F5DC)"
+    },
+    {
+      "id": "421",
+      "name": "Dusky Mist",
+      "colors": [
+        "#8FBC8F",
+        "#F0FFF0"
+      ],
+      "css": "linear-gradient(to right, #8FBC8F, #F0FFF0)"
+    },
+    {
+      "id": "422",
+      "name": "Bold Dusk",
+      "colors": [
+        "#00FF00",
+        "#FF6B6B"
+      ],
+      "css": "linear-gradient(to right, #00FF00, #FF6B6B)"
+    },
+    {
+      "id": "423",
+      "name": "Dreamy Wave",
+      "colors": [
+        "#FFA500",
+        "#000000"
+      ],
+      "css": "linear-gradient(to right, #FFA500, #000000)"
+    },
+    {
+      "id": "424",
+      "name": "Serene Mountain",
+      "colors": [
+        "#00CED1",
+        "#00BFFF"
+      ],
+      "css": "linear-gradient(to right, #00CED1, #00BFFF)"
+    },
+    {
+      "id": "425",
+      "name": "Sunny Ice",
+      "colors": [
+        "#FFB6C1",
+        "#2E8B57"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #2E8B57)"
+    },
+    {
+      "id": "426",
+      "name": "Pastel River",
+      "colors": [
+        "#F0E68C",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #F0E68C, #2F4F4F)"
+    },
+    {
+      "id": "427",
+      "name": "Deep Rain",
+      "colors": [
+        "#FF1493",
+        "#7FFF00"
+      ],
+      "css": "linear-gradient(to right, #FF1493, #7FFF00)"
+    },
+    {
+      "id": "428",
+      "name": "Warm Day",
+      "colors": [
+        "#98FB98",
+        "#00FFFF"
+      ],
+      "css": "linear-gradient(to right, #98FB98, #00FFFF)"
+    },
+    {
+      "id": "429",
+      "name": "Cool Canyon",
+      "colors": [
+        "#B0E0E6",
+        "#FF8C00"
+      ],
+      "css": "linear-gradient(to right, #B0E0E6, #FF8C00)"
+    },
+    {
+      "id": "430",
+      "name": "Shadowy Sky",
+      "colors": [
+        "#556B2F",
+        "#4B0082"
+      ],
+      "css": "linear-gradient(to right, #556B2F, #4B0082)"
+    },
+    {
+      "id": "431",
+      "name": "Rich Peak",
+      "colors": [
+        "#800000",
+        "#008080"
+      ],
+      "css": "linear-gradient(to right, #800000, #008080)"
+    },
+    {
+      "id": "432",
+      "name": "Pastel Peak",
+      "colors": [
+        "#FF1493",
+        "#00CED1"
+      ],
+      "css": "linear-gradient(to right, #FF1493, #00CED1)"
+    },
+    {
+      "id": "433",
+      "name": "Warm Flame",
+      "colors": [
+        "#2F4F4F",
+        "#DEB887"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #DEB887)"
+    },
+    {
+      "id": "434",
+      "name": "Electric River",
+      "colors": [
+        "#F5FFFA",
+        "#7FFF00"
+      ],
+      "css": "linear-gradient(to right, #F5FFFA, #7FFF00)"
+    },
+    {
+      "id": "435",
+      "name": "Frosty Canyon",
+      "colors": [
+        "#F5F5DC",
+        "#556B2F"
+      ],
+      "css": "linear-gradient(to right, #F5F5DC, #556B2F)"
+    },
+    {
+      "id": "436",
+      "name": "Dark Sky",
+      "colors": [
+        "#FFFF00",
+        "#98FB98"
+      ],
+      "css": "linear-gradient(to right, #FFFF00, #98FB98)"
+    },
+    {
+      "id": "437",
+      "name": "Deep Flame",
+      "colors": [
+        "#008080",
+        "#4B0082"
+      ],
+      "css": "linear-gradient(to right, #008080, #4B0082)"
+    },
+    {
+      "id": "438",
+      "name": "Soft Dawn",
+      "colors": [
+        "#2E8B57",
+        "#F0F8FF"
+      ],
+      "css": "linear-gradient(to right, #2E8B57, #F0F8FF)"
+    },
+    {
+      "id": "439",
+      "name": "Crystal Desert",
+      "colors": [
+        "#FF4500",
+        "#2E8B57"
+      ],
+      "css": "linear-gradient(to right, #FF4500, #2E8B57)"
+    },
+    {
+      "id": "440",
+      "name": "Shadowy Fog",
+      "colors": [
+        "#FFA500",
+        "#00FF00"
+      ],
+      "css": "linear-gradient(to right, #FFA500, #00FF00)"
+    },
+    {
+      "id": "442",
+      "name": "Soft Rainbow",
+      "colors": [
+        "#F0FFF0",
+        "#DEB887"
+      ],
+      "css": "linear-gradient(to right, #F0FFF0, #DEB887)"
+    },
+    {
+      "id": "443",
+      "name": "Electric Sunset",
+      "colors": [
+        "#F5F5DC",
+        "#FFFF00"
+      ],
+      "css": "linear-gradient(to right, #F5F5DC, #FFFF00)"
+    },
+    {
+      "id": "444",
+      "name": "Neon Desert",
+      "colors": [
+        "#F0E68C",
+        "#F0E68C"
+      ],
+      "css": "linear-gradient(to right, #F0E68C, #F0E68C)"
+    },
+    {
+      "id": "445",
+      "name": "Mellow Storm",
+      "colors": [
+        "#FF8C00",
+        "#40E0D0"
+      ],
+      "css": "linear-gradient(to right, #FF8C00, #40E0D0)"
+    },
+    {
+      "id": "446",
+      "name": "Luminous Cloud",
+      "colors": [
+        "#B0E0E6",
+        "#FFF0F5"
+      ],
+      "css": "linear-gradient(to right, #B0E0E6, #FFF0F5)"
+    },
+    {
+      "id": "447",
+      "name": "Deep Night",
+      "colors": [
+        "#2E8B57",
+        "#F0E68C"
+      ],
+      "css": "linear-gradient(to right, #2E8B57, #F0E68C)"
+    },
+    {
+      "id": "448",
+      "name": "Shadowy Breeze",
+      "colors": [
+        "#F5F5DC",
+        "#00CED1"
+      ],
+      "css": "linear-gradient(to right, #F5F5DC, #00CED1)"
+    },
+    {
+      "id": "449",
+      "name": "Bright Night",
+      "colors": [
+        "#FFFFF0",
+        "#000000"
+      ],
+      "css": "linear-gradient(to right, #FFFFF0, #000000)"
+    },
+    {
+      "id": "450",
+      "name": "Crystal Garden",
+      "colors": [
+        "#2E8B57",
+        "#556B2F"
+      ],
+      "css": "linear-gradient(to right, #2E8B57, #556B2F)"
+    },
+    {
+      "id": "451",
+      "name": "Neon Storm",
+      "colors": [
+        "#7FFF00",
+        "#00FFFF"
+      ],
+      "css": "linear-gradient(to right, #7FFF00, #00FFFF)"
+    },
+    {
+      "id": "452",
+      "name": "Intense Dawn",
+      "colors": [
+        "#40E0D0",
+        "#4B0082"
+      ],
+      "css": "linear-gradient(to right, #40E0D0, #4B0082)"
+    },
+    {
+      "id": "453",
+      "name": "Dark Storm",
+      "colors": [
+        "#F0E68C",
+        "#FF6B6B"
+      ],
+      "css": "linear-gradient(to right, #F0E68C, #FF6B6B)"
+    },
+    {
+      "id": "454",
+      "name": "Mellow Dawn",
+      "colors": [
+        "#FF6B6B",
+        "#F0F8FF"
+      ],
+      "css": "linear-gradient(to right, #FF6B6B, #F0F8FF)"
+    },
+    {
+      "id": "455",
+      "name": "Frosty River",
+      "colors": [
+        "#008080",
+        "#FFA500"
+      ],
+      "css": "linear-gradient(to right, #008080, #FFA500)"
+    },
+    {
+      "id": "456",
+      "name": "Rich Canyon",
+      "colors": [
+        "#556B2F",
+        "#556B2F"
+      ],
+      "css": "linear-gradient(to right, #556B2F, #556B2F)"
+    },
+    {
+      "id": "457",
+      "name": "Vibrant Ice",
+      "colors": [
+        "#FF1493",
+        "#B0E0E6"
+      ],
+      "css": "linear-gradient(to right, #FF1493, #B0E0E6)"
+    },
+    {
+      "id": "458",
+      "name": "Mystic Rain",
+      "colors": [
+        "#00FF00",
+        "#00FFFF"
+      ],
+      "css": "linear-gradient(to right, #00FF00, #00FFFF)"
+    },
+    {
+      "id": "459",
+      "name": "Vibrant Peak",
+      "colors": [
+        "#8B4513",
+        "#7FFF00"
+      ],
+      "css": "linear-gradient(to right, #8B4513, #7FFF00)"
+    },
+    {
+      "id": "460",
+      "name": "Tropical Star",
+      "colors": [
+        "#FF00FF",
+        "#0000FF"
+      ],
+      "css": "linear-gradient(to right, #FF00FF, #0000FF)"
+    },
+    {
+      "id": "461",
+      "name": "Electric Canyon",
+      "colors": [
+        "#FF4500",
+        "#FF8C00"
+      ],
+      "css": "linear-gradient(to right, #FF4500, #FF8C00)"
+    },
+    {
+      "id": "462",
+      "name": "Crystal Garden",
+      "colors": [
+        "#2F4F4F",
+        "#A0522D"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #A0522D)"
+    },
+    {
+      "id": "463",
+      "name": "Cool River",
+      "colors": [
+        "#FFB6C1",
+        "#B0E0E6"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #B0E0E6)"
+    },
+    {
+      "id": "464",
+      "name": "Intense Mist",
+      "colors": [
+        "#FF1493",
+        "#00CED1"
+      ],
+      "css": "linear-gradient(to right, #FF1493, #00CED1)"
+    },
+    {
+      "id": "465",
+      "name": "Dreamy Flame",
+      "colors": [
+        "#87CEEB",
+        "#8B4513"
+      ],
+      "css": "linear-gradient(to right, #87CEEB, #8B4513)"
+    },
+    {
+      "id": "466",
+      "name": "Cosmic Sky",
+      "colors": [
+        "#A0522D",
+        "#F0E68C"
+      ],
+      "css": "linear-gradient(to right, #A0522D, #F0E68C)"
+    },
+    {
+      "id": "467",
+      "name": "Serene Sky",
+      "colors": [
+        "#FF00FF",
+        "#8B4513"
+      ],
+      "css": "linear-gradient(to right, #FF00FF, #8B4513)"
+    },
+    {
+      "id": "468",
+      "name": "Luminous Rainbow",
+      "colors": [
+        "#FFF0F5",
+        "#F5F5DC"
+      ],
+      "css": "linear-gradient(to right, #FFF0F5, #F5F5DC)"
+    },
+    {
+      "id": "469",
+      "name": "Shadowy Mist",
+      "colors": [
+        "#F5FFFA",
+        "#0000FF"
+      ],
+      "css": "linear-gradient(to right, #F5FFFA, #0000FF)"
+    },
+    {
+      "id": "470",
+      "name": "Cosmic Aurora",
+      "colors": [
+        "#FFF0F5",
+        "#FF4500"
+      ],
+      "css": "linear-gradient(to right, #FFF0F5, #FF4500)"
+    },
+    {
+      "id": "471",
+      "name": "Serene Aurora",
+      "colors": [
+        "#DDA0DD",
+        "#FF1493"
+      ],
+      "css": "linear-gradient(to right, #DDA0DD, #FF1493)"
+    },
+    {
+      "id": "472",
+      "name": "Dreamy Garden",
+      "colors": [
+        "#F0E68C",
+        "#800000"
+      ],
+      "css": "linear-gradient(to right, #F0E68C, #800000)"
+    },
+    {
+      "id": "473",
+      "name": "Pastel Peak",
+      "colors": [
+        "#FF1493",
+        "#FF0000"
+      ],
+      "css": "linear-gradient(to right, #FF1493, #FF0000)"
+    },
+    {
+      "id": "474",
+      "name": "Glowing Ice",
+      "colors": [
+        "#FFFFF0",
+        "#DEB887"
+      ],
+      "css": "linear-gradient(to right, #FFFFF0, #DEB887)"
+    },
+    {
+      "id": "475",
+      "name": "Frosty Breeze",
+      "colors": [
+        "#FF00FF",
+        "#800000"
+      ],
+      "css": "linear-gradient(to right, #FF00FF, #800000)"
+    },
+    {
+      "id": "476",
+      "name": "Mystic Moon",
+      "colors": [
+        "#FF0000",
+        "#F5F5DC"
+      ],
+      "css": "linear-gradient(to right, #FF0000, #F5F5DC)"
+    },
+    {
+      "id": "477",
+      "name": "Pale Star",
+      "colors": [
+        "#F5FFFA",
+        "#FFFFF0"
+      ],
+      "css": "linear-gradient(to right, #F5FFFA, #FFFFF0)"
+    },
+    {
+      "id": "478",
+      "name": "Bright Moon",
+      "colors": [
+        "#4169E1",
+        "#DDA0DD"
+      ],
+      "css": "linear-gradient(to right, #4169E1, #DDA0DD)"
+    },
+    {
+      "id": "479",
+      "name": "Light River",
+      "colors": [
+        "#0000FF",
+        "#8B4513"
+      ],
+      "css": "linear-gradient(to right, #0000FF, #8B4513)"
+    },
+    {
+      "id": "480",
+      "name": "Radiant Aurora",
+      "colors": [
+        "#F5F5DC",
+        "#2E8B57"
+      ],
+      "css": "linear-gradient(to right, #F5F5DC, #2E8B57)"
+    },
+    {
+      "id": "481",
+      "name": "Mellow Garden",
+      "colors": [
+        "#008080",
+        "#00FF00"
+      ],
+      "css": "linear-gradient(to right, #008080, #00FF00)"
+    },
+    {
+      "id": "482",
+      "name": "Gentle Ice",
+      "colors": [
+        "#00FFFF",
+        "#98FB98"
+      ],
+      "css": "linear-gradient(to right, #00FFFF, #98FB98)"
+    },
+    {
+      "id": "483",
+      "name": "Pale Fog",
+      "colors": [
+        "#F5FFFA",
+        "#4B0082"
+      ],
+      "css": "linear-gradient(to right, #F5FFFA, #4B0082)"
+    },
+    {
+      "id": "484",
+      "name": "Sunny Day",
+      "colors": [
+        "#FFFFF0",
+        "#FFFFF0"
+      ],
+      "css": "linear-gradient(to right, #FFFFF0, #FFFFF0)"
+    },
+    {
+      "id": "485",
+      "name": "Rich Forest",
+      "colors": [
+        "#B0E0E6",
+        "#F5F5DC"
+      ],
+      "css": "linear-gradient(to right, #B0E0E6, #F5F5DC)"
+    },
+    {
+      "id": "486",
+      "name": "Dark Mist",
+      "colors": [
+        "#FF6B6B",
+        "#FF00FF"
+      ],
+      "css": "linear-gradient(to right, #FF6B6B, #FF00FF)"
+    },
+    {
+      "id": "487",
+      "name": "Dusky Sunset",
+      "colors": [
+        "#98FB98",
+        "#4169E1"
+      ],
+      "css": "linear-gradient(to right, #98FB98, #4169E1)"
+    },
+    {
+      "id": "488",
+      "name": "Dreamy Mist",
+      "colors": [
+        "#F0FFF0",
+        "#000000"
+      ],
+      "css": "linear-gradient(to right, #F0FFF0, #000000)"
+    },
+    {
+      "id": "489",
+      "name": "Pale Meadow",
+      "colors": [
+        "#800000",
+        "#556B2F"
+      ],
+      "css": "linear-gradient(to right, #800000, #556B2F)"
+    },
+    {
+      "id": "490",
+      "name": "Cosmic Moon",
+      "colors": [
+        "#98FB98",
+        "#800000"
+      ],
+      "css": "linear-gradient(to right, #98FB98, #800000)"
+    },
+    {
+      "id": "491",
+      "name": "Glowing Sky",
+      "colors": [
+        "#F0F8FF",
+        "#40E0D0"
+      ],
+      "css": "linear-gradient(to right, #F0F8FF, #40E0D0)"
+    },
+    {
+      "id": "492",
+      "name": "Dark Lake",
+      "colors": [
+        "#008080",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #008080, #2F4F4F)"
+    },
+    {
+      "id": "493",
+      "name": "Bold Meadow",
+      "colors": [
+        "#DEB887",
+        "#FF6B6B"
+      ],
+      "css": "linear-gradient(to right, #DEB887, #FF6B6B)"
+    },
+    {
+      "id": "494",
+      "name": "Shadowy Valley",
+      "colors": [
+        "#F0E68C",
+        "#8FBC8F"
+      ],
+      "css": "linear-gradient(to right, #F0E68C, #8FBC8F)"
+    },
+    {
+      "id": "495",
+      "name": "Gentle Moon",
+      "colors": [
+        "#7FFF00",
+        "#FF0000"
+      ],
+      "css": "linear-gradient(to right, #7FFF00, #FF0000)"
+    },
+    {
+      "id": "496",
+      "name": "Crystal Canyon",
+      "colors": [
+        "#DEB887",
+        "#B0E0E6"
+      ],
+      "css": "linear-gradient(to right, #DEB887, #B0E0E6)"
+    },
+    {
+      "id": "497",
+      "name": "Dusky Sunset",
+      "colors": [
+        "#2E8B57",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #2E8B57, #2F4F4F)"
+    },
+    {
+      "id": "498",
+      "name": "Tropical Mist",
+      "colors": [
+        "#00FFFF",
+        "#00CED1"
+      ],
+      "css": "linear-gradient(to right, #00FFFF, #00CED1)"
+    },
+    {
+      "id": "499",
+      "name": "Intense Desert",
+      "colors": [
+        "#2E8B57",
+        "#008080"
+      ],
+      "css": "linear-gradient(to right, #2E8B57, #008080)"
+    },
+    {
+      "id": "500",
+      "name": "Crystal Desert",
+      "colors": [
+        "#F5FFFA",
+        "#FF0000"
+      ],
+      "css": "linear-gradient(to right, #F5FFFA, #FF0000)"
+    },
+    {
+      "id": "501",
+      "name": "Shadowy Star",
+      "colors": [
+        "#F0E68C",
+        "#000000"
+      ],
+      "css": "linear-gradient(to right, #F0E68C, #000000)"
+    },
+    {
+      "id": "502",
+      "name": "Light Ocean",
+      "colors": [
+        "#4169E1",
+        "#00FF00"
+      ],
+      "css": "linear-gradient(to right, #4169E1, #00FF00)"
+    },
+    {
+      "id": "503",
+      "name": "Glowing Night",
+      "colors": [
+        "#00BFFF",
+        "#B0E0E6"
+      ],
+      "css": "linear-gradient(to right, #00BFFF, #B0E0E6)"
+    },
+    {
+      "id": "504",
+      "name": "Sunny Wave",
+      "colors": [
+        "#A0522D",
+        "#F0FFF0"
+      ],
+      "css": "linear-gradient(to right, #A0522D, #F0FFF0)"
+    },
+    {
+      "id": "505",
+      "name": "Dreamy Sunset",
+      "colors": [
+        "#FFFFF0",
+        "#FFFFF0"
+      ],
+      "css": "linear-gradient(to right, #FFFFF0, #FFFFF0)"
+    },
+    {
+      "id": "506",
+      "name": "Dark Moon",
+      "colors": [
+        "#8B4513",
+        "#0000FF"
+      ],
+      "css": "linear-gradient(to right, #8B4513, #0000FF)"
+    },
+    {
+      "id": "507",
+      "name": "Glowing Rainbow",
+      "colors": [
+        "#DEB887",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #DEB887, #2F4F4F)"
+    },
+    {
+      "id": "508",
+      "name": "Dreamy Desert",
+      "colors": [
+        "#2F4F4F",
+        "#FF1493"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #FF1493)"
+    },
+    {
+      "id": "509",
+      "name": "Sunny Valley",
+      "colors": [
+        "#98FB98",
+        "#98FB98"
+      ],
+      "css": "linear-gradient(to right, #98FB98, #98FB98)"
+    },
+    {
+      "id": "510",
+      "name": "Warm Flame",
+      "colors": [
+        "#98FB98",
+        "#0000FF"
+      ],
+      "css": "linear-gradient(to right, #98FB98, #0000FF)"
+    },
+    {
+      "id": "511",
+      "name": "Dusky Dawn",
+      "colors": [
+        "#FF1493",
+        "#F0FFF0"
+      ],
+      "css": "linear-gradient(to right, #FF1493, #F0FFF0)"
+    },
+    {
+      "id": "512",
+      "name": "Gentle Dusk",
+      "colors": [
+        "#FFF0F5",
+        "#F0FFF0"
+      ],
+      "css": "linear-gradient(to right, #FFF0F5, #F0FFF0)"
+    },
+    {
+      "id": "513",
+      "name": "Dark Canyon",
+      "colors": [
+        "#8FBC8F",
+        "#FF0000"
+      ],
+      "css": "linear-gradient(to right, #8FBC8F, #FF0000)"
+    },
+    {
+      "id": "514",
+      "name": "Tropical Night",
+      "colors": [
+        "#FF8C00",
+        "#556B2F"
+      ],
+      "css": "linear-gradient(to right, #FF8C00, #556B2F)"
+    },
+    {
+      "id": "515",
+      "name": "Dark Cloud",
+      "colors": [
+        "#87CEEB",
+        "#F0E68C"
+      ],
+      "css": "linear-gradient(to right, #87CEEB, #F0E68C)"
+    },
+    {
+      "id": "516",
+      "name": "Bright Dawn",
+      "colors": [
+        "#F5FFFA",
+        "#8B4513"
+      ],
+      "css": "linear-gradient(to right, #F5FFFA, #8B4513)"
+    },
+    {
+      "id": "517",
+      "name": "Electric Rainbow",
+      "colors": [
+        "#A0522D",
+        "#FF00FF"
+      ],
+      "css": "linear-gradient(to right, #A0522D, #FF00FF)"
+    },
+    {
+      "id": "518",
+      "name": "Mystic Canyon",
+      "colors": [
+        "#DEB887",
+        "#B0E0E6"
+      ],
+      "css": "linear-gradient(to right, #DEB887, #B0E0E6)"
+    },
+    {
+      "id": "519",
+      "name": "Sunny Aurora",
+      "colors": [
+        "#FFFFF0",
+        "#A0522D"
+      ],
+      "css": "linear-gradient(to right, #FFFFF0, #A0522D)"
+    },
+    {
+      "id": "520",
+      "name": "Luminous Star",
+      "colors": [
+        "#2E8B57",
+        "#00FF00"
+      ],
+      "css": "linear-gradient(to right, #2E8B57, #00FF00)"
+    },
+    {
+      "id": "521",
+      "name": "Radiant Mountain",
+      "colors": [
+        "#FFFF00",
+        "#7FFF00"
+      ],
+      "css": "linear-gradient(to right, #FFFF00, #7FFF00)"
+    },
+    {
+      "id": "522",
+      "name": "Shadowy Aurora",
+      "colors": [
+        "#40E0D0",
+        "#F0F8FF"
+      ],
+      "css": "linear-gradient(to right, #40E0D0, #F0F8FF)"
+    },
+    {
+      "id": "523",
+      "name": "Shadowy Rainbow",
+      "colors": [
+        "#8FBC8F",
+        "#6B8E23"
+      ],
+      "css": "linear-gradient(to right, #8FBC8F, #6B8E23)"
+    },
+    {
+      "id": "524",
+      "name": "Vibrant Mountain",
+      "colors": [
+        "#4169E1",
+        "#00CED1"
+      ],
+      "css": "linear-gradient(to right, #4169E1, #00CED1)"
+    },
+    {
+      "id": "525",
+      "name": "Dreamy Night",
+      "colors": [
+        "#0000FF",
+        "#F5F5DC"
+      ],
+      "css": "linear-gradient(to right, #0000FF, #F5F5DC)"
+    },
+    {
+      "id": "526",
+      "name": "Radiant Sky",
+      "colors": [
+        "#2E8B57",
+        "#FF4500"
+      ],
+      "css": "linear-gradient(to right, #2E8B57, #FF4500)"
+    },
+    {
+      "id": "527",
+      "name": "Radiant Meadow",
+      "colors": [
+        "#F0FFF0",
+        "#DDA0DD"
+      ],
+      "css": "linear-gradient(to right, #F0FFF0, #DDA0DD)"
+    },
+    {
+      "id": "528",
+      "name": "Dark Mist",
+      "colors": [
+        "#FFD700",
+        "#00BFFF"
+      ],
+      "css": "linear-gradient(to right, #FFD700, #00BFFF)"
+    },
+    {
+      "id": "530",
+      "name": "Glowing Night",
+      "colors": [
+        "#4B0082",
+        "#F5F5DC"
+      ],
+      "css": "linear-gradient(to right, #4B0082, #F5F5DC)"
+    },
+    {
+      "id": "531",
+      "name": "Soft Desert",
+      "colors": [
+        "#F0E68C",
+        "#FFF0F5"
+      ],
+      "css": "linear-gradient(to right, #F0E68C, #FFF0F5)"
+    },
+    {
+      "id": "532",
+      "name": "Gentle Breeze",
+      "colors": [
+        "#F5FFFA",
+        "#FFD700"
+      ],
+      "css": "linear-gradient(to right, #F5FFFA, #FFD700)"
+    },
+    {
+      "id": "533",
+      "name": "Gentle Dawn",
+      "colors": [
+        "#7FFF00",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #7FFF00, #2F4F4F)"
+    },
+    {
+      "id": "534",
+      "name": "Electric Day",
+      "colors": [
+        "#87CEEB",
+        "#FFFFF0"
+      ],
+      "css": "linear-gradient(to right, #87CEEB, #FFFFF0)"
+    },
+    {
+      "id": "535",
+      "name": "Radiant Canyon",
+      "colors": [
+        "#87CEEB",
+        "#FF1493"
+      ],
+      "css": "linear-gradient(to right, #87CEEB, #FF1493)"
+    },
+    {
+      "id": "536",
+      "name": "Pale Meadow",
+      "colors": [
+        "#FFD700",
+        "#F0FFF0"
+      ],
+      "css": "linear-gradient(to right, #FFD700, #F0FFF0)"
+    },
+    {
+      "id": "537",
+      "name": "Neon Lake",
+      "colors": [
+        "#FF6B6B",
+        "#40E0D0"
+      ],
+      "css": "linear-gradient(to right, #FF6B6B, #40E0D0)"
+    },
+    {
+      "id": "538",
+      "name": "Bold Star",
+      "colors": [
+        "#00FFFF",
+        "#DDA0DD"
+      ],
+      "css": "linear-gradient(to right, #00FFFF, #DDA0DD)"
+    },
+    {
+      "id": "539",
+      "name": "Vibrant Mountain",
+      "colors": [
+        "#6B8E23",
+        "#FF1493"
+      ],
+      "css": "linear-gradient(to right, #6B8E23, #FF1493)"
+    },
+    {
+      "id": "540",
+      "name": "Light Flame",
+      "colors": [
+        "#FFA500",
+        "#FFF0F5"
+      ],
+      "css": "linear-gradient(to right, #FFA500, #FFF0F5)"
+    },
+    {
+      "id": "541",
+      "name": "Deep Valley",
+      "colors": [
+        "#FFA500",
+        "#FF4500"
+      ],
+      "css": "linear-gradient(to right, #FFA500, #FF4500)"
+    },
+    {
+      "id": "542",
+      "name": "Bold Sky",
+      "colors": [
+        "#00FFFF",
+        "#87CEEB"
+      ],
+      "css": "linear-gradient(to right, #00FFFF, #87CEEB)"
+    },
+    {
+      "id": "543",
+      "name": "Light Desert",
+      "colors": [
+        "#8FBC8F",
+        "#7FFF00"
+      ],
+      "css": "linear-gradient(to right, #8FBC8F, #7FFF00)"
+    },
+    {
+      "id": "544",
+      "name": "Luminous Dusk",
+      "colors": [
+        "#FFF0F5",
+        "#00FF00"
+      ],
+      "css": "linear-gradient(to right, #FFF0F5, #00FF00)"
+    },
+    {
+      "id": "545",
+      "name": "Deep Wave",
+      "colors": [
+        "#DDA0DD",
+        "#FFF0F5"
+      ],
+      "css": "linear-gradient(to right, #DDA0DD, #FFF0F5)"
+    },
+    {
+      "id": "546",
+      "name": "Warm Dusk",
+      "colors": [
+        "#00BFFF",
+        "#F0F8FF"
+      ],
+      "css": "linear-gradient(to right, #00BFFF, #F0F8FF)"
+    },
+    {
+      "id": "547",
+      "name": "Warm Flame",
+      "colors": [
+        "#FF6B6B",
+        "#8FBC8F"
+      ],
+      "css": "linear-gradient(to right, #FF6B6B, #8FBC8F)"
+    },
+    {
+      "id": "548",
+      "name": "Electric Cloud",
+      "colors": [
+        "#F0FFF0",
+        "#A0522D"
+      ],
+      "css": "linear-gradient(to right, #F0FFF0, #A0522D)"
+    },
+    {
+      "id": "549",
+      "name": "Pale Star",
+      "colors": [
+        "#F0E68C",
+        "#FF00FF"
+      ],
+      "css": "linear-gradient(to right, #F0E68C, #FF00FF)"
+    },
+    {
+      "id": "550",
+      "name": "Cosmic Peak",
+      "colors": [
+        "#008080",
+        "#F5F5DC"
+      ],
+      "css": "linear-gradient(to right, #008080, #F5F5DC)"
+    },
+    {
+      "id": "551",
+      "name": "Mellow Forest",
+      "colors": [
+        "#2F4F4F",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #2F4F4F)"
+    },
+    {
+      "id": "552",
+      "name": "Soft Rainbow",
+      "colors": [
+        "#FF1493",
+        "#FFF0F5"
+      ],
+      "css": "linear-gradient(to right, #FF1493, #FFF0F5)"
+    },
+    {
+      "id": "553",
+      "name": "Serene Ice",
+      "colors": [
+        "#7FFF00",
+        "#8B4513"
+      ],
+      "css": "linear-gradient(to right, #7FFF00, #8B4513)"
+    },
+    {
+      "id": "554",
+      "name": "Crystal Lake",
+      "colors": [
+        "#FF6B6B",
+        "#2E8B57"
+      ],
+      "css": "linear-gradient(to right, #FF6B6B, #2E8B57)"
+    },
+    {
+      "id": "555",
+      "name": "Intense Valley",
+      "colors": [
+        "#F5F5DC",
+        "#000000"
+      ],
+      "css": "linear-gradient(to right, #F5F5DC, #000000)"
+    },
+    {
+      "id": "556",
+      "name": "Mystic Cloud",
+      "colors": [
+        "#4169E1",
+        "#7FFF00"
+      ],
+      "css": "linear-gradient(to right, #4169E1, #7FFF00)"
+    },
+    {
+      "id": "557",
+      "name": "Gentle Lake",
+      "colors": [
+        "#FFFF00",
+        "#0000FF"
+      ],
+      "css": "linear-gradient(to right, #FFFF00, #0000FF)"
+    },
+    {
+      "id": "558",
+      "name": "Dreamy Flame",
+      "colors": [
+        "#FFB6C1",
+        "#00FF00"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #00FF00)"
+    },
+    {
+      "id": "559",
+      "name": "Dark River",
+      "colors": [
+        "#00CED1",
+        "#40E0D0"
+      ],
+      "css": "linear-gradient(to right, #00CED1, #40E0D0)"
+    },
+    {
+      "id": "560",
+      "name": "Glowing Peak",
+      "colors": [
+        "#4B0082",
+        "#DDA0DD"
+      ],
+      "css": "linear-gradient(to right, #4B0082, #DDA0DD)"
+    },
+    {
+      "id": "561",
+      "name": "Intense Ocean",
+      "colors": [
+        "#000000",
+        "#F0F8FF"
+      ],
+      "css": "linear-gradient(to right, #000000, #F0F8FF)"
+    },
+    {
+      "id": "562",
+      "name": "Intense Forest",
+      "colors": [
+        "#0000FF",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #0000FF, #2F4F4F)"
+    },
+    {
+      "id": "563",
+      "name": "Light Dusk",
+      "colors": [
+        "#FF6B6B",
+        "#FF0000"
+      ],
+      "css": "linear-gradient(to right, #FF6B6B, #FF0000)"
+    },
+    {
+      "id": "564",
+      "name": "Serene Peak",
+      "colors": [
+        "#FFB6C1",
+        "#A0522D"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #A0522D)"
+    },
+    {
+      "id": "565",
+      "name": "Bold Desert",
+      "colors": [
+        "#F5FFFA",
+        "#FFFF00"
+      ],
+      "css": "linear-gradient(to right, #F5FFFA, #FFFF00)"
+    },
+    {
+      "id": "566",
+      "name": "Deep Valley",
+      "colors": [
+        "#8B4513",
+        "#008080"
+      ],
+      "css": "linear-gradient(to right, #8B4513, #008080)"
+    },
+    {
+      "id": "567",
+      "name": "Dreamy River",
+      "colors": [
+        "#FF0000",
+        "#40E0D0"
+      ],
+      "css": "linear-gradient(to right, #FF0000, #40E0D0)"
+    },
+    {
+      "id": "568",
+      "name": "Soft Peak",
+      "colors": [
+        "#F0F8FF",
+        "#F0FFF0"
+      ],
+      "css": "linear-gradient(to right, #F0F8FF, #F0FFF0)"
+    },
+    {
+      "id": "569",
+      "name": "Bright Lake",
+      "colors": [
+        "#4B0082",
+        "#B0E0E6"
+      ],
+      "css": "linear-gradient(to right, #4B0082, #B0E0E6)"
+    },
+    {
+      "id": "570",
+      "name": "Intense Day",
+      "colors": [
+        "#FFD700",
+        "#F0FFF0"
+      ],
+      "css": "linear-gradient(to right, #FFD700, #F0FFF0)"
+    },
+    {
+      "id": "571",
+      "name": "Radiant Ocean",
+      "colors": [
+        "#FF4500",
+        "#40E0D0"
+      ],
+      "css": "linear-gradient(to right, #FF4500, #40E0D0)"
+    },
+    {
+      "id": "572",
+      "name": "Neon Dawn",
+      "colors": [
+        "#00FF00",
+        "#7FFF00"
+      ],
+      "css": "linear-gradient(to right, #00FF00, #7FFF00)"
+    },
+    {
+      "id": "573",
+      "name": "Shadowy Wave",
+      "colors": [
+        "#F0E68C",
+        "#7FFF00"
+      ],
+      "css": "linear-gradient(to right, #F0E68C, #7FFF00)"
+    },
+    {
+      "id": "574",
+      "name": "Glowing Forest",
+      "colors": [
+        "#FFB6C1",
+        "#FFF0F5"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #FFF0F5)"
+    },
+    {
+      "id": "575",
+      "name": "Rich River",
+      "colors": [
+        "#F0F8FF",
+        "#FF4500"
+      ],
+      "css": "linear-gradient(to right, #F0F8FF, #FF4500)"
+    },
+    {
+      "id": "576",
+      "name": "Intense Lake",
+      "colors": [
+        "#2F4F4F",
+        "#FFFFF0"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #FFFFF0)"
+    },
+    {
+      "id": "577",
+      "name": "Bright Breeze",
+      "colors": [
+        "#6B8E23",
+        "#FFB6C1"
+      ],
+      "css": "linear-gradient(to right, #6B8E23, #FFB6C1)"
+    },
+    {
+      "id": "578",
+      "name": "Sunny Lake",
+      "colors": [
+        "#000000",
+        "#7FFF00"
+      ],
+      "css": "linear-gradient(to right, #000000, #7FFF00)"
+    },
+    {
+      "id": "579",
+      "name": "Sunny Cloud",
+      "colors": [
+        "#F0FFF0",
+        "#0000FF"
+      ],
+      "css": "linear-gradient(to right, #F0FFF0, #0000FF)"
+    },
+    {
+      "id": "580",
+      "name": "Pale Day",
+      "colors": [
+        "#F0E68C",
+        "#FFD700"
+      ],
+      "css": "linear-gradient(to right, #F0E68C, #FFD700)"
+    },
+    {
+      "id": "581",
+      "name": "Crystal Day",
+      "colors": [
+        "#2F4F4F",
+        "#FFFF00"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #FFFF00)"
+    },
+    {
+      "id": "582",
+      "name": "Sunny Wave",
+      "colors": [
+        "#00BFFF",
+        "#4B0082"
+      ],
+      "css": "linear-gradient(to right, #00BFFF, #4B0082)"
+    },
+    {
+      "id": "583",
+      "name": "Mellow Flame",
+      "colors": [
+        "#4169E1",
+        "#FFD700"
+      ],
+      "css": "linear-gradient(to right, #4169E1, #FFD700)"
+    },
+    {
+      "id": "584",
+      "name": "Electric Peak",
+      "colors": [
+        "#40E0D0",
+        "#8FBC8F"
+      ],
+      "css": "linear-gradient(to right, #40E0D0, #8FBC8F)"
+    },
+    {
+      "id": "585",
+      "name": "Bold Moon",
+      "colors": [
+        "#FFB6C1",
+        "#008080"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #008080)"
+    },
+    {
+      "id": "586",
+      "name": "Neon Storm",
+      "colors": [
+        "#B0E0E6",
+        "#00FF00"
+      ],
+      "css": "linear-gradient(to right, #B0E0E6, #00FF00)"
+    },
+    {
+      "id": "587",
+      "name": "Deep Star",
+      "colors": [
+        "#FF1493",
+        "#FFFF00"
+      ],
+      "css": "linear-gradient(to right, #FF1493, #FFFF00)"
+    },
+    {
+      "id": "588",
+      "name": "Bold Moon",
+      "colors": [
+        "#FF0000",
+        "#8FBC8F"
+      ],
+      "css": "linear-gradient(to right, #FF0000, #8FBC8F)"
+    },
+    {
+      "id": "589",
+      "name": "Glowing Night",
+      "colors": [
+        "#B0E0E6",
+        "#F5F5DC"
+      ],
+      "css": "linear-gradient(to right, #B0E0E6, #F5F5DC)"
+    },
+    {
+      "id": "590",
+      "name": "Cosmic Dusk",
+      "colors": [
+        "#DEB887",
+        "#008080"
+      ],
+      "css": "linear-gradient(to right, #DEB887, #008080)"
+    },
+    {
+      "id": "591",
+      "name": "Dusky Flame",
+      "colors": [
+        "#6B8E23",
+        "#556B2F"
+      ],
+      "css": "linear-gradient(to right, #6B8E23, #556B2F)"
+    },
+    {
+      "id": "592",
+      "name": "Serene River",
+      "colors": [
+        "#FFFF00",
+        "#FF8C00"
+      ],
+      "css": "linear-gradient(to right, #FFFF00, #FF8C00)"
+    },
+    {
+      "id": "593",
+      "name": "Radiant Canyon",
+      "colors": [
+        "#FF8C00",
+        "#800000"
+      ],
+      "css": "linear-gradient(to right, #FF8C00, #800000)"
+    },
+    {
+      "id": "594",
+      "name": "Gentle Aurora",
+      "colors": [
+        "#00FF00",
+        "#FFFF00"
+      ],
+      "css": "linear-gradient(to right, #00FF00, #FFFF00)"
+    },
+    {
+      "id": "595",
+      "name": "Bold Lake",
+      "colors": [
+        "#00FFFF",
+        "#556B2F"
+      ],
+      "css": "linear-gradient(to right, #00FFFF, #556B2F)"
+    },
+    {
+      "id": "596",
+      "name": "Mystic Canyon",
+      "colors": [
+        "#8FBC8F",
+        "#FF00FF"
+      ],
+      "css": "linear-gradient(to right, #8FBC8F, #FF00FF)"
+    },
+    {
+      "id": "597",
+      "name": "Crystal Breeze",
+      "colors": [
+        "#87CEEB",
+        "#556B2F"
+      ],
+      "css": "linear-gradient(to right, #87CEEB, #556B2F)"
+    },
+    {
+      "id": "598",
+      "name": "Rich Meadow",
+      "colors": [
+        "#800000",
+        "#800000"
+      ],
+      "css": "linear-gradient(to right, #800000, #800000)"
+    },
+    {
+      "id": "599",
+      "name": "Warm Rain",
+      "colors": [
+        "#00CED1",
+        "#F0F8FF"
+      ],
+      "css": "linear-gradient(to right, #00CED1, #F0F8FF)"
+    },
+    {
+      "id": "600",
+      "name": "Dreamy Night",
+      "colors": [
+        "#FFB6C1",
+        "#FF6B6B"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #FF6B6B)"
+    },
+    {
+      "id": "601",
+      "name": "Frosty Mountain",
+      "colors": [
+        "#00CED1",
+        "#FF8C00"
+      ],
+      "css": "linear-gradient(to right, #00CED1, #FF8C00)"
+    },
+    {
+      "id": "602",
+      "name": "Neon Forest",
+      "colors": [
+        "#B0E0E6",
+        "#00FF00"
+      ],
+      "css": "linear-gradient(to right, #B0E0E6, #00FF00)"
+    },
+    {
+      "id": "603",
+      "name": "Soft Dawn",
+      "colors": [
+        "#F5FFFA",
+        "#00FF00"
+      ],
+      "css": "linear-gradient(to right, #F5FFFA, #00FF00)"
+    },
+    {
+      "id": "604",
+      "name": "Electric Aurora",
+      "colors": [
+        "#FF00FF",
+        "#40E0D0"
+      ],
+      "css": "linear-gradient(to right, #FF00FF, #40E0D0)"
+    },
+    {
+      "id": "605",
+      "name": "Cosmic Flame",
+      "colors": [
+        "#FFA500",
+        "#FFB6C1"
+      ],
+      "css": "linear-gradient(to right, #FFA500, #FFB6C1)"
+    },
+    {
+      "id": "606",
+      "name": "Bright Sky",
+      "colors": [
+        "#FF4500",
+        "#F0E68C"
+      ],
+      "css": "linear-gradient(to right, #FF4500, #F0E68C)"
+    },
+    {
+      "id": "607",
+      "name": "Light Valley",
+      "colors": [
+        "#00CED1",
+        "#FFB6C1"
+      ],
+      "css": "linear-gradient(to right, #00CED1, #FFB6C1)"
+    },
+    {
+      "id": "608",
+      "name": "Soft Aurora",
+      "colors": [
+        "#6B8E23",
+        "#4B0082"
+      ],
+      "css": "linear-gradient(to right, #6B8E23, #4B0082)"
+    },
+    {
+      "id": "609",
+      "name": "Warm Dusk",
+      "colors": [
+        "#FFF0F5",
+        "#DDA0DD"
+      ],
+      "css": "linear-gradient(to right, #FFF0F5, #DDA0DD)"
+    },
+    {
+      "id": "610",
+      "name": "Warm Sky",
+      "colors": [
+        "#FF1493",
+        "#DEB887"
+      ],
+      "css": "linear-gradient(to right, #FF1493, #DEB887)"
+    },
+    {
+      "id": "611",
+      "name": "Gentle Ice",
+      "colors": [
+        "#DDA0DD",
+        "#FFFFF0"
+      ],
+      "css": "linear-gradient(to right, #DDA0DD, #FFFFF0)"
+    },
+    {
+      "id": "612",
+      "name": "Tropical Moon",
+      "colors": [
+        "#F5FFFA",
+        "#8B4513"
+      ],
+      "css": "linear-gradient(to right, #F5FFFA, #8B4513)"
+    },
+    {
+      "id": "613",
+      "name": "Tropical Mountain",
+      "colors": [
+        "#A0522D",
+        "#556B2F"
+      ],
+      "css": "linear-gradient(to right, #A0522D, #556B2F)"
+    },
+    {
+      "id": "614",
+      "name": "Soft Flame",
+      "colors": [
+        "#87CEEB",
+        "#FFFF00"
+      ],
+      "css": "linear-gradient(to right, #87CEEB, #FFFF00)"
+    },
+    {
+      "id": "615",
+      "name": "Glowing Night",
+      "colors": [
+        "#FFF0F5",
+        "#FFFF00"
+      ],
+      "css": "linear-gradient(to right, #FFF0F5, #FFFF00)"
+    },
+    {
+      "id": "616",
+      "name": "Mellow Star",
+      "colors": [
+        "#4169E1",
+        "#FFB6C1"
+      ],
+      "css": "linear-gradient(to right, #4169E1, #FFB6C1)"
+    },
+    {
+      "id": "618",
+      "name": "Neon Forest",
+      "colors": [
+        "#40E0D0",
+        "#FFF0F5"
+      ],
+      "css": "linear-gradient(to right, #40E0D0, #FFF0F5)"
+    },
+    {
+      "id": "619",
+      "name": "Warm Ocean",
+      "colors": [
+        "#FFF0F5",
+        "#F0FFF0"
+      ],
+      "css": "linear-gradient(to right, #FFF0F5, #F0FFF0)"
+    },
+    {
+      "id": "620",
+      "name": "Rich Valley",
+      "colors": [
+        "#4169E1",
+        "#2E8B57"
+      ],
+      "css": "linear-gradient(to right, #4169E1, #2E8B57)"
+    },
+    {
+      "id": "621",
+      "name": "Gentle Moon",
+      "colors": [
+        "#F0FFF0",
+        "#F0E68C"
+      ],
+      "css": "linear-gradient(to right, #F0FFF0, #F0E68C)"
+    },
+    {
+      "id": "622",
+      "name": "Glowing Rainbow",
+      "colors": [
+        "#8FBC8F",
+        "#FFF0F5"
+      ],
+      "css": "linear-gradient(to right, #8FBC8F, #FFF0F5)"
+    },
+    {
+      "id": "623",
+      "name": "Frosty Forest",
+      "colors": [
+        "#F0FFF0",
+        "#6B8E23"
+      ],
+      "css": "linear-gradient(to right, #F0FFF0, #6B8E23)"
+    },
+    {
+      "id": "624",
+      "name": "Glowing Ice",
+      "colors": [
+        "#B0E0E6",
+        "#008080"
+      ],
+      "css": "linear-gradient(to right, #B0E0E6, #008080)"
+    },
+    {
+      "id": "625",
+      "name": "Bold Meadow",
+      "colors": [
+        "#FF1493",
+        "#2E8B57"
+      ],
+      "css": "linear-gradient(to right, #FF1493, #2E8B57)"
+    },
+    {
+      "id": "626",
+      "name": "Gentle Dawn",
+      "colors": [
+        "#556B2F",
+        "#FF6B6B"
+      ],
+      "css": "linear-gradient(to right, #556B2F, #FF6B6B)"
+    },
+    {
+      "id": "627",
+      "name": "Bold Rainbow",
+      "colors": [
+        "#2E8B57",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #2E8B57, #2F4F4F)"
+    },
+    {
+      "id": "628",
+      "name": "Electric Breeze",
+      "colors": [
+        "#0000FF",
+        "#87CEEB"
+      ],
+      "css": "linear-gradient(to right, #0000FF, #87CEEB)"
+    },
+    {
+      "id": "629",
+      "name": "Cosmic Ice",
+      "colors": [
+        "#FFA500",
+        "#DDA0DD"
+      ],
+      "css": "linear-gradient(to right, #FFA500, #DDA0DD)"
+    },
+    {
+      "id": "630",
+      "name": "Rich Wave",
+      "colors": [
+        "#FFFF00",
+        "#8FBC8F"
+      ],
+      "css": "linear-gradient(to right, #FFFF00, #8FBC8F)"
+    },
+    {
+      "id": "631",
+      "name": "Electric Mist",
+      "colors": [
+        "#FF4500",
+        "#00BFFF"
+      ],
+      "css": "linear-gradient(to right, #FF4500, #00BFFF)"
+    },
+    {
+      "id": "632",
+      "name": "Luminous Canyon",
+      "colors": [
+        "#FFA500",
+        "#6B8E23"
+      ],
+      "css": "linear-gradient(to right, #FFA500, #6B8E23)"
+    },
+    {
+      "id": "633",
+      "name": "Mellow Peak",
+      "colors": [
+        "#A0522D",
+        "#DDA0DD"
+      ],
+      "css": "linear-gradient(to right, #A0522D, #DDA0DD)"
+    },
+    {
+      "id": "634",
+      "name": "Mystic Storm",
+      "colors": [
+        "#2F4F4F",
+        "#87CEEB"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #87CEEB)"
+    },
+    {
+      "id": "635",
+      "name": "Vibrant Fog",
+      "colors": [
+        "#FF1493",
+        "#FF0000"
+      ],
+      "css": "linear-gradient(to right, #FF1493, #FF0000)"
+    },
+    {
+      "id": "636",
+      "name": "Luminous Dusk",
+      "colors": [
+        "#FF0000",
+        "#B0E0E6"
+      ],
+      "css": "linear-gradient(to right, #FF0000, #B0E0E6)"
+    },
+    {
+      "id": "637",
+      "name": "Neon Ocean",
+      "colors": [
+        "#B0E0E6",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #B0E0E6, #2F4F4F)"
+    },
+    {
+      "id": "638",
+      "name": "Dreamy Rainbow",
+      "colors": [
+        "#98FB98",
+        "#F0E68C"
+      ],
+      "css": "linear-gradient(to right, #98FB98, #F0E68C)"
+    },
+    {
+      "id": "639",
+      "name": "Cool Sky",
+      "colors": [
+        "#F0F8FF",
+        "#4B0082"
+      ],
+      "css": "linear-gradient(to right, #F0F8FF, #4B0082)"
+    },
+    {
+      "id": "640",
+      "name": "Radiant Sunset",
+      "colors": [
+        "#FFFF00",
+        "#7FFF00"
+      ],
+      "css": "linear-gradient(to right, #FFFF00, #7FFF00)"
+    },
+    {
+      "id": "641",
+      "name": "Gentle Fog",
+      "colors": [
+        "#FFF0F5",
+        "#008080"
+      ],
+      "css": "linear-gradient(to right, #FFF0F5, #008080)"
+    },
+    {
+      "id": "642",
+      "name": "Deep Peak",
+      "colors": [
+        "#F0F8FF",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #F0F8FF, #2F4F4F)"
+    },
+    {
+      "id": "643",
+      "name": "Intense Dusk",
+      "colors": [
+        "#F5F5DC",
+        "#0000FF"
+      ],
+      "css": "linear-gradient(to right, #F5F5DC, #0000FF)"
+    },
+    {
+      "id": "644",
+      "name": "Bold Sunset",
+      "colors": [
+        "#8FBC8F",
+        "#F5FFFA"
+      ],
+      "css": "linear-gradient(to right, #8FBC8F, #F5FFFA)"
+    },
+    {
+      "id": "645",
+      "name": "Mellow Mountain",
+      "colors": [
+        "#FF1493",
+        "#2E8B57"
+      ],
+      "css": "linear-gradient(to right, #FF1493, #2E8B57)"
+    },
+    {
+      "id": "646",
+      "name": "Rich Wave",
+      "colors": [
+        "#FFD700",
+        "#FF6B6B"
+      ],
+      "css": "linear-gradient(to right, #FFD700, #FF6B6B)"
+    },
+    {
+      "id": "647",
+      "name": "Cosmic Wave",
+      "colors": [
+        "#00BFFF",
+        "#8FBC8F"
+      ],
+      "css": "linear-gradient(to right, #00BFFF, #8FBC8F)"
+    },
+    {
+      "id": "648",
+      "name": "Dusky Mist",
+      "colors": [
+        "#6B8E23",
+        "#FF6B6B"
+      ],
+      "css": "linear-gradient(to right, #6B8E23, #FF6B6B)"
+    },
+    {
+      "id": "649",
+      "name": "Soft Mist",
+      "colors": [
+        "#FFD700",
+        "#8B4513"
+      ],
+      "css": "linear-gradient(to right, #FFD700, #8B4513)"
+    },
+    {
+      "id": "650",
+      "name": "Deep Garden",
+      "colors": [
+        "#FFF0F5",
+        "#A0522D"
+      ],
+      "css": "linear-gradient(to right, #FFF0F5, #A0522D)"
+    },
+    {
+      "id": "651",
+      "name": "Pale Storm",
+      "colors": [
+        "#DEB887",
+        "#A0522D"
+      ],
+      "css": "linear-gradient(to right, #DEB887, #A0522D)"
+    },
+    {
+      "id": "652",
+      "name": "Gentle Flame",
+      "colors": [
+        "#40E0D0",
+        "#FFF0F5"
+      ],
+      "css": "linear-gradient(to right, #40E0D0, #FFF0F5)"
+    },
+    {
+      "id": "653",
+      "name": "Crystal Sky",
+      "colors": [
+        "#F0FFF0",
+        "#F5F5DC"
+      ],
+      "css": "linear-gradient(to right, #F0FFF0, #F5F5DC)"
+    },
+    {
+      "id": "654",
+      "name": "Pastel Mist",
+      "colors": [
+        "#00FF00",
+        "#FF00FF"
+      ],
+      "css": "linear-gradient(to right, #00FF00, #FF00FF)"
+    },
+    {
+      "id": "655",
+      "name": "Pale Fog",
+      "colors": [
+        "#556B2F",
+        "#FF1493"
+      ],
+      "css": "linear-gradient(to right, #556B2F, #FF1493)"
+    },
+    {
+      "id": "656",
+      "name": "Bright Cloud",
+      "colors": [
+        "#F5F5DC",
+        "#000000"
+      ],
+      "css": "linear-gradient(to right, #F5F5DC, #000000)"
+    },
+    {
+      "id": "657",
+      "name": "Glowing Mist",
+      "colors": [
+        "#FFB6C1",
+        "#0000FF"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #0000FF)"
+    },
+    {
+      "id": "658",
+      "name": "Tropical Meadow",
+      "colors": [
+        "#A0522D",
+        "#4B0082"
+      ],
+      "css": "linear-gradient(to right, #A0522D, #4B0082)"
+    },
+    {
+      "id": "659",
+      "name": "Luminous River",
+      "colors": [
+        "#FFFF00",
+        "#FF8C00"
+      ],
+      "css": "linear-gradient(to right, #FFFF00, #FF8C00)"
+    },
+    {
+      "id": "660",
+      "name": "Neon Dusk",
+      "colors": [
+        "#87CEEB",
+        "#FF4500"
+      ],
+      "css": "linear-gradient(to right, #87CEEB, #FF4500)"
+    },
+    {
+      "id": "661",
+      "name": "Intense Ice",
+      "colors": [
+        "#00FFFF",
+        "#B0E0E6"
+      ],
+      "css": "linear-gradient(to right, #00FFFF, #B0E0E6)"
+    },
+    {
+      "id": "662",
+      "name": "Electric Cloud",
+      "colors": [
+        "#556B2F",
+        "#00FF00"
+      ],
+      "css": "linear-gradient(to right, #556B2F, #00FF00)"
+    },
+    {
+      "id": "663",
+      "name": "Intense Flame",
+      "colors": [
+        "#800000",
+        "#2E8B57"
+      ],
+      "css": "linear-gradient(to right, #800000, #2E8B57)"
+    },
+    {
+      "id": "664",
+      "name": "Crystal Mountain",
+      "colors": [
+        "#FF1493",
+        "#0000FF"
+      ],
+      "css": "linear-gradient(to right, #FF1493, #0000FF)"
+    },
+    {
+      "id": "665",
+      "name": "Bright Desert",
+      "colors": [
+        "#FFFFF0",
+        "#F5F5DC"
+      ],
+      "css": "linear-gradient(to right, #FFFFF0, #F5F5DC)"
+    },
+    {
+      "id": "666",
+      "name": "Mystic Sunset",
+      "colors": [
+        "#2F4F4F",
+        "#556B2F"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #556B2F)"
+    },
+    {
+      "id": "667",
+      "name": "Luminous Aurora",
+      "colors": [
+        "#00CED1",
+        "#000000"
+      ],
+      "css": "linear-gradient(to right, #00CED1, #000000)"
+    },
+    {
+      "id": "668",
+      "name": "Deep Dawn",
+      "colors": [
+        "#F0F8FF",
+        "#4B0082"
+      ],
+      "css": "linear-gradient(to right, #F0F8FF, #4B0082)"
+    },
+    {
+      "id": "669",
+      "name": "Cool Mist",
+      "colors": [
+        "#800000",
+        "#FF4500"
+      ],
+      "css": "linear-gradient(to right, #800000, #FF4500)"
+    },
+    {
+      "id": "670",
+      "name": "Luminous Sunset",
+      "colors": [
+        "#F0F8FF",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #F0F8FF, #2F4F4F)"
+    },
+    {
+      "id": "671",
+      "name": "Bold Moon",
+      "colors": [
+        "#800000",
+        "#00FF00"
+      ],
+      "css": "linear-gradient(to right, #800000, #00FF00)"
+    },
+    {
+      "id": "672",
+      "name": "Bright Aurora",
+      "colors": [
+        "#FFB6C1",
+        "#F0F8FF"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #F0F8FF)"
+    },
+    {
+      "id": "673",
+      "name": "Sunny Valley",
+      "colors": [
+        "#7FFF00",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #7FFF00, #2F4F4F)"
+    },
+    {
+      "id": "674",
+      "name": "Mellow Mountain",
+      "colors": [
+        "#F5FFFA",
+        "#4B0082"
+      ],
+      "css": "linear-gradient(to right, #F5FFFA, #4B0082)"
+    },
+    {
+      "id": "675",
+      "name": "Shadowy Lake",
+      "colors": [
+        "#556B2F",
+        "#40E0D0"
+      ],
+      "css": "linear-gradient(to right, #556B2F, #40E0D0)"
+    },
+    {
+      "id": "676",
+      "name": "Deep Sunset",
+      "colors": [
+        "#FFFFF0",
+        "#556B2F"
+      ],
+      "css": "linear-gradient(to right, #FFFFF0, #556B2F)"
+    },
+    {
+      "id": "677",
+      "name": "Tropical Canyon",
+      "colors": [
+        "#87CEEB",
+        "#FFD700"
+      ],
+      "css": "linear-gradient(to right, #87CEEB, #FFD700)"
+    },
+    {
+      "id": "678",
+      "name": "Frosty Mist",
+      "colors": [
+        "#7FFF00",
+        "#FF00FF"
+      ],
+      "css": "linear-gradient(to right, #7FFF00, #FF00FF)"
+    },
+    {
+      "id": "679",
+      "name": "Bright Cloud",
+      "colors": [
+        "#0000FF",
+        "#A0522D"
+      ],
+      "css": "linear-gradient(to right, #0000FF, #A0522D)"
+    },
+    {
+      "id": "680",
+      "name": "Electric Ice",
+      "colors": [
+        "#F0E68C",
+        "#F5F5DC"
+      ],
+      "css": "linear-gradient(to right, #F0E68C, #F5F5DC)"
+    },
+    {
+      "id": "681",
+      "name": "Vibrant Peak",
+      "colors": [
+        "#F5F5DC",
+        "#DDA0DD"
+      ],
+      "css": "linear-gradient(to right, #F5F5DC, #DDA0DD)"
+    },
+    {
+      "id": "682",
+      "name": "Mellow Valley",
+      "colors": [
+        "#0000FF",
+        "#7FFF00"
+      ],
+      "css": "linear-gradient(to right, #0000FF, #7FFF00)"
+    },
+    {
+      "id": "683",
+      "name": "Pastel Valley",
+      "colors": [
+        "#DEB887",
+        "#FFD700"
+      ],
+      "css": "linear-gradient(to right, #DEB887, #FFD700)"
+    },
+    {
+      "id": "684",
+      "name": "Dusky Flame",
+      "colors": [
+        "#00CED1",
+        "#7FFF00"
+      ],
+      "css": "linear-gradient(to right, #00CED1, #7FFF00)"
+    },
+    {
+      "id": "685",
+      "name": "Shadowy Aurora",
+      "colors": [
+        "#4169E1",
+        "#FF1493"
+      ],
+      "css": "linear-gradient(to right, #4169E1, #FF1493)"
+    },
+    {
+      "id": "686",
+      "name": "Cool Desert",
+      "colors": [
+        "#FFFF00",
+        "#0000FF"
+      ],
+      "css": "linear-gradient(to right, #FFFF00, #0000FF)"
+    },
+    {
+      "id": "687",
+      "name": "Deep Meadow",
+      "colors": [
+        "#FF4500",
+        "#556B2F"
+      ],
+      "css": "linear-gradient(to right, #FF4500, #556B2F)"
+    },
+    {
+      "id": "688",
+      "name": "Dusky Breeze",
+      "colors": [
+        "#F0F8FF",
+        "#000000"
+      ],
+      "css": "linear-gradient(to right, #F0F8FF, #000000)"
+    },
+    {
+      "id": "689",
+      "name": "Gentle Cloud",
+      "colors": [
+        "#7FFF00",
+        "#800000"
+      ],
+      "css": "linear-gradient(to right, #7FFF00, #800000)"
+    },
+    {
+      "id": "690",
+      "name": "Bold Valley",
+      "colors": [
+        "#A0522D",
+        "#A0522D"
+      ],
+      "css": "linear-gradient(to right, #A0522D, #A0522D)"
+    },
+    {
+      "id": "691",
+      "name": "Dusky Aurora",
+      "colors": [
+        "#FF6B6B",
+        "#F0E68C"
+      ],
+      "css": "linear-gradient(to right, #FF6B6B, #F0E68C)"
+    },
+    {
+      "id": "692",
+      "name": "Pale Desert",
+      "colors": [
+        "#00FFFF",
+        "#FF8C00"
+      ],
+      "css": "linear-gradient(to right, #00FFFF, #FF8C00)"
+    },
+    {
+      "id": "693",
+      "name": "Gentle Wave",
+      "colors": [
+        "#F0E68C",
+        "#00FFFF"
+      ],
+      "css": "linear-gradient(to right, #F0E68C, #00FFFF)"
+    },
+    {
+      "id": "694",
+      "name": "Soft Peak",
+      "colors": [
+        "#556B2F",
+        "#8B4513"
+      ],
+      "css": "linear-gradient(to right, #556B2F, #8B4513)"
+    },
+    {
+      "id": "695",
+      "name": "Deep Moon",
+      "colors": [
+        "#6B8E23",
+        "#FF1493"
+      ],
+      "css": "linear-gradient(to right, #6B8E23, #FF1493)"
+    },
+    {
+      "id": "696",
+      "name": "Radiant Ocean",
+      "colors": [
+        "#98FB98",
+        "#0000FF"
+      ],
+      "css": "linear-gradient(to right, #98FB98, #0000FF)"
+    },
+    {
+      "id": "697",
+      "name": "Gentle Canyon",
+      "colors": [
+        "#F0E68C",
+        "#98FB98"
+      ],
+      "css": "linear-gradient(to right, #F0E68C, #98FB98)"
+    },
+    {
+      "id": "698",
+      "name": "Glowing Flame",
+      "colors": [
+        "#FFA500",
+        "#FF8C00"
+      ],
+      "css": "linear-gradient(to right, #FFA500, #FF8C00)"
+    },
+    {
+      "id": "699",
+      "name": "Rich Ice",
+      "colors": [
+        "#F0FFF0",
+        "#6B8E23"
+      ],
+      "css": "linear-gradient(to right, #F0FFF0, #6B8E23)"
+    },
+    {
+      "id": "700",
+      "name": "Vibrant Aurora",
+      "colors": [
+        "#A0522D",
+        "#00FF00"
+      ],
+      "css": "linear-gradient(to right, #A0522D, #00FF00)"
+    },
+    {
+      "id": "701",
+      "name": "Dark Lake",
+      "colors": [
+        "#A0522D",
+        "#4B0082"
+      ],
+      "css": "linear-gradient(to right, #A0522D, #4B0082)"
+    },
+    {
+      "id": "702",
+      "name": "Mellow Valley",
+      "colors": [
+        "#00CED1",
+        "#FF6B6B"
+      ],
+      "css": "linear-gradient(to right, #00CED1, #FF6B6B)"
+    },
+    {
+      "id": "703",
+      "name": "Warm Star",
+      "colors": [
+        "#800000",
+        "#FFD700"
+      ],
+      "css": "linear-gradient(to right, #800000, #FFD700)"
+    },
+    {
+      "id": "704",
+      "name": "Dusky Rain",
+      "colors": [
+        "#2F4F4F",
+        "#6B8E23"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #6B8E23)"
+    },
+    {
+      "id": "706",
+      "name": "Crystal Aurora",
+      "colors": [
+        "#F5F5DC",
+        "#FFF0F5"
+      ],
+      "css": "linear-gradient(to right, #F5F5DC, #FFF0F5)"
+    },
+    {
+      "id": "707",
+      "name": "Cosmic Rainbow",
+      "colors": [
+        "#00FFFF",
+        "#87CEEB"
+      ],
+      "css": "linear-gradient(to right, #00FFFF, #87CEEB)"
+    },
+    {
+      "id": "708",
+      "name": "Crystal Dusk",
+      "colors": [
+        "#FF0000",
+        "#40E0D0"
+      ],
+      "css": "linear-gradient(to right, #FF0000, #40E0D0)"
+    },
+    {
+      "id": "709",
+      "name": "Dreamy Dusk",
+      "colors": [
+        "#FFFF00",
+        "#DEB887"
+      ],
+      "css": "linear-gradient(to right, #FFFF00, #DEB887)"
+    },
+    {
+      "id": "710",
+      "name": "Tropical Garden",
+      "colors": [
+        "#FF8C00",
+        "#FFFF00"
+      ],
+      "css": "linear-gradient(to right, #FF8C00, #FFFF00)"
+    },
+    {
+      "id": "711",
+      "name": "Cool Mist",
+      "colors": [
+        "#DEB887",
+        "#2E8B57"
+      ],
+      "css": "linear-gradient(to right, #DEB887, #2E8B57)"
+    },
+    {
+      "id": "712",
+      "name": "Sunny Desert",
+      "colors": [
+        "#00FFFF",
+        "#00CED1"
+      ],
+      "css": "linear-gradient(to right, #00FFFF, #00CED1)"
+    },
+    {
+      "id": "713",
+      "name": "Luminous Storm",
+      "colors": [
+        "#B0E0E6",
+        "#00BFFF"
+      ],
+      "css": "linear-gradient(to right, #B0E0E6, #00BFFF)"
+    },
+    {
+      "id": "714",
+      "name": "Cool Ocean",
+      "colors": [
+        "#FF6B6B",
+        "#F5FFFA"
+      ],
+      "css": "linear-gradient(to right, #FF6B6B, #F5FFFA)"
+    },
+    {
+      "id": "715",
+      "name": "Mystic Mist",
+      "colors": [
+        "#FFB6C1",
+        "#FFB6C1"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #FFB6C1)"
+    },
+    {
+      "id": "716",
+      "name": "Serene Meadow",
+      "colors": [
+        "#FF8C00",
+        "#4B0082"
+      ],
+      "css": "linear-gradient(to right, #FF8C00, #4B0082)"
+    },
+    {
+      "id": "717",
+      "name": "Neon Lake",
+      "colors": [
+        "#556B2F",
+        "#F0FFF0"
+      ],
+      "css": "linear-gradient(to right, #556B2F, #F0FFF0)"
+    },
+    {
+      "id": "718",
+      "name": "Glowing River",
+      "colors": [
+        "#FF8C00",
+        "#F5FFFA"
+      ],
+      "css": "linear-gradient(to right, #FF8C00, #F5FFFA)"
+    },
+    {
+      "id": "719",
+      "name": "Dark Desert",
+      "colors": [
+        "#2F4F4F",
+        "#F0FFF0"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #F0FFF0)"
+    },
+    {
+      "id": "720",
+      "name": "Cosmic Fog",
+      "colors": [
+        "#00BFFF",
+        "#40E0D0"
+      ],
+      "css": "linear-gradient(to right, #00BFFF, #40E0D0)"
+    },
+    {
+      "id": "721",
+      "name": "Sunny Flame",
+      "colors": [
+        "#000000",
+        "#B0E0E6"
+      ],
+      "css": "linear-gradient(to right, #000000, #B0E0E6)"
+    },
+    {
+      "id": "722",
+      "name": "Dark Mist",
+      "colors": [
+        "#DDA0DD",
+        "#DDA0DD"
+      ],
+      "css": "linear-gradient(to right, #DDA0DD, #DDA0DD)"
+    },
+    {
+      "id": "723",
+      "name": "Rich Dusk",
+      "colors": [
+        "#B0E0E6",
+        "#00CED1"
+      ],
+      "css": "linear-gradient(to right, #B0E0E6, #00CED1)"
+    },
+    {
+      "id": "724",
+      "name": "Mystic Ice",
+      "colors": [
+        "#FF8C00",
+        "#FF1493"
+      ],
+      "css": "linear-gradient(to right, #FF8C00, #FF1493)"
+    },
+    {
+      "id": "725",
+      "name": "Shadowy River",
+      "colors": [
+        "#FFFFF0",
+        "#F0E68C"
+      ],
+      "css": "linear-gradient(to right, #FFFFF0, #F0E68C)"
+    },
+    {
+      "id": "726",
+      "name": "Neon Wave",
+      "colors": [
+        "#40E0D0",
+        "#008080"
+      ],
+      "css": "linear-gradient(to right, #40E0D0, #008080)"
+    },
+    {
+      "id": "727",
+      "name": "Neon Fog",
+      "colors": [
+        "#FF4500",
+        "#800000"
+      ],
+      "css": "linear-gradient(to right, #FF4500, #800000)"
+    },
+    {
+      "id": "728",
+      "name": "Radiant Breeze",
+      "colors": [
+        "#FF00FF",
+        "#F0F8FF"
+      ],
+      "css": "linear-gradient(to right, #FF00FF, #F0F8FF)"
+    },
+    {
+      "id": "729",
+      "name": "Mellow Dusk",
+      "colors": [
+        "#FFFF00",
+        "#00CED1"
+      ],
+      "css": "linear-gradient(to right, #FFFF00, #00CED1)"
+    },
+    {
+      "id": "730",
+      "name": "Soft Meadow",
+      "colors": [
+        "#FFD700",
+        "#FFF0F5"
+      ],
+      "css": "linear-gradient(to right, #FFD700, #FFF0F5)"
+    },
+    {
+      "id": "731",
+      "name": "Mellow Aurora",
+      "colors": [
+        "#8B4513",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #8B4513, #2F4F4F)"
+    },
+    {
+      "id": "732",
+      "name": "Crystal Breeze",
+      "colors": [
+        "#FFB6C1",
+        "#FFB6C1"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #FFB6C1)"
+    },
+    {
+      "id": "733",
+      "name": "Gentle Lake",
+      "colors": [
+        "#FF6B6B",
+        "#FF1493"
+      ],
+      "css": "linear-gradient(to right, #FF6B6B, #FF1493)"
+    },
+    {
+      "id": "734",
+      "name": "Warm River",
+      "colors": [
+        "#2F4F4F",
+        "#FFA500"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #FFA500)"
+    },
+    {
+      "id": "735",
+      "name": "Shadowy Flame",
+      "colors": [
+        "#7FFF00",
+        "#FFFF00"
+      ],
+      "css": "linear-gradient(to right, #7FFF00, #FFFF00)"
+    },
+    {
+      "id": "736",
+      "name": "Cosmic Fog",
+      "colors": [
+        "#B0E0E6",
+        "#4B0082"
+      ],
+      "css": "linear-gradient(to right, #B0E0E6, #4B0082)"
+    },
+    {
+      "id": "737",
+      "name": "Cosmic Storm",
+      "colors": [
+        "#000000",
+        "#FF1493"
+      ],
+      "css": "linear-gradient(to right, #000000, #FF1493)"
+    },
+    {
+      "id": "738",
+      "name": "Soft Ice",
+      "colors": [
+        "#B0E0E6",
+        "#F0FFF0"
+      ],
+      "css": "linear-gradient(to right, #B0E0E6, #F0FFF0)"
+    },
+    {
+      "id": "739",
+      "name": "Deep Star",
+      "colors": [
+        "#F5FFFA",
+        "#FFFF00"
+      ],
+      "css": "linear-gradient(to right, #F5FFFA, #FFFF00)"
+    },
+    {
+      "id": "740",
+      "name": "Intense Ocean",
+      "colors": [
+        "#FFA500",
+        "#00FFFF"
+      ],
+      "css": "linear-gradient(to right, #FFA500, #00FFFF)"
+    },
+    {
+      "id": "741",
+      "name": "Pale Wave",
+      "colors": [
+        "#FFB6C1",
+        "#4B0082"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #4B0082)"
+    },
+    {
+      "id": "742",
+      "name": "Crystal Fog",
+      "colors": [
+        "#FFFFF0",
+        "#F5F5DC"
+      ],
+      "css": "linear-gradient(to right, #FFFFF0, #F5F5DC)"
+    },
+    {
+      "id": "743",
+      "name": "Dusky Rainbow",
+      "colors": [
+        "#FF6B6B",
+        "#8B4513"
+      ],
+      "css": "linear-gradient(to right, #FF6B6B, #8B4513)"
+    },
+    {
+      "id": "744",
+      "name": "Shadowy Garden",
+      "colors": [
+        "#98FB98",
+        "#FFFF00"
+      ],
+      "css": "linear-gradient(to right, #98FB98, #FFFF00)"
+    },
+    {
+      "id": "745",
+      "name": "Dreamy Star",
+      "colors": [
+        "#0000FF",
+        "#FF0000"
+      ],
+      "css": "linear-gradient(to right, #0000FF, #FF0000)"
+    },
+    {
+      "id": "746",
+      "name": "Bright Night",
+      "colors": [
+        "#B0E0E6",
+        "#FF00FF"
+      ],
+      "css": "linear-gradient(to right, #B0E0E6, #FF00FF)"
+    },
+    {
+      "id": "747",
+      "name": "Rich Day",
+      "colors": [
+        "#556B2F",
+        "#F5F5DC"
+      ],
+      "css": "linear-gradient(to right, #556B2F, #F5F5DC)"
+    },
+    {
+      "id": "748",
+      "name": "Mystic Ocean",
+      "colors": [
+        "#40E0D0",
+        "#00FF00"
+      ],
+      "css": "linear-gradient(to right, #40E0D0, #00FF00)"
+    },
+    {
+      "id": "749",
+      "name": "Glowing Mountain",
+      "colors": [
+        "#A0522D",
+        "#FF6B6B"
+      ],
+      "css": "linear-gradient(to right, #A0522D, #FF6B6B)"
+    },
+    {
+      "id": "750",
+      "name": "Pastel Ice",
+      "colors": [
+        "#FFB6C1",
+        "#FF0000"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #FF0000)"
+    },
+    {
+      "id": "751",
+      "name": "Cool Meadow",
+      "colors": [
+        "#00BFFF",
+        "#DDA0DD"
+      ],
+      "css": "linear-gradient(to right, #00BFFF, #DDA0DD)"
+    },
+    {
+      "id": "752",
+      "name": "Sunny Canyon",
+      "colors": [
+        "#87CEEB",
+        "#FF1493"
+      ],
+      "css": "linear-gradient(to right, #87CEEB, #FF1493)"
+    },
+    {
+      "id": "753",
+      "name": "Neon Forest",
+      "colors": [
+        "#6B8E23",
+        "#FF0000"
+      ],
+      "css": "linear-gradient(to right, #6B8E23, #FF0000)"
+    },
+    {
+      "id": "754",
+      "name": "Gentle River",
+      "colors": [
+        "#B0E0E6",
+        "#2E8B57"
+      ],
+      "css": "linear-gradient(to right, #B0E0E6, #2E8B57)"
+    },
+    {
+      "id": "755",
+      "name": "Gentle Fog",
+      "colors": [
+        "#8B4513",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #8B4513, #2F4F4F)"
+    },
+    {
+      "id": "756",
+      "name": "Glowing Canyon",
+      "colors": [
+        "#DEB887",
+        "#FFA500"
+      ],
+      "css": "linear-gradient(to right, #DEB887, #FFA500)"
+    },
+    {
+      "id": "757",
+      "name": "Soft Day",
+      "colors": [
+        "#00CED1",
+        "#00BFFF"
+      ],
+      "css": "linear-gradient(to right, #00CED1, #00BFFF)"
+    },
+    {
+      "id": "758",
+      "name": "Tropical Dawn",
+      "colors": [
+        "#FFD700",
+        "#FFFFF0"
+      ],
+      "css": "linear-gradient(to right, #FFD700, #FFFFF0)"
+    },
+    {
+      "id": "759",
+      "name": "Frosty Garden",
+      "colors": [
+        "#FFB6C1",
+        "#FFFFF0"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #FFFFF0)"
+    },
+    {
+      "id": "760",
+      "name": "Serene Storm",
+      "colors": [
+        "#FF8C00",
+        "#87CEEB"
+      ],
+      "css": "linear-gradient(to right, #FF8C00, #87CEEB)"
+    },
+    {
+      "id": "761",
+      "name": "Glowing Canyon",
+      "colors": [
+        "#F5F5DC",
+        "#00BFFF"
+      ],
+      "css": "linear-gradient(to right, #F5F5DC, #00BFFF)"
+    },
+    {
+      "id": "762",
+      "name": "Dark Mountain",
+      "colors": [
+        "#FF1493",
+        "#8B4513"
+      ],
+      "css": "linear-gradient(to right, #FF1493, #8B4513)"
+    },
+    {
+      "id": "763",
+      "name": "Light Dusk",
+      "colors": [
+        "#FF6B6B",
+        "#FF00FF"
+      ],
+      "css": "linear-gradient(to right, #FF6B6B, #FF00FF)"
+    },
+    {
+      "id": "764",
+      "name": "Dusky Lake",
+      "colors": [
+        "#87CEEB",
+        "#F0FFF0"
+      ],
+      "css": "linear-gradient(to right, #87CEEB, #F0FFF0)"
+    },
+    {
+      "id": "765",
+      "name": "Bold Night",
+      "colors": [
+        "#F0E68C",
+        "#800000"
+      ],
+      "css": "linear-gradient(to right, #F0E68C, #800000)"
+    },
+    {
+      "id": "766",
+      "name": "Intense Dusk",
+      "colors": [
+        "#FF4500",
+        "#00FFFF"
+      ],
+      "css": "linear-gradient(to right, #FF4500, #00FFFF)"
+    },
+    {
+      "id": "767",
+      "name": "Serene Garden",
+      "colors": [
+        "#F0E68C",
+        "#FFA500"
+      ],
+      "css": "linear-gradient(to right, #F0E68C, #FFA500)"
+    },
+    {
+      "id": "768",
+      "name": "Sunny Rainbow",
+      "colors": [
+        "#2F4F4F",
+        "#800000"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #800000)"
+    },
+    {
+      "id": "769",
+      "name": "Serene Rain",
+      "colors": [
+        "#2F4F4F",
+        "#A0522D"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #A0522D)"
+    },
+    {
+      "id": "770",
+      "name": "Gentle Peak",
+      "colors": [
+        "#FF0000",
+        "#B0E0E6"
+      ],
+      "css": "linear-gradient(to right, #FF0000, #B0E0E6)"
+    },
+    {
+      "id": "771",
+      "name": "Intense Valley",
+      "colors": [
+        "#F5F5DC",
+        "#DEB887"
+      ],
+      "css": "linear-gradient(to right, #F5F5DC, #DEB887)"
+    },
+    {
+      "id": "772",
+      "name": "Pale Sky",
+      "colors": [
+        "#7FFF00",
+        "#FFF0F5"
+      ],
+      "css": "linear-gradient(to right, #7FFF00, #FFF0F5)"
+    },
+    {
+      "id": "773",
+      "name": "Cosmic Night",
+      "colors": [
+        "#4169E1",
+        "#FFFF00"
+      ],
+      "css": "linear-gradient(to right, #4169E1, #FFFF00)"
+    },
+    {
+      "id": "774",
+      "name": "Cosmic Storm",
+      "colors": [
+        "#0000FF",
+        "#800000"
+      ],
+      "css": "linear-gradient(to right, #0000FF, #800000)"
+    },
+    {
+      "id": "775",
+      "name": "Intense Breeze",
+      "colors": [
+        "#FF00FF",
+        "#000000"
+      ],
+      "css": "linear-gradient(to right, #FF00FF, #000000)"
+    },
+    {
+      "id": "776",
+      "name": "Electric Star",
+      "colors": [
+        "#F0E68C",
+        "#A0522D"
+      ],
+      "css": "linear-gradient(to right, #F0E68C, #A0522D)"
+    },
+    {
+      "id": "777",
+      "name": "Vibrant Day",
+      "colors": [
+        "#2E8B57",
+        "#8B4513"
+      ],
+      "css": "linear-gradient(to right, #2E8B57, #8B4513)"
+    },
+    {
+      "id": "778",
+      "name": "Pale Breeze",
+      "colors": [
+        "#4B0082",
+        "#DDA0DD"
+      ],
+      "css": "linear-gradient(to right, #4B0082, #DDA0DD)"
+    },
+    {
+      "id": "779",
+      "name": "Rich Peak",
+      "colors": [
+        "#DEB887",
+        "#556B2F"
+      ],
+      "css": "linear-gradient(to right, #DEB887, #556B2F)"
+    },
+    {
+      "id": "780",
+      "name": "Glowing Dusk",
+      "colors": [
+        "#A0522D",
+        "#DDA0DD"
+      ],
+      "css": "linear-gradient(to right, #A0522D, #DDA0DD)"
+    },
+    {
+      "id": "781",
+      "name": "Pale Fog",
+      "colors": [
+        "#FFFFF0",
+        "#00CED1"
+      ],
+      "css": "linear-gradient(to right, #FFFFF0, #00CED1)"
+    },
+    {
+      "id": "782",
+      "name": "Frosty Rainbow",
+      "colors": [
+        "#8B4513",
+        "#A0522D"
+      ],
+      "css": "linear-gradient(to right, #8B4513, #A0522D)"
+    },
+    {
+      "id": "783",
+      "name": "Tropical Peak",
+      "colors": [
+        "#FF8C00",
+        "#FFF0F5"
+      ],
+      "css": "linear-gradient(to right, #FF8C00, #FFF0F5)"
+    },
+    {
+      "id": "784",
+      "name": "Glowing Forest",
+      "colors": [
+        "#FF00FF",
+        "#FF6B6B"
+      ],
+      "css": "linear-gradient(to right, #FF00FF, #FF6B6B)"
+    },
+    {
+      "id": "785",
+      "name": "Crystal Wave",
+      "colors": [
+        "#DEB887",
+        "#98FB98"
+      ],
+      "css": "linear-gradient(to right, #DEB887, #98FB98)"
+    },
+    {
+      "id": "786",
+      "name": "Mellow Night",
+      "colors": [
+        "#008080",
+        "#800000"
+      ],
+      "css": "linear-gradient(to right, #008080, #800000)"
+    },
+    {
+      "id": "787",
+      "name": "Sunny Star",
+      "colors": [
+        "#FFFF00",
+        "#4169E1"
+      ],
+      "css": "linear-gradient(to right, #FFFF00, #4169E1)"
+    },
+    {
+      "id": "788",
+      "name": "Vibrant Fog",
+      "colors": [
+        "#FFA500",
+        "#00FF00"
+      ],
+      "css": "linear-gradient(to right, #FFA500, #00FF00)"
+    },
+    {
+      "id": "789",
+      "name": "Mellow Wave",
+      "colors": [
+        "#F0FFF0",
+        "#0000FF"
+      ],
+      "css": "linear-gradient(to right, #F0FFF0, #0000FF)"
+    },
+    {
+      "id": "790",
+      "name": "Shadowy Breeze",
+      "colors": [
+        "#B0E0E6",
+        "#FFFFF0"
+      ],
+      "css": "linear-gradient(to right, #B0E0E6, #FFFFF0)"
+    },
+    {
+      "id": "791",
+      "name": "Cool Garden",
+      "colors": [
+        "#F0F8FF",
+        "#40E0D0"
+      ],
+      "css": "linear-gradient(to right, #F0F8FF, #40E0D0)"
+    },
+    {
+      "id": "792",
+      "name": "Electric Fog",
+      "colors": [
+        "#FF8C00",
+        "#2E8B57"
+      ],
+      "css": "linear-gradient(to right, #FF8C00, #2E8B57)"
+    },
+    {
+      "id": "794",
+      "name": "Light Mountain",
+      "colors": [
+        "#F0F8FF",
+        "#00FF00"
+      ],
+      "css": "linear-gradient(to right, #F0F8FF, #00FF00)"
+    },
+    {
+      "id": "795",
+      "name": "Vibrant River",
+      "colors": [
+        "#A0522D",
+        "#B0E0E6"
+      ],
+      "css": "linear-gradient(to right, #A0522D, #B0E0E6)"
+    },
+    {
+      "id": "796",
+      "name": "Rich Ocean",
+      "colors": [
+        "#DDA0DD",
+        "#FFD700"
+      ],
+      "css": "linear-gradient(to right, #DDA0DD, #FFD700)"
+    },
+    {
+      "id": "797",
+      "name": "Dreamy Desert",
+      "colors": [
+        "#FF8C00",
+        "#00FFFF"
+      ],
+      "css": "linear-gradient(to right, #FF8C00, #00FFFF)"
+    },
+    {
+      "id": "798",
+      "name": "Deep Moon",
+      "colors": [
+        "#FFD700",
+        "#B0E0E6"
+      ],
+      "css": "linear-gradient(to right, #FFD700, #B0E0E6)"
+    },
+    {
+      "id": "799",
+      "name": "Bright Ocean",
+      "colors": [
+        "#0000FF",
+        "#000000"
+      ],
+      "css": "linear-gradient(to right, #0000FF, #000000)"
+    },
+    {
+      "id": "800",
+      "name": "Pastel Cloud",
+      "colors": [
+        "#8FBC8F",
+        "#FFB6C1"
+      ],
+      "css": "linear-gradient(to right, #8FBC8F, #FFB6C1)"
+    },
+    {
+      "id": "801",
+      "name": "Gentle Rainbow",
+      "colors": [
+        "#40E0D0",
+        "#0000FF"
+      ],
+      "css": "linear-gradient(to right, #40E0D0, #0000FF)"
+    },
+    {
+      "id": "802",
+      "name": "Soft Desert",
+      "colors": [
+        "#FFF0F5",
+        "#0000FF"
+      ],
+      "css": "linear-gradient(to right, #FFF0F5, #0000FF)"
+    },
+    {
+      "id": "803",
+      "name": "Radiant Breeze",
+      "colors": [
+        "#2F4F4F",
+        "#F0E68C"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #F0E68C)"
+    },
+    {
+      "id": "804",
+      "name": "Neon Fog",
+      "colors": [
+        "#98FB98",
+        "#F0FFF0"
+      ],
+      "css": "linear-gradient(to right, #98FB98, #F0FFF0)"
+    },
+    {
+      "id": "805",
+      "name": "Serene Mountain",
+      "colors": [
+        "#6B8E23",
+        "#2E8B57"
+      ],
+      "css": "linear-gradient(to right, #6B8E23, #2E8B57)"
+    },
+    {
+      "id": "806",
+      "name": "Cool Flame",
+      "colors": [
+        "#F0FFF0",
+        "#F0F8FF"
+      ],
+      "css": "linear-gradient(to right, #F0FFF0, #F0F8FF)"
+    },
+    {
+      "id": "807",
+      "name": "Cool Day",
+      "colors": [
+        "#FF8C00",
+        "#FF6B6B"
+      ],
+      "css": "linear-gradient(to right, #FF8C00, #FF6B6B)"
+    },
+    {
+      "id": "808",
+      "name": "Dusky Forest",
+      "colors": [
+        "#FF1493",
+        "#FF8C00"
+      ],
+      "css": "linear-gradient(to right, #FF1493, #FF8C00)"
+    },
+    {
+      "id": "809",
+      "name": "Luminous Rainbow",
+      "colors": [
+        "#000000",
+        "#DEB887"
+      ],
+      "css": "linear-gradient(to right, #000000, #DEB887)"
+    },
+    {
+      "id": "810",
+      "name": "Vibrant Dusk",
+      "colors": [
+        "#6B8E23",
+        "#F0E68C"
+      ],
+      "css": "linear-gradient(to right, #6B8E23, #F0E68C)"
+    },
+    {
+      "id": "811",
+      "name": "Soft Moon",
+      "colors": [
+        "#87CEEB",
+        "#FF8C00"
+      ],
+      "css": "linear-gradient(to right, #87CEEB, #FF8C00)"
+    },
+    {
+      "id": "812",
+      "name": "Warm Sunset",
+      "colors": [
+        "#2E8B57",
+        "#00BFFF"
+      ],
+      "css": "linear-gradient(to right, #2E8B57, #00BFFF)"
+    },
+    {
+      "id": "813",
+      "name": "Frosty Desert",
+      "colors": [
+        "#00CED1",
+        "#F0F8FF"
+      ],
+      "css": "linear-gradient(to right, #00CED1, #F0F8FF)"
+    },
+    {
+      "id": "814",
+      "name": "Deep Ocean",
+      "colors": [
+        "#FFA500",
+        "#4169E1"
+      ],
+      "css": "linear-gradient(to right, #FFA500, #4169E1)"
+    },
+    {
+      "id": "815",
+      "name": "Dusky Canyon",
+      "colors": [
+        "#F5F5DC",
+        "#F0E68C"
+      ],
+      "css": "linear-gradient(to right, #F5F5DC, #F0E68C)"
+    },
+    {
+      "id": "816",
+      "name": "Glowing Rain",
+      "colors": [
+        "#98FB98",
+        "#00BFFF"
+      ],
+      "css": "linear-gradient(to right, #98FB98, #00BFFF)"
+    },
+    {
+      "id": "817",
+      "name": "Frosty Mountain",
+      "colors": [
+        "#4B0082",
+        "#98FB98"
+      ],
+      "css": "linear-gradient(to right, #4B0082, #98FB98)"
+    },
+    {
+      "id": "818",
+      "name": "Dark Aurora",
+      "colors": [
+        "#2F4F4F",
+        "#98FB98"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #98FB98)"
+    },
+    {
+      "id": "819",
+      "name": "Crystal River",
+      "colors": [
+        "#00BFFF",
+        "#FF1493"
+      ],
+      "css": "linear-gradient(to right, #00BFFF, #FF1493)"
+    },
+    {
+      "id": "820",
+      "name": "Mellow River",
+      "colors": [
+        "#FF6B6B",
+        "#FFF0F5"
+      ],
+      "css": "linear-gradient(to right, #FF6B6B, #FFF0F5)"
+    },
+    {
+      "id": "821",
+      "name": "Electric Aurora",
+      "colors": [
+        "#A0522D",
+        "#F0F8FF"
+      ],
+      "css": "linear-gradient(to right, #A0522D, #F0F8FF)"
+    },
+    {
+      "id": "822",
+      "name": "Crystal Night",
+      "colors": [
+        "#40E0D0",
+        "#F5FFFA"
+      ],
+      "css": "linear-gradient(to right, #40E0D0, #F5FFFA)"
+    },
+    {
+      "id": "823",
+      "name": "Luminous Star",
+      "colors": [
+        "#F0FFF0",
+        "#00CED1"
+      ],
+      "css": "linear-gradient(to right, #F0FFF0, #00CED1)"
+    },
+    {
+      "id": "824",
+      "name": "Serene Aurora",
+      "colors": [
+        "#F0E68C",
+        "#FFA500"
+      ],
+      "css": "linear-gradient(to right, #F0E68C, #FFA500)"
+    },
+    {
+      "id": "825",
+      "name": "Gentle Breeze",
+      "colors": [
+        "#FF8C00",
+        "#FFA500"
+      ],
+      "css": "linear-gradient(to right, #FF8C00, #FFA500)"
+    },
+    {
+      "id": "826",
+      "name": "Gentle Fog",
+      "colors": [
+        "#F0E68C",
+        "#4169E1"
+      ],
+      "css": "linear-gradient(to right, #F0E68C, #4169E1)"
+    },
+    {
+      "id": "827",
+      "name": "Neon Fog",
+      "colors": [
+        "#6B8E23",
+        "#0000FF"
+      ],
+      "css": "linear-gradient(to right, #6B8E23, #0000FF)"
+    },
+    {
+      "id": "828",
+      "name": "Dark Day",
+      "colors": [
+        "#2E8B57",
+        "#FF1493"
+      ],
+      "css": "linear-gradient(to right, #2E8B57, #FF1493)"
+    },
+    {
+      "id": "829",
+      "name": "Pastel Day",
+      "colors": [
+        "#40E0D0",
+        "#FF0000"
+      ],
+      "css": "linear-gradient(to right, #40E0D0, #FF0000)"
+    },
+    {
+      "id": "830",
+      "name": "Cool Ice",
+      "colors": [
+        "#FF6B6B",
+        "#6B8E23"
+      ],
+      "css": "linear-gradient(to right, #FF6B6B, #6B8E23)"
+    },
+    {
+      "id": "831",
+      "name": "Mellow Lake",
+      "colors": [
+        "#008080",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #008080, #2F4F4F)"
+    },
+    {
+      "id": "832",
+      "name": "Electric Lake",
+      "colors": [
+        "#DEB887",
+        "#FF00FF"
+      ],
+      "css": "linear-gradient(to right, #DEB887, #FF00FF)"
+    },
+    {
+      "id": "833",
+      "name": "Serene Moon",
+      "colors": [
+        "#F0FFF0",
+        "#FF1493"
+      ],
+      "css": "linear-gradient(to right, #F0FFF0, #FF1493)"
+    },
+    {
+      "id": "834",
+      "name": "Vibrant Desert",
+      "colors": [
+        "#00CED1",
+        "#FFFF00"
+      ],
+      "css": "linear-gradient(to right, #00CED1, #FFFF00)"
+    },
+    {
+      "id": "835",
+      "name": "Shadowy Peak",
+      "colors": [
+        "#FFD700",
+        "#FFA500"
+      ],
+      "css": "linear-gradient(to right, #FFD700, #FFA500)"
+    },
+    {
+      "id": "836",
+      "name": "Deep Cloud",
+      "colors": [
+        "#FF1493",
+        "#0000FF"
+      ],
+      "css": "linear-gradient(to right, #FF1493, #0000FF)"
+    },
+    {
+      "id": "837",
+      "name": "Bright Star",
+      "colors": [
+        "#FFFFF0",
+        "#DDA0DD"
+      ],
+      "css": "linear-gradient(to right, #FFFFF0, #DDA0DD)"
+    },
+    {
+      "id": "838",
+      "name": "Mellow Meadow",
+      "colors": [
+        "#FF00FF",
+        "#2E8B57"
+      ],
+      "css": "linear-gradient(to right, #FF00FF, #2E8B57)"
+    },
+    {
+      "id": "839",
+      "name": "Frosty Ice",
+      "colors": [
+        "#F0F8FF",
+        "#8B4513"
+      ],
+      "css": "linear-gradient(to right, #F0F8FF, #8B4513)"
+    },
+    {
+      "id": "840",
+      "name": "Cool Meadow",
+      "colors": [
+        "#2E8B57",
+        "#B0E0E6"
+      ],
+      "css": "linear-gradient(to right, #2E8B57, #B0E0E6)"
+    },
+    {
+      "id": "841",
+      "name": "Luminous Forest",
+      "colors": [
+        "#87CEEB",
+        "#00CED1"
+      ],
+      "css": "linear-gradient(to right, #87CEEB, #00CED1)"
+    },
+    {
+      "id": "842",
+      "name": "Luminous River",
+      "colors": [
+        "#F0FFF0",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #F0FFF0, #2F4F4F)"
+    },
+    {
+      "id": "843",
+      "name": "Intense Rainbow",
+      "colors": [
+        "#00BFFF",
+        "#FFA500"
+      ],
+      "css": "linear-gradient(to right, #00BFFF, #FFA500)"
+    },
+    {
+      "id": "844",
+      "name": "Cool Breeze",
+      "colors": [
+        "#008080",
+        "#556B2F"
+      ],
+      "css": "linear-gradient(to right, #008080, #556B2F)"
+    },
+    {
+      "id": "845",
+      "name": "Neon Day",
+      "colors": [
+        "#8FBC8F",
+        "#7FFF00"
+      ],
+      "css": "linear-gradient(to right, #8FBC8F, #7FFF00)"
+    },
+    {
+      "id": "846",
+      "name": "Mystic Sky",
+      "colors": [
+        "#8B4513",
+        "#8B4513"
+      ],
+      "css": "linear-gradient(to right, #8B4513, #8B4513)"
+    },
+    {
+      "id": "847",
+      "name": "Deep Aurora",
+      "colors": [
+        "#00CED1",
+        "#40E0D0"
+      ],
+      "css": "linear-gradient(to right, #00CED1, #40E0D0)"
+    },
+    {
+      "id": "848",
+      "name": "Tropical Breeze",
+      "colors": [
+        "#7FFF00",
+        "#8FBC8F"
+      ],
+      "css": "linear-gradient(to right, #7FFF00, #8FBC8F)"
+    },
+    {
+      "id": "849",
+      "name": "Crystal Sky",
+      "colors": [
+        "#FFA500",
+        "#F5F5DC"
+      ],
+      "css": "linear-gradient(to right, #FFA500, #F5F5DC)"
+    },
+    {
+      "id": "850",
+      "name": "Dark Cloud",
+      "colors": [
+        "#00CED1",
+        "#00CED1"
+      ],
+      "css": "linear-gradient(to right, #00CED1, #00CED1)"
+    },
+    {
+      "id": "851",
+      "name": "Intense Star",
+      "colors": [
+        "#FFFFF0",
+        "#B0E0E6"
+      ],
+      "css": "linear-gradient(to right, #FFFFF0, #B0E0E6)"
+    },
+    {
+      "id": "852",
+      "name": "Vibrant Lake",
+      "colors": [
+        "#FFD700",
+        "#8FBC8F"
+      ],
+      "css": "linear-gradient(to right, #FFD700, #8FBC8F)"
+    },
+    {
+      "id": "853",
+      "name": "Sunny Lake",
+      "colors": [
+        "#800000",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #800000, #2F4F4F)"
+    },
+    {
+      "id": "854",
+      "name": "Dark Forest",
+      "colors": [
+        "#A0522D",
+        "#98FB98"
+      ],
+      "css": "linear-gradient(to right, #A0522D, #98FB98)"
+    },
+    {
+      "id": "855",
+      "name": "Warm Meadow",
+      "colors": [
+        "#FFFFF0",
+        "#F0FFF0"
+      ],
+      "css": "linear-gradient(to right, #FFFFF0, #F0FFF0)"
+    },
+    {
+      "id": "856",
+      "name": "Serene Breeze",
+      "colors": [
+        "#F0F8FF",
+        "#F5F5DC"
+      ],
+      "css": "linear-gradient(to right, #F0F8FF, #F5F5DC)"
+    },
+    {
+      "id": "857",
+      "name": "Bright Rain",
+      "colors": [
+        "#B0E0E6",
+        "#FF0000"
+      ],
+      "css": "linear-gradient(to right, #B0E0E6, #FF0000)"
+    },
+    {
+      "id": "858",
+      "name": "Tropical Mist",
+      "colors": [
+        "#F0E68C",
+        "#DEB887"
+      ],
+      "css": "linear-gradient(to right, #F0E68C, #DEB887)"
+    },
+    {
+      "id": "859",
+      "name": "Deep Night",
+      "colors": [
+        "#6B8E23",
+        "#800000"
+      ],
+      "css": "linear-gradient(to right, #6B8E23, #800000)"
+    },
+    {
+      "id": "860",
+      "name": "Serene Storm",
+      "colors": [
+        "#FFB6C1",
+        "#FFB6C1"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #FFB6C1)"
+    },
+    {
+      "id": "861",
+      "name": "Cosmic Mountain",
+      "colors": [
+        "#2F4F4F",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #2F4F4F)"
+    },
+    {
+      "id": "862",
+      "name": "Warm Aurora",
+      "colors": [
+        "#DDA0DD",
+        "#800000"
+      ],
+      "css": "linear-gradient(to right, #DDA0DD, #800000)"
+    },
+    {
+      "id": "863",
+      "name": "Deep Mist",
+      "colors": [
+        "#00FFFF",
+        "#87CEEB"
+      ],
+      "css": "linear-gradient(to right, #00FFFF, #87CEEB)"
+    },
+    {
+      "id": "864",
+      "name": "Tropical Mountain",
+      "colors": [
+        "#FFB6C1",
+        "#FFB6C1"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #FFB6C1)"
+    },
+    {
+      "id": "865",
+      "name": "Cosmic Dusk",
+      "colors": [
+        "#FFB6C1",
+        "#556B2F"
+      ],
+      "css": "linear-gradient(to right, #FFB6C1, #556B2F)"
+    },
+    {
+      "id": "866",
+      "name": "Cosmic Canyon",
+      "colors": [
+        "#7FFF00",
+        "#FFF0F5"
+      ],
+      "css": "linear-gradient(to right, #7FFF00, #FFF0F5)"
+    },
+    {
+      "id": "867",
+      "name": "Warm Night",
+      "colors": [
+        "#FFD700",
+        "#8FBC8F"
+      ],
+      "css": "linear-gradient(to right, #FFD700, #8FBC8F)"
+    },
+    {
+      "id": "868",
+      "name": "Mystic River",
+      "colors": [
+        "#F0FFF0",
+        "#00BFFF"
+      ],
+      "css": "linear-gradient(to right, #F0FFF0, #00BFFF)"
+    },
+    {
+      "id": "869",
+      "name": "Deep Rain",
+      "colors": [
+        "#FF4500",
+        "#FFD700"
+      ],
+      "css": "linear-gradient(to right, #FF4500, #FFD700)"
+    },
+    {
+      "id": "870",
+      "name": "Deep Storm",
+      "colors": [
+        "#FF4500",
+        "#FF0000"
+      ],
+      "css": "linear-gradient(to right, #FF4500, #FF0000)"
+    },
+    {
+      "id": "871",
+      "name": "Bright Mist",
+      "colors": [
+        "#F0E68C",
+        "#FFFF00"
+      ],
+      "css": "linear-gradient(to right, #F0E68C, #FFFF00)"
+    },
+    {
+      "id": "872",
+      "name": "Shadowy Valley",
+      "colors": [
+        "#4B0082",
+        "#800000"
+      ],
+      "css": "linear-gradient(to right, #4B0082, #800000)"
+    },
+    {
+      "id": "873",
+      "name": "Electric Dawn",
+      "colors": [
+        "#2E8B57",
+        "#FFD700"
+      ],
+      "css": "linear-gradient(to right, #2E8B57, #FFD700)"
+    },
+    {
+      "id": "874",
+      "name": "Radiant Star",
+      "colors": [
+        "#00BFFF",
+        "#FF6B6B"
+      ],
+      "css": "linear-gradient(to right, #00BFFF, #FF6B6B)"
+    },
+    {
+      "id": "875",
+      "name": "Dusky Valley",
+      "colors": [
+        "#8B4513",
+        "#2E8B57"
+      ],
+      "css": "linear-gradient(to right, #8B4513, #2E8B57)"
+    },
+    {
+      "id": "876",
+      "name": "Cosmic Flame",
+      "colors": [
+        "#00BFFF",
+        "#4169E1"
+      ],
+      "css": "linear-gradient(to right, #00BFFF, #4169E1)"
+    },
+    {
+      "id": "877",
+      "name": "Glowing Meadow",
+      "colors": [
+        "#2F4F4F",
+        "#87CEEB"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #87CEEB)"
+    },
+    {
+      "id": "878",
+      "name": "Serene Valley",
+      "colors": [
+        "#2E8B57",
+        "#FF00FF"
+      ],
+      "css": "linear-gradient(to right, #2E8B57, #FF00FF)"
+    },
+    {
+      "id": "879",
+      "name": "Bright Moon",
+      "colors": [
+        "#FF0000",
+        "#4B0082"
+      ],
+      "css": "linear-gradient(to right, #FF0000, #4B0082)"
+    },
+    {
+      "id": "880",
+      "name": "Pastel Rainbow",
+      "colors": [
+        "#6B8E23",
+        "#000000"
+      ],
+      "css": "linear-gradient(to right, #6B8E23, #000000)"
+    },
+    {
+      "id": "9",
+      "name": "Emerald",
+      "colors": ["#134e5e", "#71b280"],
+      "css": "linear-gradient(to right, #134e5e, #71b280)"
+    },
+    {
+      "id": "10",
+      "name": "Crimson",
+      "colors": ["#cb2d3e", "#ef473a"],
+      "css": "linear-gradient(to right, #cb2d3e, #ef473a)"
+    }
+  ]
+}
+    },
+    {
+      "id": "970",
+      "name": "Glowing Mountain",
+      "colors": [
+        "#000000",
+        "#FF4500"
+      ],
+      "css": "linear-gradient(to right, #000000, #FF4500)"
+    },
+    {
+      "id": "971",
+      "name": "Electric Sky",
+      "colors": [
+        "#FF00FF",
+        "#800000"
+      ],
+      "css": "linear-gradient(to right, #FF00FF, #800000)"
+    },
+    {
+      "id": "972",
+      "name": "Glowing Ice",
+      "colors": [
+        "#4169E1",
+        "#B0E0E6"
+      ],
+      "css": "linear-gradient(to right, #4169E1, #B0E0E6)"
+    },
+    {
+      "id": "973",
+      "name": "Radiant Lake",
+      "colors": [
+        "#FF4500",
+        "#FFA500"
+      ],
+      "css": "linear-gradient(to right, #FF4500, #FFA500)"
+    },
+    {
+      "id": "974",
+      "name": "Tropical Rainbow",
+      "colors": [
+        "#FF4500",
+        "#0000FF"
+      ],
+      "css": "linear-gradient(to right, #FF4500, #0000FF)"
+    },
+    {
+      "id": "975",
+      "name": "Rich Fog",
+      "colors": [
+        "#FFA500",
+        "#008080"
+      ],
+      "css": "linear-gradient(to right, #FFA500, #008080)"
+    },
+    {
+      "id": "976",
+      "name": "Sunny Rainbow",
+      "colors": [
+        "#4B0082",
+        "#FFA500"
+      ],
+      "css": "linear-gradient(to right, #4B0082, #FFA500)"
+    },
+    {
+      "id": "977",
+      "name": "Electric Lake",
+      "colors": [
+        "#FF0000",
+        "#4169E1"
+      ],
+      "css": "linear-gradient(to right, #FF0000, #4169E1)"
+    },
+    {
+      "id": "978",
+      "name": "Warm Day",
+      "colors": [
+        "#FF8C00",
+        "#F5FFFA"
+      ],
+      "css": "linear-gradient(to right, #FF8C00, #F5FFFA)"
+    },
+    {
+      "id": "979",
+      "name": "Dusky Day",
+      "colors": [
+        "#6B8E23",
+        "#00FFFF"
+      ],
+      "css": "linear-gradient(to right, #6B8E23, #00FFFF)"
+    },
+    {
+      "id": "980",
+      "name": "Serene Lake",
+      "colors": [
+        "#FF0000",
+        "#F0F8FF"
+      ],
+      "css": "linear-gradient(to right, #FF0000, #F0F8FF)"
+    },
+    {
+      "id": "981",
+      "name": "Glowing Canyon",
+      "colors": [
+        "#F0E68C",
+        "#4B0082"
+      ],
+      "css": "linear-gradient(to right, #F0E68C, #4B0082)"
+    },
+    {
+      "id": "982",
+      "name": "Radiant Night",
+      "colors": [
+        "#FF1493",
+        "#F0F8FF"
+      ],
+      "css": "linear-gradient(to right, #FF1493, #F0F8FF)"
+    },
+    {
+      "id": "983",
+      "name": "Tropical Breeze",
+      "colors": [
+        "#FF1493",
+        "#FFFF00"
+      ],
+      "css": "linear-gradient(to right, #FF1493, #FFFF00)"
+    },
+    {
+      "id": "984",
+      "name": "Light Ice",
+      "colors": [
+        "#FF1493",
+        "#F0FFF0"
+      ],
+      "css": "linear-gradient(to right, #FF1493, #F0FFF0)"
+    },
+    {
+      "id": "985",
+      "name": "Mystic Storm",
+      "colors": [
+        "#000000",
+        "#000000"
+      ],
+      "css": "linear-gradient(to right, #000000, #000000)"
+    },
+    {
+      "id": "986",
+      "name": "Glowing Garden",
+      "colors": [
+        "#87CEEB",
+        "#FF00FF"
+      ],
+      "css": "linear-gradient(to right, #87CEEB, #FF00FF)"
+    },
+    {
+      "id": "987",
+      "name": "Rich Canyon",
+      "colors": [
+        "#2F4F4F",
+        "#F0E68C"
+      ],
+      "css": "linear-gradient(to right, #2F4F4F, #F0E68C)"
+    },
+    {
+      "id": "988",
+      "name": "Cosmic Rain",
+      "colors": [
+        "#40E0D0",
+        "#00CED1"
+      ],
+      "css": "linear-gradient(to right, #40E0D0, #00CED1)"
+    },
+    {
+      "id": "989",
+      "name": "Sunny Ice",
+      "colors": [
+        "#A0522D",
+        "#FFFFF0"
+      ],
+      "css": "linear-gradient(to right, #A0522D, #FFFFF0)"
+    },
+    {
+      "id": "990",
+      "name": "Dark Cloud",
+      "colors": [
+        "#DDA0DD",
+        "#98FB98"
+      ],
+      "css": "linear-gradient(to right, #DDA0DD, #98FB98)"
+    },
+    {
+      "id": "991",
+      "name": "Tropical Dawn",
+      "colors": [
+        "#FFA500",
+        "#FFF0F5"
+      ],
+      "css": "linear-gradient(to right, #FFA500, #FFF0F5)"
+    },
+    {
+      "id": "992",
+      "name": "Serene Valley",
+      "colors": [
+        "#98FB98",
+        "#F5F5DC"
+      ],
+      "css": "linear-gradient(to right, #98FB98, #F5F5DC)"
+    },
+    {
+      "id": "993",
+      "name": "Bright Valley",
+      "colors": [
+        "#008080",
+        "#00CED1"
+      ],
+      "css": "linear-gradient(to right, #008080, #00CED1)"
+    },
+    {
+      "id": "994",
+      "name": "Pale Peak",
+      "colors": [
+        "#FF8C00",
+        "#F5F5DC"
+      ],
+      "css": "linear-gradient(to right, #FF8C00, #F5F5DC)"
+    },
+    {
+      "id": "995",
+      "name": "Tropical Dawn",
+      "colors": [
+        "#F0F8FF",
+        "#2F4F4F"
+      ],
+      "css": "linear-gradient(to right, #F0F8FF, #2F4F4F)"
+    },
+    {
+      "id": "996",
+      "name": "Intense Fog",
+      "colors": [
+        "#DEB887",
+        "#FFF0F5"
+      ],
+      "css": "linear-gradient(to right, #DEB887, #FFF0F5)"
+    },
+    {
+      "id": "997",
+      "name": "Luminous Moon",
+      "colors": [
+        "#7FFF00",
+        "#2E8B57"
+      ],
+      "css": "linear-gradient(to right, #7FFF00, #2E8B57)"
+    },
+    {
+      "id": "998",
+      "name": "Glowing Forest",
+      "colors": [
+        "#FF8C00",
+        "#FF6B6B"
+      ],
+      "css": "linear-gradient(to right, #FF8C00, #FF6B6B)"
+    },
+    {
+      "id": "999",
+      "name": "Electric Peak",
+      "colors": [
+        "#7FFF00",
+        "#F5FFFA"
+      ],
+      "css": "linear-gradient(to right, #7FFF00, #F5FFFA)"
+    },
+    {
+      "id": "1000",
+      "name": "Light Flame",
+      "colors": [
+        "#6B8E23",
+        "#FFD700"
+      ],
+      "css": "linear-gradient(to right, #6B8E23, #FFD700)"
+    }
+  ],
+  "userGradients": []
+}

@@ -24,15 +24,15 @@ const Header = () => {
           </motion.div>
           
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-8">
-            {['Home', 'Transform', 'Dummy Text', 'Features', 'About'].map((item, index) => (
+          <nav className="hidden md:flex items-center space-x-4">
+            {['Home', 'Transform', 'Dummy Text', 'Color Generator', 'Features', 'About'].map((item, index) => (
               <motion.div
                 key={item}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
               >
                 <Link
-                  to={item === 'Home' ? '/' : item === 'Dummy Text' ? '/dummy-text-generator' : `/${item.toLowerCase()}`}
+                  to={item === 'Home' ? '/' : item === 'Dummy Text' ? '/dummy-text-generator' : item === 'Color Generator' ? '/color-generator' : `/${item.toLowerCase()}`}
                   className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors"
                 >
                   {item}
@@ -84,14 +84,14 @@ const Header = () => {
           className="md:hidden backdrop-blur-md bg-black/30"
         >
           <div className="px-2 pt-2 pb-3 space-y-1">
-            {['Home', 'Transform', 'Dummy Text', 'Features', 'About'].map((item) => (
+            {['Home', 'Transform', 'Dummy Text', 'Color Generator', 'Features', 'About'].map((item) => (
               <motion.div
                 key={item}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
                 <Link
-                  to={item === 'Home' ? '/' : item === 'Dummy Text' ? '/dummy-text-generator' : `/${item.toLowerCase()}`}
+                  to={item === 'Home' ? '/' : item === 'Dummy Text' ? '/dummy-text-generator' : item === 'Color Generator' ? '/color-generator' : `/${item.toLowerCase()}`}
                   className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   {item}

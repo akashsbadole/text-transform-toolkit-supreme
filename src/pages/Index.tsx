@@ -8,6 +8,7 @@ import TextStats from '../components/TextStats';
 import { transformText } from '../utils/textTransforms';
 import { useToast } from '../hooks/use-toast';
 import DummyTextGenerator from '../components/DummyTextGenerator';
+import ColorGeneratorPage from './ColorGeneratorPage';
 
 const Index = () => {
   const [text, setText] = useState('');
@@ -87,6 +88,7 @@ const Index = () => {
               value={text}
               onChange={setText}
             />
+            <p className='text-slate-400 text-[10px] text-center'><i>add some text enable below feature</i></p>
             <TransformButtons
               onTransform={handleTransform}
               onClear={handleClear}
@@ -99,6 +101,32 @@ const Index = () => {
           <div>
             <h2 className="text-xl font-semibold text-white mb-4">Dummy Text Generator</h2>
             <DummyTextGenerator />
+          </div>
+
+          <div>
+            <h2 className="text-xl font-semibold text-white mb-4">Color Generator</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="bg-white/5 p-6 rounded-lg">
+                <h3 className="text-lg font-medium text-white mb-4">Color Picker</h3>
+                <p className="text-gray-400 mb-4">Choose and customize your colors with our easy-to-use color picker.</p>
+                <Link
+                  to="/color-generator"
+                  className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-md hover:from-blue-600 hover:to-purple-700 transition-colors"
+                >
+                  Open Color Generator
+                </Link>
+              </div>
+              <div className="bg-white/5 p-6 rounded-lg">
+                <h3 className="text-lg font-medium text-white mb-4">Gradient Generator</h3>
+                <p className="text-gray-400 mb-4">Create beautiful gradients with multiple colors and different directions.</p>
+                <Link
+                  to="/color-generator"
+                  className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-md hover:from-blue-600 hover:to-purple-700 transition-colors"
+                >
+                  Open Gradient Generator
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </main>
