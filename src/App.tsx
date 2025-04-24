@@ -8,6 +8,7 @@ import NotFound from "./pages/NotFound";
 import DummyTextGeneratorPage from "./pages/DummyTextGeneratorPage";
 import ColorGeneratorPage from "./pages/ColorGeneratorPage";
 import TextTransform from "./pages/TextTransform";
+import TextTransformTools from "./pages/TextTransformTools";
 import { useState } from "react";
 import ColorAnalyzer from "./components/ColorAnalyzer";
 import GradientGenerator from "./components/GradientGenerator";
@@ -29,6 +30,7 @@ const App: React.FC = () => {
             <Route path="/dummy-text-generator" element={<DummyTextGeneratorPage />} />
             <Route path="/color-generator" element={<ColorGeneratorPage />} />
             <Route path="/transform" element={<TextTransform />} />
+            <Route path="/text-tools" element={<TextTransformTools />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

@@ -34,7 +34,21 @@ const Footer = () => {
     { name: 'URL Decode', icon: '🔓' },
     { name: 'JSON Stringify', icon: '{ }' },
     { name: 'Binary Code', icon: '01' },
-    { name: 'Copy to Clipboard', icon: '⎘' }
+    { name: 'Copy to Clipboard', icon: '⎘' },
+    { name: 'CSV to JSON', icon: '📊' },
+    { name: 'Caesar Cipher', icon: '🔐' },
+    { name: 'HTML Formatter', icon: '🌐' },
+    { name: 'Hex Converter', icon: '🔢' },
+    { name: 'JSON Formatter', icon: '📝' },
+    { name: 'MD5 Hash', icon: '🔑' },
+    { name: 'Morse Code', icon: '📡' },
+    { name: 'Number Sorter', icon: '🔢' },
+    { name: 'ROT13', icon: '🔄' },
+    { name: 'Regex Tester', icon: '🔍' },
+    { name: 'Slugify', icon: '🔗' },
+    { name: 'UTF-8', icon: '🌍' },
+    { name: 'UTM Builder', icon: '📊' },
+    { name: 'XML Formatter', icon: '📄' }
   ];
 
   return (
